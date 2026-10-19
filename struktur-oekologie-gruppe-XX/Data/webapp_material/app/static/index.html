@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Stockerau – Stäbe-Viewer mit Materialien</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/static/style.css">
+<script type="importmap">
+{ "imports": { "three": "/static/vendor/three.module.js" } }
+</script>
+</head>
+<body>
+<header>
+  <h1>Pavillon Stockerau – Stäbe &amp; Materialien</h1>
+  <span id="status">lade Modell …</span>
+  <span class="spacer"></span>
+  <button id="btn-fit" title="Ansicht zurücksetzen">Ansicht zurücksetzen</button>
+  <button id="btn-clear" title="Auswahl aufheben">Auswahl aufheben</button>
+  <a id="btn-xlsx" href="/api/export.xlsx" download>Excel herunterladen</a>
+</header>
+<main>
+  <section id="left-pane">
+    <div id="viewer-pane">
+      <div id="viewer"></div>
+      <div id="info">Stab anklicken · Linke Maustaste: drehen · Rechte: verschieben · Mausrad: zoomen</div>
+      <div id="colormode">
+        Farbe nach:
+        <label><input type="radio" name="cm" value="material" checked> Material</label>
+        <label><input type="radio" name="cm" value="section"> Querschnitt</label>
+      </div>
+    </div>
+    <div id="materials-pane" class="block">
+      <h2>Materialien <small>(Zuordnung aus Querschnitt, Lage und Verwendung · Karte anklicken = alle Stäbe dieses Materials)</small></h2>
+      <div id="mat-cards"></div>
+      <div id="mat-check"></div>
+    </div>
+  </section>
+  <section id="table-pane">
+    <div class="block">
+      <h2>Querschnitte <small>(Zeile anklicken = alle Stäbe dieses Querschnitts)</small></h2>
+      <table id="tbl-sections">
+        <thead><tr>
+          <th></th><th>Querschnitt</th><th>Material</th><th class="num">Anzahl</th><th class="num">A nominal [mm²]</th>
+          <th class="num">Länge [m]</th><th class="num">Volumen [m³]</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="block grow">
+      <h2>Stäbe <small id="member-count"></small>
+        <input id="filter" type="search" placeholder="Filter (ID oder Querschnitt)"></h2>
+      <div id="member-scroll">
+        <table id="tbl-members">
+          <thead><tr>
+            <th class="num">ID</th><th>Querschnitt</th><th>Material</th><th class="num">Länge [m]</th>
+            <th class="num">A nominal [mm²]</th><th class="num">A mittel [mm²]</th>
+            <th class="num">Volumen [m³]</th><th>Quelle</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div id="detail"></div>
+    </div>
+  </section>
+</main>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

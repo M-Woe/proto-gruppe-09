@@ -1,0 +1,70 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font: 13px/1.35 "Segoe UI", system-ui, sans-serif; color: #1d2733; }
+body { display: flex; flex-direction: column; background: #eef1f5; }
+
+header { display: flex; align-items: center; gap: 12px; padding: 8px 14px; background: #24456e; color: #fff; }
+header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+header .spacer { flex: 1; }
+#status { opacity: .75; }
+header button, header a {
+  background: #fff; color: #24456e; border: 0; border-radius: 4px; padding: 6px 12px;
+  cursor: pointer; font: inherit; text-decoration: none;
+}
+header button:hover, header a:hover { background: #dbe6f5; }
+
+main { flex: 1; display: flex; min-height: 0; gap: 8px; padding: 8px; }
+#left-pane { flex: 1 1 55%; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+#viewer-pane { flex: 1 1 auto; position: relative; min-height: 200px; background: #fff; border-radius: 6px; overflow: hidden; }
+#colormode {
+  position: absolute; right: 8px; top: 8px; padding: 4px 8px; border-radius: 4px;
+  background: rgba(255,255,255,.9); font-size: 12px;
+}
+#colormode label { margin-left: 8px; cursor: pointer; }
+#materials-pane { flex: 0 0 auto; max-height: 42%; overflow: auto; }
+#mat-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px; }
+.mat-card { border: 1px solid #d6dce6; border-left: 6px solid #999; border-radius: 4px; padding: 5px 8px; cursor: pointer; background: #fafbfd; }
+.mat-card:hover { background: #eef4fc; }
+.mat-card.active { outline: 2px solid #24456e; background: #e4eefb; }
+.mat-card.unused { opacity: .6; cursor: default; }
+.mat-card b { font-size: 13px; }
+.mat-card .sub { color: #556; font-size: 11px; }
+.mat-card .nums { margin-top: 2px; font-variant-numeric: tabular-nums; }
+.badge { display: inline-block; padding: 0 6px; border-radius: 8px; font-size: 11px; font-weight: 600; color: #fff; margin-left: 4px; }
+.badge.ok { background: #2e8b57; } .badge.info { background: #5b7ea8; }
+.badge.warn { background: #d98a00; } .badge.fail { background: #c0392b; }
+#mat-check { margin-top: 6px; font-size: 12px; }
+#mat-check:empty { display: none; }
+#mat-check .chk { padding: 3px 8px; border-radius: 4px; margin-top: 3px; border-left: 4px solid; background: #f4f6fa; }
+#mat-check .chk.ok { border-color: #2e8b57; } #mat-check .chk.info { border-color: #5b7ea8; }
+#mat-check .chk.warn { border-color: #d98a00; background: #fff6e0; } #mat-check .chk.fail { border-color: #c0392b; background: #fdeceb; }
+#mat-check .why { color: #445; margin: 2px 0 4px; }
+.matdot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; vertical-align: baseline; }
+#viewer { position: absolute; inset: 0; }
+#viewer canvas { display: block; }
+#info {
+  position: absolute; left: 8px; bottom: 8px; padding: 4px 8px; border-radius: 4px;
+  background: rgba(255,255,255,.85); font-size: 12px; pointer-events: none; max-width: calc(100% - 16px);
+}
+
+#table-pane { flex: 1 1 45%; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.block { background: #fff; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; min-height: 0; }
+.block.grow { flex: 1; }
+.block h2 { font-size: 13px; margin: 0 0 6px; display: flex; align-items: center; gap: 8px; }
+.block h2 small { font-weight: normal; color: #667; }
+#filter { margin-left: auto; padding: 3px 6px; font: inherit; border: 1px solid #b9c2cf; border-radius: 4px; }
+
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 3px 6px; border-bottom: 1px solid #e3e7ee; white-space: nowrap; text-align: left; }
+th { background: #305496; color: #fff; position: sticky; top: 0; z-index: 1; font-weight: 600; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: #eef4fc; }
+tr.sel, tr.sel:hover { background: #ffd24d; font-weight: 600; }
+tr.sec-active, tr.sec-active:hover { background: #cfe3ff; }
+tr.sec-total td { font-weight: 700; background: #f2f5fa; cursor: default; }
+.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: middle; }
+
+#tbl-sections th, #tbl-sections td { padding: 1px 6px; font-size: 12px; }
+#member-scroll { flex: 1; overflow: auto; min-height: 220px; border: 1px solid #e3e7ee; }
+#detail { margin-top: 6px; padding: 6px 8px; background: #fff8e1; border-radius: 4px; min-height: 18px; color: #5a4a00; }
+#detail:empty { display: none; }

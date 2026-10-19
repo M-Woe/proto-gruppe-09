@@ -1,0 +1,45 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; font: 13px/1.35 "Segoe UI", system-ui, sans-serif; color: #1d2733; }
+body { display: flex; flex-direction: column; background: #eef1f5; }
+
+header { display: flex; align-items: center; gap: 12px; padding: 8px 14px; background: #24456e; color: #fff; }
+header h1 { font-size: 16px; margin: 0; font-weight: 600; }
+header .spacer { flex: 1; }
+#status { opacity: .75; }
+header button, header a {
+  background: #fff; color: #24456e; border: 0; border-radius: 4px; padding: 6px 12px;
+  cursor: pointer; font: inherit; text-decoration: none;
+}
+header button:hover, header a:hover { background: #dbe6f5; }
+
+main { flex: 1; display: flex; min-height: 0; gap: 8px; padding: 8px; }
+#viewer-pane { flex: 1 1 55%; position: relative; min-width: 0; background: #fff; border-radius: 6px; overflow: hidden; }
+#viewer { position: absolute; inset: 0; }
+#viewer canvas { display: block; }
+#info {
+  position: absolute; left: 8px; bottom: 8px; padding: 4px 8px; border-radius: 4px;
+  background: rgba(255,255,255,.85); font-size: 12px; pointer-events: none; max-width: calc(100% - 16px);
+}
+
+#table-pane { flex: 1 1 45%; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.block { background: #fff; border-radius: 6px; padding: 8px; display: flex; flex-direction: column; min-height: 0; }
+.block.grow { flex: 1; }
+.block h2 { font-size: 13px; margin: 0 0 6px; display: flex; align-items: center; gap: 8px; }
+.block h2 small { font-weight: normal; color: #667; }
+#filter { margin-left: auto; padding: 3px 6px; font: inherit; border: 1px solid #b9c2cf; border-radius: 4px; }
+
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 3px 6px; border-bottom: 1px solid #e3e7ee; white-space: nowrap; text-align: left; }
+th { background: #305496; color: #fff; position: sticky; top: 0; z-index: 1; font-weight: 600; }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+tbody tr { cursor: pointer; }
+tbody tr:hover { background: #eef4fc; }
+tr.sel, tr.sel:hover { background: #ffd24d; font-weight: 600; }
+tr.sec-active, tr.sec-active:hover { background: #cfe3ff; }
+tr.sec-total td { font-weight: 700; background: #f2f5fa; cursor: default; }
+.swatch { display: inline-block; width: 12px; height: 12px; border-radius: 2px; vertical-align: middle; }
+
+#tbl-sections th, #tbl-sections td { padding: 1px 6px; font-size: 12px; }
+#member-scroll { flex: 1; overflow: auto; min-height: 220px; border: 1px solid #e3e7ee; }
+#detail { margin-top: 6px; padding: 6px 8px; background: #fff8e1; border-radius: 4px; min-height: 18px; color: #5a4a00; }
+#detail:empty { display: none; }
