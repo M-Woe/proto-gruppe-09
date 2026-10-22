@@ -336,6 +336,113 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 
 **Test:** Sind die Materialangaben, die schon im Modell stehen, plausibel? Zeigt an einem Stab, wie ihr das geprüft habt.
 
+### Etappe 3 – Protokoll (Stand 22.10.2026)
+
+**Vorgehen (Entscheidungsleiter des Kurses, Reihenfolge)**
+1. **Regel:** eindeutige Modellangabe mit plausiblem Profil.
+2. **Sprachmodell:** Stufe vorgesehen, in dieser Umgebung **nicht angebunden**. Sie wurde nicht ausgeführt, es gibt dadurch 0 Zuordnungen auf dieser Stufe.
+3. **Manuelle Prüfung:** alles, was Stufe 1 nicht eindeutig zuordnet. Das Material wird nicht erfunden, die Zelle lautet „Manuelle Prüfung erforderlich“.
+
+**Materialangaben im Modell (Benutzerdaten `BG_Dlubal-Name (Material)`)**
+- 1237 von 1297 Objekten: leer.
+- `Steel S 355`: 24 Objekte, davon 12 Rohre `RO 139.7x8.0` (Stützen, Stäbe der Achse) und 12 Achsen. Die Angabe passt zum Profil (EN 10210-2).
+- `Concrete C25/30`: 36 Objekte, davon 18 Achsen `Flat Bar 162.5/20` (20 mm Dicke). Beton scheidet bei 20 mm Dicke aus (Mindestdicke Stahlbeton üblich ≥ 150 mm). Widerspruch, deshalb keine Regel-Zuordnung.
+
+**Ergebnis**
+
+| Stufe | Anzahl | Stäbe |
+|---|---|---|
+| 1 Regel | 12 | Rohre RO 139.7x8.0 mit Modellangabe `Steel S 355` → Stahl S355 |
+| 2 Sprachmodell | 0 | nicht angebunden, nicht ausgeführt |
+| 3 Manuelle Prüfung | 724 | übrige Stäbe, u. a. RD 12 (175), Flachstäbe (502), Kastenprofile (47) |
+| **Summe** | **736** | |
+
+Material je Stab: 12 × Stahl S355, 724 × „Manuelle Prüfung erforderlich“.
+
+**Begründungen der Stufe 3 (Material nicht erfunden)**
+- **Flachstäbe ohne Modellangabe (502):** Stahl ist fachlich naheliegend (Flachstahl, Dachbereich), aber das Modell nennt kein Material. Eine Zuordnung allein aus dem Profil wäre eine Schlussfolgerung, keine eindeutige Regel.
+- **Flachstäbe 162.5/20 (18):** Modellangabe Beton bei 20 mm Dicke, widersprüchlich.
+- **Kastenprofile 500 × 500 (47):** Lage z = 0,26 bis 0,85 m (Fundamentblöcke) spricht für Stahlbeton. Das ist eine Einordnung aus Lage und Maßen, keine Modellangabe. Ohne Sprachmodell-Stufe bleibt sie als Prüfung offen.
+- **RD 12 (175):** Keine Materialangabe, Querschnitt ungeklärt (Etappe 1 und 2 offen).
+
+**Abgleich mit der bestehenden Web-App** (`zwischenergebnisse/webapp_material/app/materials.json`)
+- Die dort hinterlegten Zuordnungen (Beton für Rechteck 500/500, Stahl für RO, RD und Flachstäbe) sind eine frühere Einordnung. Sie wurden nicht als Regeln übernommen, da sie nicht aus dem Modell stammen. Sie können als Vorschlag für die manuelle Prüfung dienen.
+
+**Plausibilitätsprüfung (Skript-Test)**
+- 736 Zeilen, IDs eindeutig, deckungsgleich mit Etappe 1 (736 Stäbe).
+- Keine leeren Pflichtfelder (Material, Stufe, Regel).
+- Alle 12 Regel-Zuordnungen haben eine Modellangabe am Stab.
+- 18 Flachstäbe 162.5/20 mit Modellangabe Beton sind bewusst nicht Regel, sondern manuell.
+
+**Offene Fragen (für das Team)**
+1. Flachstäbe 12/20 mm ohne Modellangabe: Stahl S355 bestätigen oder ein anderes Material festlegen?
+2. Flachstäbe 162.5/20: Beton-Angabe im Modell korrigieren oder Stahl annehmen?
+3. Kastenprofile 500 × 500: Stahlbeton C25/30 bestätigen?
+4. RD 12: Material und Querschnitt aus der RFEM-Quelle.
+5. Ein Sprachmodell wurde nicht eingesetzt. Sollen die Stufe-3-Stäbe in einem zweiten Lauf mit einem angebundenen Sprachmodell eingeordnet werden?
+
+**Erstellte Dateien (Etappe 3)**
+- Neu: `zuordnung_material_etappe3.py`
+- Neu: `output/excel/etappe3_materialzuordnung.xlsx` (Blätter Materialzuordnung, Übersicht je Layer, Zusammenfassung)
+- Geändert: `LOGBUCH.md` (dieser Eintrag)
+
+### Etappe 3 – Klärung der offenen Fragen (Stand 22.10.2026)
+
+Ziel: jede offene Frage gegen eine Quelle prüfen. Nichts wird als bestätigt gewertet, was nicht belegt ist.
+
+**Geprüfte Quellen**
+- Modell `data/Stockerau Rhino Export from RFEM.3dm`: Benutzerdaten je Objekt (9 Schlüssel), alle Textobjekte.
+- Pläne im Modell (Layer `A-ANNO-NOTE`, `G-ANNO-NPLT`, `G-ANNO-TEXT`): Textobjekte mit Materialbezug.
+- Aufgabe-Excel `data/Aufgabe 1 Excel-Liste.xlsx`: keine Materialangabe.
+- Konfiguration `.env` (nur Variablennamen gelesen, keine Werte ausgegeben).
+- Web-App-Regeln `zwischenergebnisse/webapp_material/app/materials.json`: frühere Einordnung, keine Modelldaten.
+
+**Frage 1: Flachstäbe 12/20 mm → Stahl S355 bestätigen. NICHT BESTÄTIGT.**
+- Im Modell keine Materialangabe für die 502 Flachstäbe. Keine Textnotiz dazu in den Plänen.
+- Die Web-App-Regel „Stahl“ ist eine Plausibilitätsüberlegung aus Profil und Lage, keine Quelle.
+- Ergebnis: bleibt Stufe 3 „Manuelle Prüfung erforderlich“.
+
+**Frage 2: Flachstäbe 162,5/20 mit `Concrete C25/30`. NICHT GEKLÄRT.**
+- 18 Stäbe im Modell mit Betonangabe bei 20 mm Dicke. Der Widerspruch Beton/Profil ist belegt.
+- Die Pläne nennen „Stahlbeton“ und „WU Beton“ nur allgemein, ohne Bezug zu diesen Stäben.
+- Eine Korrektur wäre eine Annahme. Die Angabe bleibt im Modell unverändert, der Stab bleibt Stufe 3.
+
+**Frage 3: Kastenprofile 500 × 500 → Stahlbeton C25/30 bestätigen. TEILWEISE BELEGT.**
+- Die Pläne nennen Stahlbeton als Bauweise („Stahlbeton“, „WU Beton“, „Sichtbeton“).
+- Die Güte C25/30 steht in den Plänen nicht für diese Blöcke. Die Angabe `C25/30` im Modell gehört zu den Flachstäben (Frage 2), nicht zu den Kastenprofilen.
+- Ergebnis: Bauweise Beton ist durch die Pläne gestützt, die Güte ist nicht belegt. Stufe 3 bleibt, die Begründung nennt beides.
+
+**Frage 4: RD 12 → Material und Querschnitt aus der RFEM-Quelle. NICHT KLÄRBAR.**
+- Die RFEM-Benutzerdaten der 175 Stäbe enthalten nur `CrosSec_S = RD 12`, `CrosSec_E = -`, `Type = Tension`, keinen Durchmesser und keine Materialangabe.
+- Die Ableitung „12 mm aus dem Namen“ ist eine Annahme, nicht belegt.
+- Ergebnis: Querschnitt und Material unbekannt. Benötigt wird der RFEM-Querschnittsdatensatz, der im Export nicht enthalten ist.
+
+**Frage 5: Sprachmodell (Stufe 2) mit angebundenem Modell. TEILWEISE MÖGLICH.**
+- `.env` vorhanden mit `LLM_PROVIDER=openai`, `LLM_BASE_URL=https://openrouter.ai/api/v1`, `LLM_API_KEY` gesetzt.
+- `LLM_MODEL` ist **leer**. Ohne Modellname findet kein Aufruf statt. Ein Modellname wurde nicht ergänzt, da die Auswahl eine Entscheidung des Teams ist (Kosten und Qualität).
+- Der Schlüssel wurde nicht ausgegeben. Die Datei `.env` ist laut `.gitignore` nicht versioniert.
+- Ergebnis: Stufe 2 ist konfiguriert, aber nicht ausgeführt (0 Zuordnungen).
+
+**Ergebnis Materialzuordnung (unverändert, da keine Quelle eine neue Regel belegt)**
+
+| Stufe | Anzahl |
+|---|---|
+| 1 Regel (Stahl S355, Rohre RO 139.7x8.0 mit Modellangabe `Steel S 355`) | 12 |
+| 2 Sprachmodell | 0 |
+| 3 Manuelle Prüfung | 724 |
+
+**Verbleibende Unsicherheiten**
+- Alle 724 Stufe-3-Stäbe haben keine eindeutige Materialzuordnung.
+- Die 18 Flachstäbe 162,5/20 haben einen belegten Widerspruch, dessen Auflösung offen ist.
+- RD 12 (175): Querschnitt und Material nicht aus dem Modell ermittelbar.
+
+**Offene Entscheidungen für das Team**
+1. Stahl S355 für die Flachstäbe 12/20 mm als Projektannahme festlegen (dann als Regel mit Begründung „Projektannahme“, nicht „Modell“).
+2. Betonangabe der 18 Flachstäbe 162,5/20 im RFEM-Modell prüfen und korrigieren.
+3. Güte C25/30 für die 47 Kastenprofile bestätigen oder eine andere Güte festlegen.
+4. RFEM-Querschnittsdaten für RD 12 nachreichen (Durchmesser, Material).
+5. `LLM_MODEL` in `.env` setzen; danach kann Stufe 2 in einem zweiten Lauf ausgeführt werden.
+
 
 **Learning oder Besonderheit:**
 
