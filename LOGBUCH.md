@@ -318,6 +318,12 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 3. **Rhino-Sichtprüfung** der Querschnitte: noch nicht durchgeführt.
 4. **Kastenprofile:** Abweichung 0,25 mm je Seite gegen Nennmaß 500 mm ist als Modelltoleranz bewertet. Bestätigung durch das Team ausstehend.
 
+**Git (Etappe 2)**
+- Commit `97caeec` auf Branch `pr/1`, Nachricht „Etappe 2: Querschnitt und Volumen je Stab“ (4 Dateien, 537 Einfügungen).
+- Vollständiger Hash: `97caeec1e66a96664c43d865a4afea82003ecdd52a`.
+- Nicht enthalten: `~$etappe1_modell_export.xlsx` (Office-Sperrdatei, wird nicht versioniert).
+- Push und Tag für Etappe 2: **noch nicht durchgeführt**. Der Push zu `origin` ist im letzten Versuch am Netzwerk gescheitert (Etappe 1).
+
 **Erstellte und geänderte Dateien (Etappe 2)**
 - Neu: `berechne_querschnitt_etappe2.py`, `test_querschnitt_etappe2.py`
 - Neu: `output/excel/etappe2_querschnitt_volumen.xlsx`
