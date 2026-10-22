@@ -259,6 +259,73 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 --> Update der Excel-Tabelle; Excel hat die "Float-Werte" aus der CSV falsch interpretiert; mit Cline korrigiert.
 
 
+### Etappe 2 – Protokoll (Stand 22.10.2026)
+
+**Ziel:** Querschnittsfläche A und Volumen V je Stab (736 Stäbe, Zuordnung über RFEM-BeamId aus Etappe 1).
+
+**Vorgehen**
+1. Frühere Berechnung (`calc_querschnitt.py`, Zuordnung Achse zu Brep über Reihenfolge im Layer) gelesen. Die Zuordnung über die Reihenfolge ist fehleranfällig; die neue Berechnung nutzt die BeamId.
+2. rhino3dm 8.35 geprüft: **keine** Volumenfunktion (`VolumeMassProperties` fehlt). Das Volumen wird daher aus der Geometrie berechnet.
+3. Geometrie der Breps geprüft (Stichprobe und Gesamtprüfung aller 561 Breps):
+   - 549 Breps: 8 Eckpunkte, 6 vernetzte Flächen, Endflächen mit je 4 Eckpunkten, Endflächen rechteckig (max. Abweichung 2 mm).
+   - 12 Breps (`RO 139.7x8.0`): 3 Flächen, Zylinder. Eigene Topologie, nicht über die Rechteck-Logik geprüft.
+4. Methoden gegeneinander geprüft:
+   - **Volumen zweifach:** Divergenzsatz am Brep-Netz gegen Trapezformel V = (A0 + A1)/2 · L. Ergebnis für die 502 Flachstäbe: maximale relative Abweichung 0,0082 %, Median 0,0010 %. Für die 47 Kastenprofile: 0,150 % (systematisch, siehe Befund). Prüfskripte liegen im Temp-Ordner, nicht im Projekt.
+   - **Querschnitt:** Endflächen-Breite A/t gegen Layer-Sollwert. Die größere Endbreite stimmt für alle 502 Flachstäbe auf max. 0,5 mm mit dem Layer-Sollwert überein.
+   - **Verworfen:** Prismatoid-Formel mit Mittelschnitt. Ergab rund 60 % Abweichung, weil die Eckenzuordnung im Mittelschnitt falsch war. Nicht verwendet.
+   - **Verworfen:** Breite aus Eckpunkten nahe am Stabende (frühe Skizze). Nicht belegt, nicht verwendet.
+5. Berechnungsskript `berechne_querschnitt_etappe2.py` erstellt. Ausgabe: `output/excel/etappe2_querschnitt_volumen.xlsx` (Blätter Detail, Übersicht, Zusammenfassung). Bestehende Ergebnisse `data/staebe_mit_querschnitt.*` **nicht überschrieben**.
+
+**Methoden je Profiltyp**
+
+| Typ | Anzahl | Querschnitt A | Volumen V | Prüfstatus |
+|---|---|---|---|---|
+| Flachstab (Brep) | 502 | Endfläche je Ende, Dicke aus Layer, Breite = A/t | Divergenzsatz am Brep-Netz | OK |
+| Kastenprofil (Brep) | 47 | Endfläche am Brep gemessen (≈ 249,5–249,75 cm²); Volumen Divergenzsatz | Brep-Netz; Kontrolle (A0+A1)/2·L | OK |
+| Rundrohr (Brep, 3 Flächen) | 12 | Vollzylinder, R am Brep gemessen (D = 139,7 mm); A = πR² | π R² · L | PRÜFEN (Widerspruch Layer/Modell, siehe Befund) |
+| RD 12 (ohne Brep) | 175 | nicht berechnet | nicht berechnet | UNKLAR (Querschnitt nicht aus Layer ableitbar) |
+
+**Ergebnisse**
+- Stäbe gesamt: 736. Summe Länge 686,3793 m.
+- Volumen mit Wert: 561 Stäbe, Summe **13,0534 m³** (Flachstab 0,6857 + Kasten 11,7382 + Rundrohr 0,6295).
+- Status: OK 549 (Flachstab 502 + Kasten 47), PRÜFEN 12 (Rundrohr), UNKLAR 175 (RD 12).
+- Hinweis zum früheren Wert 12,5775 m³ (erster Lauf): Dort waren die Rundrohre mit der Hohlrohr-Formel aus dem Layernamen gerechnet. Diese Formel passt nicht zum Modell (siehe Befund Rundrohr). Der Unterschied ist 0,49 m³.
+
+**Befunde und Annahmen**
+- **Kastenprofile (47), geklärt:** Die Endflächen am Brep messen 499,75 × 500 mm (Fläche 249 750 mm²) bzw. 500 × 499 mm (249 500 mm²). Die Brep-Kanten liegen bei 498 bis 500 mm. Das Nennmaß 500 × 500 mm (250 000 mm²) weicht also um bis zu 0,25 mm pro Seite ab. Die Rechnung verwendet deshalb die gemessene Endfläche, nicht das Nennmaß. Das Netz-Volumen stimmt mit (A0+A1)/2·L auf 0,0003 % überein. Die frühere Abweichung von 0,15 % kam vom Nennmaß und ist damit erklärt. Prüftoleranz Endfläche gegen Nennmaß: 1 mm je Seite.
+- **Flachstäbe:** Divergenzsatz und Trapezformel stimmen auf maximal 0,0082 % überein (alle 502 OK). Die Abweichung der Kastenprofile (0,15 %) ist davon getrennt.
+- **Rundrohre (12) – Widerspruch Layer/Modell:** Der Layername `RO 139.7x8.0` beschreibt ein Hohlrohr (Wandstärke 8 mm, A = 3 310 mm²). Am Brep gemessen ist es ein **Vollzylinder** mit Außendurchmesser 139,7 mm (alle Eckpunkte auf dem Außenradius, kein Innenkreis, A = 15 328 mm²). Die Rechnung nutzt deshalb das Modell (πR²·L). Die Wandstärke aus dem Layer ist im Modell nicht abgebildet. Ob das Modell oder der Layername falsch ist, muss geklärt werden. Die Netz-Kontrolle liegt rund 2,5 % unter πR²·L, weil die Kreisfläche im Netz polygonal approximiert ist.
+- **Verworfen:** Hohlrohr-Formel für die Rundrohre (Wandstärke aus Layer). Das Modell enthält keine Innenbohrung; die Formel würde nur 3 310 mm² statt 15 328 mm² liefern.
+- **Verworfen:** Netz-Volumen als alleinige Grundlage für Rundrohre. Das Netz liegt bei Zylindern bei 97,5 % von πR²·L (Polygonnäherung). Die frühe Abweichung von +351 % kam von der falschen Hohlrohr-Formel, nicht vom Netz.
+- **RD 12 (175):** Kein Brep, kein Querschnittsmaß im Layernamen. Nicht berechnet, bis die Frage Zugstab oder Referenzlinie geklärt ist (Etappe 1, offen).
+- **Einheiten:** Länge m, Fläche m² (zusätzlich mm²), Volumen m³. Layerwerte in mm werden vor der Rechnung durch 1000 in m umgerechnet.
+
+**Tests** (`python -m unittest -v test_querschnitt_etappe2`, Stand letzter Lauf)
+- 12 von 12 bestanden. Geprüft: Profilparser (Flachstab, Rundrohr, Kasten, RD 12 nicht ableitbar); Anzahl und Statusverteilung (OK 549, PRÜFEN 12, UNKLAR 175); Breite gegen Layer (1 mm, Flachstäbe); Volumen Divergenzsatz gegen Trapezformel (Toleranz 0,1 %, Flachstäbe); Stichprobe Brep-Volumen BeamId 1; Rundrohr als Vollzylinder (PRÜFEN); Kastenprofil-Endfläche (OK, Abweichung < 0,01 %); RD 12 ohne Werte; Excel-Export (3 Blätter, 736 Zeilen).
+- Etappe-1-Tests (`python -m unittest -v test_stab_liste_etappe1`): 8 von 8 bestanden.
+- Hinweis: Die Toleranzen (0,1 % Volumen, 1 mm Endfläche) sind im Skript festgelegt; ihre Wahl ist nicht durch eine externe Norm belegt.
+
+**Änderungen während der Arbeit (wichtig)**
+- Der erste Entwurf der Datei enthielt eine nicht belegte Breitenbestimmung und Reste aus Editor-Einfügungen (doppelte Funktionen, überzählige `return`-Zeilen). Das Skript wurde vollständig neu geschrieben.
+- Fehler beim ersten Lauf: `brep_volume` lieferte für alle 561 Breps `None`, weil die `return`-Anweisung fehlte. Behoben, danach plausible Werte.
+- Die Excel-Statuswerte des ersten Laufs (alle Flachstäbe PRÜFEN) hatten diese Ursache. Nach dem Fix neu erzeugt.
+- Rundrohr-Methode umgestellt: von Hohlrohr-Formel (Layer) auf Vollzylinder (Modell), Status PRÜFEN.
+- Kastenprofil-Methode umgestellt: von Nennmaß auf gemessene Endfläche, Status OK.
+
+**Offene Fragen**
+1. **RD 12 (175 Stäbe):** Querschnitt und Volumen unbekannt. RFEM-Quelle prüfen (Durchmesser) oder Klärung Zugstab/Referenz.
+2. **Rundrohre (12):** Hohlrohr (Layername `RO 139.7x8.0`) oder Vollzylinder (Modell)? Entscheidung des Teams; ggf. Korrektur im Modell oder Layer.
+3. **Rhino-Sichtprüfung** der Querschnitte: noch nicht durchgeführt.
+4. **Kastenprofile:** Abweichung 0,25 mm je Seite gegen Nennmaß 500 mm ist als Modelltoleranz bewertet. Bestätigung durch das Team ausstehend.
+
+**Erstellte und geänderte Dateien (Etappe 2)**
+- Neu: `berechne_querschnitt_etappe2.py`, `test_querschnitt_etappe2.py`
+- Neu: `output/excel/etappe2_querschnitt_volumen.xlsx`
+- Geändert: `LOGBUCH.md` (dieser Eintrag)
+- Nicht verändert: `calc_querschnitt.py`, `data/staebe_mit_querschnitt.*`, alle übrigen Bestandsdateien.
+
+
+
 ## Etappe 3: Material zuordnen
 
 **Test:** Sind die Materialangaben, die schon im Modell stehen, plausibel? Zeigt an einem Stab, wie ihr das geprüft habt.
