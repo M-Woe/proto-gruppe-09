@@ -19,9 +19,92 @@ One entry per stage. Short is fine. The log is part of the submission and the ba
 
 **Test:** Wie viele Stäbe hat der Pavillon? Prüft die Zahl am Modell nach.
 
-**Ergebnis:** Der Pavillon hat **561 Stäbe** (Stabachsen als LineCurve) mit jeweils einer korrespondierenden 3D-Darstellung als Brep (Volumenkörper) – insgesamt also 561 Stäbe in 1:1-Doppelrepräsentation.
+**Ergebnis (ÜBERHOLT, siehe Protokoll unten):** Der Pavillon hat **561 Stäbe** (nur Typ `Beam`, ohne RD 12) (Stabachsen als LineCurve) mit jeweils einer korrespondierenden 3D-Darstellung als Brep (Volumenkörper) – insgesamt also 561 Stäbe in 1:1-Doppelrepräsentation.
 
-**Im Detail (Layer / Profil – Anzahl LineCurve = Anzahl Brep):**
+**Protokoll Etappe 1 (fortlaufend, Stand 22.10.2026)**
+
+**Umgebung und Bibliotheken**
+- Python 3.14.8 (`.venv`), `rhino3dm` 8.35.0 (erfüllt `requirements.txt`: `rhino3dm>=8.9`). Keine weiteren Pakete für Etappe 1 nötig; Tests mit `unittest` aus der Standardbibliothek.
+- Modell: `data/Stockerau Rhino Export from RFEM.3dm`, 2986 Objekte, 330 Layer, Einheit Meter. Lesen nur lesend (`File3dm.Read`).
+
+**Vorhandene Projektstruktur (nicht verändert)**
+- Skripte: `export_staebe.py`, `check_rhino.py`, `calc_querschnitt.py`, `analyze_brep*.py`, `stab_summary.py`, `pruefe_breps.py` u. a.
+- Ergebnisdateien: `data/staebe_export.json`, `data/staebe_linecurves.csv`, `data/staebe_breps.csv`, `data/staebe_layer_tabelle.*`, `data/stab_analyse.json`.
+- Diese Dateien zählen nur die 561 Brep-/Achs-Paare des Typs `Beam`. Die Linien `RD 12` wurden dort als „vermutlich Bewehrung“ eingestuft (siehe offene Frage 1).
+
+**Untersuchung des Modells**
+- Objekttypen: Hatch 245, LineCurve 1462, Text 642, Brep 561, NurbsCurve 39, ArcCurve 11, PolylineCurve 13, PolyCurve 3, GeometryBase 10.
+- Stab-Erkennung über die RFEM-Benutzerdaten je Objekt: `BG_RFEM_Exchange_BeamId_bg0246` (Stab-Nummer), `BG_RFEM_Exchange_Type_bg0247` (`Beam` oder `Tension`), `CrosSec_S/E` (Querschnitt Anfang/Ende), `RotAngle`.
+- Gefundene Darstellungen:
+  - Brep, Typ `Beam`: 561 (Volumenkörper)
+  - LineCurve, Typ `Beam`: 561 (Stabachse, dieselben BeamIds wie die Breps, je Layer 1:1)
+  - LineCurve, Typ `Tension`: 175 (nur Layer `RD 12`, kein Brep)
+- Objekte mit BeamId gesamt: 1297. Eindeutige BeamIds: 736 (561 + 175). Die Differenz 1297 − 736 = 561 ist die Doppelung Brep + Achse.
+- Layer-Paarung geprüft: Alle Stablayer außer `RD 12` haben LineCurve-Anzahl = Brep-Anzahl. `RD 12` hat 175 LineCurves und 0 Breps.
+- Keine doppelten Achsen: Alle 175 Endpunktpaare der `RD 12`-Linien sind eindeutig.
+
+**Doppelzählung vermeiden**
+- Brep und Achse mit gleicher BeamId werden zu einem Stab zusammengeführt. Der Stab wird über die Achse (Start-, Endpunkt, Länge) beschrieben, der Brep nur referenziert (`brep_vorhanden`).
+
+**Ergebnis Etappe 1 (Skript, Stand 22.10.2026)**
+- **Stabanzahl: 736** (561 × `Beam`, 175 × `Tension`). Die ursprüngliche Angabe „561 Stäbe“ ist unvollständig, weil sie die 175 `RD 12`-Linien nicht enthält.
+- Gesamtlänge laut CSV: 686,38 m (Längen der 561-Stab-Auswertung unten gelten nur für die Beam-Stäbe und sind **nicht** für 736 neu berechnet).
+
+**Erstellte und geänderte Dateien**
+- Neu: `stab_liste_etappe1.py` (Liste erzeugen, nur lesen plus CSV/JSON schreiben)
+- Neu: `test_stab_liste_etappe1.py` (8 Tests)
+- Neu: `data/etappe1_staebe_liste.csv` (736 Zeilen), `data/etappe1_staebe_liste.json`
+- Neu: `export_etappe1_excel.py` (Excel-Export aller ausgelesenen Daten)
+- Neu: `output/excel/etappe1_modell_export.xlsx` (Speicherort: `<Projekt>/output/excel/`, Ordner wird bei Bedarf automatisch angelegt)
+  - Sheets: `Stabliste` (736 Zeilen, 19 Spalten), `Achsen_Rohdaten` (736 Zeilen, alle Benutzerdaten der LineCurves mit BeamId), `Brep_Rohdaten` (561 Zeilen, alle Benutzerdaten), `Objekttypen` (9 Typen), `Layer` (39 Layer mit Objektzahlen je Typ, nur Layer mit Objekten), `Zusammenfassung` (Anzahl und Länge je Typ und Layer, Summenzeile)
+  - Geprüft: Zeilenzahlen stimmen mit den Quelldaten überein; Summenzeile 736 Stäbe, 686,3793 m.
+- Hinweis: `output/` ist ein neuer Ordner. Die `.xlsx` liegt lokal und ist noch nicht im Git-Stand; ob sie ins Repo soll, ist offen.
+- Geändert: `LOGBUCH.md` (dieser Eintrag)
+- Nicht verändert: alle bestehenden Skripte und Datendateien (laut `git status`)
+
+**Tests**
+- Befehl: `python -m unittest -v test_stab_liste_etappe1`
+- Ergebnis: 8 von 8 bestanden. Geprüft: Gesamtanzahl 736; Anzahl je Typ (561/175); eindeutige IDs; keine doppelten Achsen; Länge = Endpunktabstand (Toleranz 2e-4); `Beam` hat Brep, `Tension` nicht; Rohdaten-Zusammenführung (je BeamId genau 1 Achse, bei Beam 1 Brep); CSV und JSON vollständig.
+- Zusätzliche Prüfung der Ausgabedateien: CSV 736 Zeilen, Längensumme 686,38 m.
+
+**Technische Probleme und Anpassungen**
+- `Point3d` in rhino3dm nicht iterierbar. Zugriff über `.X/.Y/.Z`.
+- `LineCurve` hat in rhino3dm 8.35 kein `GetLength()`. Länge wird aus den Endpunkten berechnet.
+- Terminal-Ausgaben kamen teilweise nicht zurück. Ergebnisse wurden daher über Dateien (Temp-Dateien, CSV/JSON-Lesen) verifiziert.
+- Editor-Limit (6000 Zeichen): Skript in Teilen angelegt, eine Einfügezeile musste nach Prüfung der Zeilenzahl korrigiert werden.
+- Excel-Export: `openpyxl` (3.1.5) war in der `.venv` nicht installiert und wurde per `pip install openpyxl` ergänzt. `openpyxl` steht bereits in der Projektvorlage (`excel_neu.py`), ist aber nicht in `requirements.txt` eingetragen. Offen: ob es dort ergänzt werden soll.
+- Excel-Export, Fehler beim ersten Lauf: Beim Einfügen in `export_etappe1_excel.py` ist ein `return` an das Dateiende gerutscht (`'return' outside function`). Das Skript brach ab, keine Datei entstand. Behoben durch Verschieben der Rückgabe in `_model_overview` und Entfernen des Überrests. Erneut ausgeführt: Exit 0.
+
+**Offene Fragen (ungeklärt, Entscheidung durch das Team)**
+1. `RD 12` (175 Linien, `Type = Tension`): Zugstäbe oder Bewehrung/Referenzachsen? Das Skript führt sie aktuell als Stäbe. Bei Ausschluss muss nur ein Filter in `build_stab_liste` angepasst werden.
+2. Rhino-Sichtprüfung der Zahl (Filter nach Layern in Rhino, Zählung) ist **noch nicht durchgeführt**.
+3. Andere Geometrietypen (Hatch, Text, NurbsCurve …) wurden nicht auf BeamId geprüft. Ihre Layer sind Anno-/Layout-Layer.
+4. Querschnitte und Volumen aus der früheren Auswertung (Abschnitt Etappe 2) sind nur für die 561 Beam-Stäbe berechnet und **nicht verifiziert** für 736.
+
+**RD-12-Untersuchung (nur lesend, 22.10.2026)**
+- Skript: Temp-Untersuchung, nicht im Projekt gespeichert. Befunde:
+  - Alle 175 Linien: `Type = Tension`, Querschnitt Anfang `RD 12`, Ende `-`, Gelenke 0, Rotwinkel 0.
+  - Jede Linie hat eine eigene BeamId (Bereich 3 bis 549, 175 eindeutig).
+  - Beide Enden liegen auf Knoten anderer Stäbe (175 von 175). Endknoten: 290× Grad 3, 60× Grad 2. Partner: 840 Flachstab-Enden, 150 RD-12-Enden.
+  - Geometrie: Länge 1,49 bis 2,51 m (Mittel 2,10 m), Neigung meist 4 bis 6° zur Horizontalen, Höhe 4,1 bis 4,3 m.
+  - Objekte normal, sichtbar, Layer `RD 12` sichtbar und nicht gesperrt.
+  - Keine Textnotiz im Modell oder in der Aufgabe-Excel, die RD 12 als Bewehrung oder Referenz kennzeichnet. Die Aufgabe-Excel enthält nur Flachstab-Einträge.
+- Bewertung: Die Daten sprechen für tragende Zugstäbe bzw. Verbindungselemente. Sie belegen das aber nicht abschließend. Die Frage „Zugstab oder Referenzlinie“ ist **offen**. Die Stabzahl wird nicht allein aufgrund dieser Vermutung geändert.
+
+**Testergebnisse (Stand vor Commit, 22.10.2026)**
+- `python -m unittest -v test_stab_liste_etappe1`: 8 von 8 bestanden.
+- Excel-Datei `output/excel/etappe1_modell_export.xlsx`: vorhanden (261 975 Bytes), alle 6 Sheets vorhanden, Stabliste 736 Zeilen, Achsen_Rohdaten 736, Brep_Rohdaten 561.
+- Abgleich Excel gegen CSV (Felder BeamId, Start, Ende, Länge, Achsindex, Brep-Flag): 736 Zeilen, 0 numerische Abweichungen.
+- Abgleich Excel gegen Modell (unabhängig gezählt): 736 eindeutige BeamIds an LineCurves, Excel-Stabanzahl stimmt überein.
+- **Offen:** Rhino-Sichtprüfung der Zahl (Filter nach Layern in Rhino) ist **nicht durchgeführt**.
+
+**Git**
+- Vor Commit: Branch `pr/1`, Remote `origin` (`https://github.com/AlinaSchuster/struktur-oekologie-gruppe-XX.git`), Tags: keine.
+- Geplanter Commit: `Etappe 1: Stabliste erstellt`, enthält die neuen Skripte, Tests, `data/etappe1_staebe_liste.*` und `output/excel/`.
+- Geplantes Tag: `etappe-1` auf diesen Commit, Push von Commit und Tag an `origin`.
+- Commit-Hash, Tag-Push und Ergebnis der Push-Prüfung: werden nach Ausführung hier nachgetragen (siehe unten).
+
+**Im Detail (ÜBERHOLT: zählt nur die 561 Typ-`Beam`-Stäbe, ohne 175 × RD 12; Werte nicht auf 736 umgerechnet) (Layer / Profil – Anzahl LineCurve = Anzahl Brep):**
 
 | Layer | Anzahl | Profil |
 |---|---|---|
