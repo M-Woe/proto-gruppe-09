@@ -1,0 +1,146 @@
+[
+  {
+    "Layer": "Flat Bar 162.5/12",
+    "Anzahl": 35,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 13.639,
+    "Volumen_m3": 0.023525
+  },
+  {
+    "Layer": "Flat Bar 162.5/20",
+    "Anzahl": 18,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 6.842,
+    "Volumen_m3": 0.019582
+  },
+  {
+    "Layer": "Flat Bar 175/12",
+    "Anzahl": 35,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 29.586,
+    "Volumen_m3": 0.053266
+  },
+  {
+    "Layer": "Flat Bar 175/20",
+    "Anzahl": 23,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 19.284,
+    "Volumen_m3": 0.057613
+  },
+  {
+    "Layer": "Flat Bar 200/12",
+    "Anzahl": 35,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 13.65,
+    "Volumen_m3": 0.029726
+  },
+  {
+    "Layer": "Flat Bar 200/20",
+    "Anzahl": 18,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 7.02,
+    "Volumen_m3": 0.025368
+  },
+  {
+    "Layer": "Flat Bar 225/12",
+    "Anzahl": 35,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 29.586,
+    "Volumen_m3": 0.071141
+  },
+  {
+    "Layer": "Flat Bar 225/20",
+    "Anzahl": 23,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 19.442,
+    "Volumen_m3": 0.077576
+  },
+  {
+    "Layer": "Flat Bar 237.5/12",
+    "Anzahl": 35,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 13.639,
+    "Volumen_m3": 0.035885
+  },
+  {
+    "Layer": "Flat Bar 237.5/20",
+    "Anzahl": 18,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 7.015,
+    "Volumen_m3": 0.030624
+  },
+  {
+    "Layer": "Flat Bar 275/12",
+    "Anzahl": 70,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 42.639,
+    "Volumen_m3": 0.129286
+  },
+  {
+    "Layer": "Flat Bar 275/20",
+    "Anzahl": 41,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 26.454,
+    "Volumen_m3": 0.132946
+  },
+  {
+    "Layer": "Flat Bar 33.3/20",
+    "Anzahl": 116,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 2.32,
+    "Volumen_m3": 0.00093
+  },
+  {
+    "Layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "Anzahl": 12,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10210-2 (S355JR)",
+    "Laenge_m": 41.07,
+    "Volumen_m3": 0.135941
+  },
+  {
+    "Layer": "Rectangle 500/500",
+    "Anzahl": 47,
+    "Material": "Beton C25/30",
+    "Kategorie": "Beton",
+    "Norm": "DIN EN 206 (C25/30)",
+    "Laenge_m": 47.023,
+    "Volumen_m3": 11.755862
+  },
+  {
+    "Layer": "SUMME",
+    "Anzahl": 561,
+    "Material": "",
+    "Kategorie": "",
+    "Norm": "",
+    "Laenge_m": 319.209,
+    "Volumen_m3": 12.579271
+  }
+]

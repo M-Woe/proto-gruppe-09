@@ -1,0 +1,54 @@
+<!DOCTYPE html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Carbon-Inventur</title>
+<script src="/static/plotly.min.js"></script><style>
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:'Segoe UI',sans-serif;background:#f5f3ef;color:#2d2a24;padding:16px}
+h1{font-size:1.3rem}h1 span{font-weight:600;color:#8b3a1f}.hd{padding:8px 16px;background:#e8e2d9;border-radius:8px;margin-bottom:10px;font-size:0.85rem}
+.ly{display:flex;gap:12px}.col-l{flex:2;min-width:680px}.col-r{flex:1;min-width:300px}
+.bx{background:#fff;border-radius:8px;padding:6px;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:10px}
+.ctrl{background:#fff;border-radius:8px;padding:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);margin-bottom:10px}
+h3{font-size:0.85rem;color:#5a4f44;margin:6px 0;border-bottom:1px solid #ddd;padding-bottom:3px}
+label{font-size:0.78rem;color:#6b6054}select{width:100%;padding:4px 6px;border:1px solid #ccc;border-radius:4px;font-size:0.85rem;margin:2px 0 6px}
+.ib{background:#f0ece4;border-radius:5px;padding:8px;margin:6px 0;font-size:0.78rem;line-height:1.4}
+#rank{max-height:200px;overflow-y:auto;font-size:0.72rem}
+#rank table{width:100%;border-collapse:collapse}#rank th{background:#e8e2d9;padding:2px 4px;text-align:left;font-weight:500;position:sticky;top:0;font-size:0.7rem}
+#rank td{padding:2px 4px;border-bottom:1px solid #eee}#rank tr:hover{background:#f0ece4}
+.bar{display:flex;gap:5px;flex-wrap:wrap;margin:4px 0}
+.bar>div{flex:1;min-width:70px;background:#f0ece4;border-radius:4px;padding:3px 6px;text-align:center}
+.bar .num{font-size:0.85rem;font-weight:600}.bar .lbl{font-size:0.6rem;color:#6b6054}
+.cbar{height:8px;border-radius:3px;margin:4px 0;background:linear-gradient(90deg,#1a6b10,#f0c030,#b82414)}
+.cbar-lbl{display:flex;justify-content:space-between;font-size:0.65rem;color:#6b6054}
+</style></head><body>
+<div class="hd"><h1><span>Carbon-Inventur</span> Pavillon Stockerau · 3D-Ansicht</h1></div>
+<div class="ly">
+<div class="col-l">
+<div class="bx"><div id="chart"></div>
+<div class="cbar"></div><div class="cbar-lbl"><span>0 kg CO₂e</span><span id="cmax"></span></div></div>
+<div class="bx"><h3>Rangliste (Top 10 Layer)</h3><div id="rank"></div></div>
+</div>
+<div class="col-r">
+<div class="ctrl">
+<h3>Einstellungen</h3>
+<label>Lebenszyklus-Modul</label><select id="selMod"><option value="A1A3">A1–A3 (Herstellung)</option><option value="C">C (End-of-Life)</option><option value="D">D (Gutschriften)</option></select>
+<label>Datensatz</label><select id="selDS"><option value="standard">Standard</option><option value="alternative">Alternative</option></select>
+<div class="bar" id="sumBar"></div></div>
+<div class="ctrl"><h3>Stab-Info</h3><div class="ib" id="info"><em>Klicke auf einen Stab im 3D-Modell</em></div></div>
+<div class="ctrl"><h3>Methode</h3><div class="ib">ÖKOBAUDAT · Stahl 0,56 / Beton 181 kg CO₂e</div></div>
+</div></div>
+<script>
+var mbs=[],alt={},curM='A1A3',curD='standard';
+fetch('/api/members').then(r=>r.json()).then(d=>{mbs=d.members;fetch('/api/alternatives').then(r=>r.json()).then(d=>{alt=d;init();})});
+function c2(m,mo,ds){var v=m['co2_'+mo]||0,b=m['bewehrung_co2']||0;if(ds=='alternative'){var a=alt[m.datensatz];if(a){if(a.bezug=='kg')v=m.masse_kg*a[mo=='A1A3'?'A1-A3':mo];else v=m.volumen_m3*a[mo=='A1A3'?'A1-A3':mo];b=0}}return v+(mo=='A1A3'?b:0)}
+function init(){document.getElementById('selMod').onchange=function(){curM=this.value;upd()};document.getElementById('selDS').onchange=function(){curD=this.value;upd()};upd()}
+function upd(){plt();rnk();sum()}
+function plt(){var mx=0,ml=curM=='A1A3'?'A1–A3':curM,vs=mbs.map(function(x){var v=c2(x,curM,curD);if(v>mx)mx=v;return v});if(mx<1)mx=1;
+var tr=mbs.map(function(x,i){var v=vs[i],t=v/mx,r=Math.round(t*220+35),g=Math.round((1-t)*180+40),txt=x.layer+' | '+x.material+'<br>'+x.laenge_m.toFixed(3)+'m '+(x.dicke_m*1000).toFixed(1)+'×'+(x.breite2_m*1000).toFixed(1)+'mm<br>CO₂: '+v.toFixed(4)+' kg';
+return{type:'scatter3d',mode:'lines',x:[x.fx,x.tx],y:[x.fy,x.ty],z:[x.fz,x.tz],line:{color:'rgb('+r+','+g+',40)',width:4},hoverinfo:'text',text:txt}});
+Plotly.newPlot('chart',tr,{scene:{xaxis:{title:'X(m)'},yaxis:{title:'Y(m)'},zaxis:{title:'Z(m)'},bgcolor:'#f5f3ef',aspectmode:'data'},margin:{l:15,r:15,b:15,t:5},showlegend:false,hovermode:'closest',paper_bgcolor:'#fff',width:Math.min(window.innerWidth-370,920),height:520},{displayModeBar:true});
+document.getElementById('cmax').innerText=mx.toFixed(2)+' kg CO₂e'}
+function rnk(){var g={};mbs.forEach(function(x){var k=x.layer;if(!g[k])g[k]={la:k,n:0,c:0};g[k].n++;g[k].c+=c2(x,curM,curD)});
+var a=Object.keys(g).map(function(k){return g[k]}).sort(function(a,b){return b.c-a.c}),h='<table><tr><th>#</th><th>Layer</th><th>Anz</th><th>kg CO₂e</th></tr>';
+a.slice(0,10).forEach(function(x,i){h+='<tr><td>'+(i+1)+'</td><td>'+x.la+'</td><td>'+x.n+'</td><td>'+x.c.toFixed(2)+'</td></tr>'});
+document.getElementById('rank').innerHTML=h+'</table>'}
+function sum(){var b={},t=0;mbs.forEach(function(x){var k=x.material;if(!b[k])b[k]={n:0,c:0};b[k].n++;var v=c2(x,curM,curD);b[k].c+=v;t+=v});
+var h='';Object.keys(b).sort().forEach(function(k){h+='<div><div class="num">'+b[k].c.toFixed(1)+'</div><div class="lbl">'+k+' ('+b[k].n+')</div></div>'});
+document.getElementById('sumBar').innerHTML=h+'<div style="background:#d4c9b9"><div class="num">'+t.toFixed(1)+'</div><div class="lbl">∑ Gesamt</div></div>'}
+</script></body></html>

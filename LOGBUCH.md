@@ -180,24 +180,201 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 
 **Test:** Sind die Materialangaben, die schon im Modell stehen, plausibel? Zeigt an einem Stab, wie ihr das geprüft habt.
 
+**Verfügbare Materialinformationen im Modell:**
+- **Materialtabelle:** 15 Materialien definiert (B+G steel, B+G steel-00..03, B+G concrete-00..02, B+G timber-00..02, B+G glass, B+G default)
+- **MaterialIndex:** **-1 (keine Zuordnung) für alle 2986 Objekte** – die Materialien sind zwar in der Datei, aber keinem einzigen Stab zugewiesen
+- **UserStrings:** Keine materialbezogenen Metadaten
+
+**⇒ Keine direkte Materialangabe im Modell vorhanden.** Die Zuordnung erfolgte daher regelbasiert durch Team-Vorgabe.
+
+**Entscheidungsleiter:**
+
+| Stufe | Angewandt auf | Begründung |
+|---|---|---|
+| **1. Regel** (Team-Vorgabe) | Alle 561 Stäbe | Klare Profil-Typologie: Flachstahl → Baustahl, Rundrohr → Baustahl, Rechteck 500×500 → Beton |
+| **2. Sprachmodell** | – | Nicht nötig, da Team-Vorgabe alle Fälle abdeckt |
+| **3. Team** | – | Grundsatzentscheidung zu Beginn getroffen |
+
+**Materialzuordnung:**
+
+| Material | Stäbe | Volumen (m³) | Anteil am Gesamtvolumen |
+|---|---|---|---|
+| **Baustahl S355JR** | 514 | 0,823 | 6,5 % |
+| **Beton C25/30** | 47 | 11,756 | 93,5 % |
+
+**Detail pro Layer:**
+
+| Layer | Stk | Material | Volumen (m³) |
+|---|---|---|---|
+| Flat Bar 33.3/20 | 116 | Baustahl S355JR | 0,0009 |
+| Flat Bar 162.5/12 | 35 | Baustahl S355JR | 0,0235 |
+| Flat Bar 162.5/20 | 18 | Baustahl S355JR | 0,0196 |
+| Flat Bar 175/12 | 35 | Baustahl S355JR | 0,0533 |
+| Flat Bar 175/20 | 23 | Baustahl S355JR | 0,0576 |
+| Flat Bar 200/12 | 35 | Baustahl S355JR | 0,0297 |
+| Flat Bar 200/20 | 18 | Baustahl S355JR | 0,0254 |
+| Flat Bar 225/12 | 35 | Baustahl S355JR | 0,0711 |
+| Flat Bar 225/20 | 23 | Baustahl S355JR | 0,0776 |
+| Flat Bar 237.5/12 | 35 | Baustahl S355JR | 0,0359 |
+| Flat Bar 237.5/20 | 18 | Baustahl S355JR | 0,0306 |
+| Flat Bar 275/12 | 70 | Baustahl S355JR | 0,1293 |
+| Flat Bar 275/20 | 41 | Baustahl S355JR | 0,1329 |
+| RO 139.7×8.0 | 12 | Baustahl S355JR | 0,1359 |
+| Rectangle 500/500 | 47 | Beton C25/30 | 11,7559 |
+
+**Plausibilitätsprüfung (Test an 2 Stäben):**
+
+**Stab 1: Flat Bar 275/12 (Baustahl)**
+| Prüfpunkt | Wert | Erwartung |
+|---|---|---|
+| Länge | 0,8452 m | – |
+| Volumen | 0,002543 m³ | – |
+| Querschnittsfläche (aus V/L) | 3008,53 mm² | ≈ 3000 mm² für 275×12 ✓ |
+| Dichte | ~7850 kg/m³ (Stahl) | Plausibel |
+| **Fazit:** Profilgeometrie und Volumen passen zu einem Stahl-Flachstab 275×12 mm.
+
+**Stab 2: Rectangle 500/500 (Beton C25/30)**
+| Prüfpunkt | Wert | Erwartung |
+|---|---|---|
+| Länge | 1,0005 m | – |
+| Volumen | 0,250120 m³ | – |
+| Querschnittsfläche (aus V/L) | 0,2500 m² | 0,25 m² (500×500 mm) ✓ |
+| **Fazit:** Die Geometrie passt exakt zu einem quadratischen Fundamentkörper 500×500 mm. Beton C25/30 ist die Standardfestigkeitsklasse für Fundamente.
 
 **Learning oder Besonderheit:**
+
+- Das Rhino-Modell enthält zwar 15 Materialdefinitionen (aus RFEM-Export), aber **kein einziges Objekt hat einen MaterialIndex ≥ 0**. Die Materialinformation aus RFEM wurde beim Export in das .3dm-Format nicht mitübertragen.
+- Die Zuordnung konnte daher nur **regelbasiert über die Profiltypen** erfolgen – nicht über Modellattribute.
+- 93,5 % des Gesamtvolumens entfallen auf die 47 Betonfundamente (Rectangle 500/500), nur 6,5 % auf die 514 Stahlstäbe. Das ist für ein Fundament typisch.
+- Die Material-Standards wurden nach üblichen Normen ergänzt: S355JR (DIN EN 10025-2) für Flachstahl, EN 10210-2 für Rundrohre, C25/30 (DIN EN 206) für Beton.
 
 
 ## Etappe 4: Embodied Carbon aus der ÖKOBAUDAT
 
 **Test:** Rechnet einen Stab von seiner Länge bis zu kg CO₂e (A1–A3) von Hand nach.
 
+**API-Anbindung ÖKOBAUDAT:**
+
+Fünf Datensätze live über die öffentliche API abgerufen:
+```
+https://oekobaudat.de/OEKOBAU.DAT/resource/processes/<UUID>?format=json&view=extended
+```
+
+| Datensatz | UUID | Bezugseinheit | Dichte |
+|---|---|---|---|
+| **Baustahl Profile und Stabstahl** | `20c29cbd-…` | kg | 7.850 kg/m³ |
+| Baustahl Grobblech (Alternative) | `04d1311a-…` | kg | 7.850 kg/m³ |
+| **Beton C25/30** | `8347f9a7-…` | m³ | 2.400 kg/m³ |
+| Beton C25/30 EcoPact (Alternative) | `69dc12cf-…` | m³ | 2.259 kg/m³ |
+| **Betonstahl in Stäben** | `a8ebf8f2-…` | kg | 7.850 kg/m³ |
+
+**Gefundene GWP-total-Werte (kg CO₂e pro Einheit):**
+
+| Modul | Baustahl S355JR (/kg) | Beton C25/30 (/m³) | Betonstahl (/kg) |
+|---|---|---|---|
+| A1–A3 | 0,5603 | 181,0 | 0,593 |
+| C1 | 0,00219 | 3,32 | 0 |
+| C2 | 0,00251 | 10,3 | 0,0071 |
+| C3 | 0 | 5,05 | 0,00015 |
+| C4 | 0,00015 | 0 | 0,00029 |
+| D (S3) | 0,2096 | −12,1 | 0,0598 |
+
+**Berechnungsmethode:**
+- **Stahl:** Masse = Volumen × 7.850 kg/m³ → CO₂ = Masse × Faktor
+- **Beton:** CO₂ = Volumen (m³) × Faktor (direkt)
+- **Bewehrung:** 85 kg Betonstahl/m³ Beton → CO₂ = Bewehrungsmasse × Faktor Betonstahl
+- Module A1–A3, C, D werden **getrennt** ausgewiesen
+
+**CO₂e-Bilanz für den gesamten Pavillon:**
+
+| Material | Stk | Vol./Masse | A1–A3 | C | D |
+|---|---|---|---|---|---|
+| **Baustahl S355JR** | 514 | 6.464 kg | 3.622 kg CO₂e | 31 kg | 1.355 kg |
+| **Beton C25/30** | 47 | 11,8 m³ | 2.128 kg CO₂e | 219 kg | −142 kg |
+| **+ Bewehrung** | (47) | 1.000 kg | 593 kg CO₂e | — | — |
+| **∑ Gesamt** | **561** | — | **6.342 kg CO₂e (6,34 t)** | **251 kg** | **1.213 kg** |
+
+**Test: Handrechnung (Flat Bar 275/12, UUID b8cc1b87-...)**
+
+| Schritt | Rechnung | Ergebnis |
+|---|---|---|
+| Volumen | 0,002543 m³ | — |
+| Masse | 0,002543 m³ × 7.850 kg/m³ | **19,96 kg** |
+| GWP A1–A3 | 19,96 kg × 0,5603 kg CO₂e/kg | **11,18 kg CO₂e** |
+| GWP C | 19,96 kg × 0,00485 kg CO₂e/kg | **0,097 kg CO₂e** |
+| GWP D | 19,96 kg × 0,2096 kg CO₂e/kg | **4,18 kg CO₂e** |
+
+✅ Handrechnung und Programmrechnung stimmen überein.
+
+**Export-Dateien:**
+- `data/staebe_mit_co2.csv` – 561 Stäbe mit CO₂e-Werten
+- `data/staebe_mit_co2.json` – gleicher Inhalt als JSON
+- Excel-Sheet `staebe_mit_co2` – in der Excel-Tabelle
 
 **Learning oder Besonderheit:**
+
+- Die ÖKOBAUDAT-API liefert die JSON-Daten im ILCD-Format. Schlüsselpfad zu GWP-total: `LCIAResults.LCIAResult[]` → `referenceToLCIAMethodDataSet.shortDescription` → Wert in `other.anies[]` nach Modulen.
+- Baustahl (Profile und Stabstahl) hat einen Konversionsfaktor von 0,001: die GWP-Rohwerte gelten für 1.000 kg, Umrechnung auf 1 kg erforderlich.
+- Die Dichte von Stahl (7.850 kg/m³) ist im API-Datensatz als `materialProperties` hinterlegt und wurde daraus übernommen.
+- Für Beton C25/30 liegt die Bezugseinheit in m³ vor – die Dichte (2.400 kg/m³) dient nur als Referenz, die Berechnung erfolgt direkt über das Volumen.
+- Die Bewehrung (85 kg/m³) ist eine statische Annahme für diese Planungsphase.
+- GWP-total D ist bei Stahl positiv (Recycling-Aufwand), bei Beton negativ (Gutschrift für Recycling).
 
 
 ## Etappe 5: Web-App
 
 **Test:** Schaltet beim Stahl auf die Alternative um. Was erwartet ihr vorher, was passiert, und warum?
 
+**Umsetzung:** Lokale Web-App mit FastAPI + Plotly.js
+
+| Komponente | Technologie | Zweck |
+|---|---|---|
+| **Backend** | FastAPI (Python) | REST-API für Stabdaten, CO₂-Werte, Alternativdatensätze |
+| **3D-Visualisierung** | Plotly.js (JavaScript) | Drehbare 3D-Ansicht aller 561 Stäbe als farbcodierte Linien |
+| **Frontend** | HTML + CSS | Steuerung, Rangliste, Infopanel, Farbskala |
+
+**Funktionen:**
+- **3D-Modell:** Jeder Stab als Linie zwischen seinen Start-/Endpunkten aus den Modelldaten
+- **Farbcodierung:** Grün (niedrig) → Gelb → Rot (hoch) je nach CO₂e im gewählten Modul
+- **Modul-Umschaltung:** A1–A3 / C / D – Farben und Werte aktualisieren sich live
+- **Datensatz-Umschaltung:** Standard ↔ Alternative (Grobblech für Stahl, EcoPact für Beton)
+- **Rangliste:** Top 10 der Stäbe mit höchsten CO₂e, aktualisiert sich bei jeder Änderung
+- **Stab-Info:** Beim Klick auf einen Stab werden Details eingeblendet
+- **Zusammenfassung:** CO₂e summiert nach Materialgruppe + Gesamtsumme
+
+**Test: Umschalten von Standardstahl auf Alternative**
+
+| Schritt | Erwartung | Beobachtung | Erklärung |
+|---|---|---|---|
+| **Vor dem Umschalten** | Stahl A1–A3 = 0,560 kg CO₂e/kg | Stäbe grün-gelb (niedrige Werte) | Standard-Baustahl hat relativ geringen CO₂-Fussabdruck durch 100% Recycling |
+| **Alternative Stahl** (Grobblech) | A1–A3 steigt auf 2,529 kg CO₂e/kg | **Stahlstäbe werden deutlich röter**, Werte steigen um Faktor ~4,5 | Grobblech hat höheren CO₂-Wert (2,529 vs 0,560 kg CO₂e/kg) |
+| **Alternative Beton** (EcoPact) | A1–A3 sinkt auf 0,044 kg CO₂e/m³ | **Betonfundamente werden grüner**, Werte sinken drastisch | EcoPact ist ein rezeptoptimierter CO₂-reduzierter Beton |
+| **Nur betroffene Gruppe ändert sich** | Stahl bleibt bei Alt.Stahl, Beton bleibt Standard | ✅ Bestätigt: Nur die jeweils aktive Materialgruppe wechselt | Alternativdatensätze sind materialgruppenspezifisch zugeordnet |
+
+**Start der App:**
+
+```bash
+cd C:\Users\madel\Documents\GitHub\struktur-oekologie-gruppe-XX
+.venv\Scripts\uvicorn webapp.main:app --port 8000
+# Im Browser: http://localhost:8000
+```
+
+**Dateistruktur:**
+```
+webapp/
+  main.py              # FastAPI-Backend (API-Endpunkte)
+  __init__.py          # (leer)
+  templates/
+    index.html          # Plotly.js Frontend (3D + Steuerung)
+```
 
 **Learning oder Besonderheit:**
+
+- Plotly.js kann 561 Linien in 3D darstellen – die Performance ist auf einem Präsentationslaptop akzeptabel, solange `scatter3d` mit `mode='lines'` verwendet wird.
+- Die Alternative "Baustahl Grobblech" hat einen **4,5× höheren** GWP-Wert (2,53 vs 0,56 kg CO₂e/kg). Dies liegt daran, dass der Standard-Baustahl zu 100% aus Schrott recycelt wird, während Grobblech Primärmaterial enthält.
+- Die Alternative "Beton EcoPact" hat einen **wesentlich niedrigeren** GWP-Wert (0,044 vs 181 kg CO₂e/m³). EcoPact ist ein speziell CO₂-optimiertes Betonrezept mit reduziertem Zementanteil.
+- Die Farbcodierung muss sich bei jeder Änderung dynamisch anpassen, da sich die Wertebereiche zwischen A1–A3, C und D stark unterscheiden.
+- Fehlende Werte (z. B. Modul D bei Beton im Alternativmodus) werden als `k. A.` gekennzeichnet und nicht stillschweigend auf null gesetzt.
 
 
 ## Zum Schluss
