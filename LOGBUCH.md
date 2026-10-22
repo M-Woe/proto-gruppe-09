@@ -481,6 +481,76 @@ Ziel: jede offene Frage gegen eine Quelle prüfen. Nichts wird als bestätigt ge
 ## Etappe 4: Embodied Carbon aus der ÖKOBAUDAT
 
 **Test:** Rechnet einen Stab von seiner Länge bis zu kg CO₂e (A1–A3) von Hand nach.
+### Etappe 4 – Protokoll (Stand 22.10.2026)
+
+**Vorgehen**
+1. Eingaben geprüft: Volumen und Länge aus Etappe 2 (`etappe2_querschnitt_volumen.xlsx`), Material aus Etappe 3 (`etappe3_materialzuordnung.xlsx`).
+2. ÖKOBAUDAT live abgerufen (`oekobaudat.de/OEKOBAU.DAT/resource/processes/<UUID>?format=json&view=extended`), fünf Datensätze, Indikator **GWP-total** aus dem Block `LCIAResults`.
+3. Berechnung je Stab in `ekobaudat_etappe4.py`, Ausgabe `output/excel/etappe4_co2e.xlsx`.
+
+**Bezugseinheiten (aus den Datensätzen geprüft, Feld `quantitativeReference` und Referenzfluss)**
+
+| Datensatz | Referenzmenge | GWP-total A1–A3 | Einheit | Verwendung |
+|---|---|---|---|---|
+| Baustahl Profile/Stabstahl (Standard) | 1000 kg | 560,287 | kg CO₂e je 1000 kg | Stahl, Stäbe |
+| Baustahl Grobblech (Alternative) | 1000 kg | 2528,984 | kg CO₂e je 1000 kg | nur Vergleich, nicht gerechnet |
+| Beton C25/30 (Standard) | 1 m³ | 181 | kg CO₂e je m³ | Kastenprofile (Fundament) |
+| Beton C25/30 EcoPact (Alternative) | 1 m³ | 98,939 | kg CO₂e je m³ | nur Vergleich, nicht gerechnet |
+| Betonstahl in Stäben (Standard) | 1 kg | 0,0558 + 0,0182 + 0,519 = 0,593 | kg CO₂e je kg | Bewehrung |
+
+Umrechnung Stahl: Wert je kg = 560,287 / 1000 = 0,560287 kg CO₂e/kg.
+
+**Formeln**
+- Stahl: V (aus Etappe 2) × 7850 kg/m³ = m; kg CO₂e = m × 0,560287.
+- Stahlbeton: V (aus Etappe 2) × 181 kg CO₂e/m³ = Beton; Betonstahl = V × 85 kg/m³ (Vorgabe Team) × 0,593 kg CO₂e/kg.
+- Nicht berechnet: Stäbe ohne eindeutiges Material (Stufe 3) und RD 12 ohne Querschnitt.
+
+**Annahmen (ausdrücklich nicht aus dem Modell)**
+- Stahldichte 7850 kg/m³: Standardwert für Baustahl, kein Projektdatum.
+- Betonstahl 85 kg/m³: Vorgabe des Teams.
+- Modul D und C3/C4: Stahl-Datensatz nennt Szenarien S1–S3. Verwendet wird **S3** (Standard, „European average“, `default: true`). C1, C2 ohne Szenario.
+- Für die Auswertung gilt A1–A3 als Kernergebnis. Die Module A4, A5, B1 sind im Stahl-Datensatz nicht enthalten und werden als „nicht verfügbar“ geführt.
+
+**Ergebnis (Excel `etappe4_co2e.xlsx`, 736 Stäbe)**
+
+| Material | Stäbe berechnet | A1–A3 [kg CO₂e] |
+|---|---|---|
+| Stahl S355 (12 Rohre + 484 Flachstäbe) | 496 | 5698,58 |
+| Stahlbeton C25/30 (47 Kastenprofile, Beton) | 47 | 2124,62 |
+| Stahlbeton C25/30 (47 Kastenprofile, Betonstahl) | 47 | 591,66 |
+| **Summe A1–A3** | **543** | **8414,87** |
+| Nicht berechnet (Stufe 3) | 193 | – |
+
+Kontrolle: 543 berechnet + 193 nicht berechnet = 736.
+
+**Handtest (Stab ST0001, Flachstab 275 × 12 mm)**
+1. Länge L = 0,8452 m.
+2. Endflächen aus Etappe 2: A0 = 3294 mm², A1 = 2688 mm².
+3. V = (A0 + A1)/2 × L = 0,002528 m³ (Excel: 0,002528 m³).
+4. m = V × 7850 kg/m³ = 19,845 kg (Excel: 19,844 kg).
+5. A1–A3 = 19,845 kg × 0,560287 kg CO₂e/kg = **11,119 kg CO₂e** (Excel: 11,119 kg CO₂e).
+6. Abweichung 0,0002 kg CO₂e, Rundung. **Bestanden.**
+
+**Korrekturen während der Arbeit**
+- In einer Zwischenauswertung fehlten zunächst die 12 Rohre in der Stahl-Gruppe. Ursache war meine Prüfung, nicht die Berechnung: Die Rohre sind berechnet (12 Stück, A1–A3 = 2768,75 kg CO₂e).
+- Die Stab-Zahl „508 Stahl“ aus früheren Zwischenständen war falsch. Richtig: 496 Stahl (12 Regel + 484 Projektannahme).
+- Die Aufteilung in Etappe 3 war in der Zusammenfassung falsch angegeben („531 Projektannahme“). Richtig ist: Regel 12, Projektannahme Stahl 484, Projektannahme Stahlbeton 47, manuell 193 (Summe 736). Die Excel der Etappe 3 zeigt diesen Stand.
+- Die Zusammenfassung der Etappe-4-Excel nennt die Gruppen nach Material. Die Anzahl je Material ist aus den Stabzeilen gezählt.
+
+**Offene Punkte**
+1. Nicht berechnet (193): 175 RD 12 ohne Querschnitt, 18 Flachstäbe 162,5/20 mit Betonangabe bei 20 mm Dicke. Erst nach Klärung in Etappe 3 berechenbar.
+2. Stahl-Datensatz: Der Standard-Datensatz gilt für Profile und Stabstahl (100 % Schrott). Ob die Flachstäbe (Baustahl S355) diesem Datensatz entsprechen, ist eine Annahme.
+3. Stahldichte 7850 kg/m³ und Betonstahl 85 kg/m³ sind Annahmen. Ein Projektwert wäre zu bestätigen.
+4. Szenario S3 ist eine Festlegung. S1 und S2 ergeben für Modul D andere Werte (D S1 = 284,97, S2 = −557,36 kg CO₂e je 1000 kg).
+5. Alternative Datensätze (Grobblech, EcoPact) wurden nur verglichen, nicht gerechnet.
+6. Push und Tags: `pr/1` und `etappe-1` sind nicht auf GitHub.
+
+**Erstellte und geänderte Dateien (Etappe 4)**
+- Neu: `ekobaudat_etappe4.py`
+- Neu: `output/excel/etappe4_co2e.xlsx` (Blätter Stabergebnisse, Zusammenfassung)
+- Geändert: `LOGBUCH.md` (dieser Eintrag)
+
+
 
 
 **Learning oder Besonderheit:**
