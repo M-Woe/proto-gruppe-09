@@ -19,6 +19,7 @@ OUT_XLSX = ROOT / "output" / "excel" / "etappe3_materialzuordnung.xlsx"
 KEY_MAT = "BG_Dlubal-Name (Material)_bg0211"
 
 STAHL = "Stahl S355"
+BETON_KASTEN = "Stahlbeton C25/30"
 MANUELL = "Manuelle Prüfung erforderlich"
 
 
@@ -75,11 +76,32 @@ def stufe3_manuell(layer: str, modell_raw: str):
             grund, "hoch")
 
 
+def projektannahme(layer: str, modell_raw: str):
+    """Vom Team bestätigte Projektannahmen (keine Modellangabe).
+
+    P1: Flachstäbe 12/20 mm und 33,3/20 mm -> Stahl S355 (Bestätigung durch das Team).
+    P2: Kastenprofile 500 x 500 mm -> Stahlbeton C25/30 (Bestätigung durch das Team).
+    Nicht betroffen: Flachstäbe 162,5/20 mm mit Modellangabe Beton (Widerspruch bleibt offen).
+    """
+    if layer.startswith("Flat Bar ") and not layer.startswith("Flat Bar 162.5/20"):
+        return (STAHL, "P1: Projektannahme Stahl S355 für Flachstäbe (Bestätigung Team)",
+                "Keine Modellangabe; Material per Projektannahme festgelegt, nicht aus dem Modell",
+                "mittel")
+    if layer == "Rectangle 500/500":
+        return (BETON_KASTEN, "P2: Projektannahme Stahlbeton C25/30 für Kastenprofile 500x500 (Bestätigung Team)",
+                "Bauweise Stahlbeton laut Plänen; Güte C25/30 per Projektannahme bestätigt",
+                "mittel")
+    return None
+
+
 def zuordnen(layer: str, modell_raw: str):
     """Liefert (material, stufe, regel, begründung, unsicherheit)."""
     r = stufe1_regel(layer, modell_raw)
     if r:
         return (r[0], "Regel") + r[1:]
+    r = projektannahme(layer, modell_raw)
+    if r:
+        return (r[0], "Projektannahme") + r[1:]
     r = stufe2_sprachmodell(layer, modell_raw)
     if r:
         return (r[0], "Sprachmodell") + r[1:]
@@ -154,12 +176,15 @@ def schreibe_excel(zeilen: list, datei: Path = OUT_XLSX) -> None:
     st = Counter(z["stufe"] for z in zeilen)
     mat = Counter(z["material"] for z in zeilen)
     zus = [["Stäbe gesamt", len(zeilen)],
-           ["Stufe 1 Regel", st["Regel"]],
-           ["Stufe 2 Sprachmodell (nicht verfügbar, nicht ausgeführt)", st["Sprachmodell"]],
+           ["Stufe 1 Regel (Modellangabe)", st["Regel"]],
+           ["Stufe 2 Sprachmodell (nicht ausgeführt, LLM_MODEL fehlt)", st["Sprachmodell"]],
+           ["Projektannahme P1/P2 (Team bestätigt)", st["Projektannahme"]],
            ["Stufe 3 Manuelle Prüfung", st["Manuell"]],
-           ["Zugeordnetes Material 'Stahl S355'", mat[STAHL]],
+           ["Material Stahl S355 (gesamt)", mat[STAHL]],
+           ["Material Stahlbeton C25/30 (gesamt)", mat[BETON_KASTEN]],
            ["Manuelle Prüfung erforderlich", mat[MANUELL]],
-           ["Quellen", "Etappe 1 (Stabliste), Materialangabe aus RFEM-Benutzerdaten"]]
+           ["Kontrolle Summe", st["Regel"] + st["Projektannahme"] + st["Manuell"] + st["Sprachmodell"]],
+           ["Quellen", "Etappe 1 (Stabliste), Materialangabe aus RFEM-Benutzerdaten, Team-Bestätigungen"]]
     ws = blatt("Zusammenfassung", ["Kennzahl", "Wert"], zus)
     ws.column_dimensions["A"].width = 58
     ws.column_dimensions["B"].width = 60

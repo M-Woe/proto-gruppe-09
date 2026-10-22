@@ -354,10 +354,10 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 |---|---|---|
 | 1 Regel | 12 | Rohre RO 139.7x8.0 mit Modellangabe `Steel S 355` → Stahl S355 |
 | 2 Sprachmodell | 0 | nicht angebunden, nicht ausgeführt |
-| 3 Manuelle Prüfung | 724 | übrige Stäbe, u. a. RD 12 (175), Flachstäbe (502), Kastenprofile (47) |
+| 3 Manuelle Prüfung | 724 | **ÜBERHOLT** durch den Stand unten: 531 Projektannahmen, 193 manuell |
 | **Summe** | **736** | |
 
-Material je Stab: 12 × Stahl S355, 724 × „Manuelle Prüfung erforderlich“.
+> Hinweis: Die Zeilen oben und der Abschnitt „Begründungen der Stufe 3“ beschreiben den Stand vor der Team-Bestätigung. Maßgeblich ist der Abschnitt „Ergebnis nach Bestätigung der Projektannahmen“ weiter unten.
 
 **Begründungen der Stufe 3 (Material nicht erfunden)**
 - **Flachstäbe ohne Modellangabe (502):** Stahl ist fachlich naheliegend (Flachstahl, Dachbereich), aber das Modell nennt kein Material. Eine Zuordnung allein aus dem Profil wäre eine Schlussfolgerung, keine eindeutige Regel.
@@ -385,6 +385,37 @@ Material je Stab: 12 × Stahl S355, 724 × „Manuelle Prüfung erforderlich“.
 - Neu: `zuordnung_material_etappe3.py`
 - Neu: `output/excel/etappe3_materialzuordnung.xlsx` (Blätter Materialzuordnung, Übersicht je Layer, Zusammenfassung)
 - Geändert: `LOGBUCH.md` (dieser Eintrag)
+### Etappe 3 – Ergebnis nach Bestätigung der Projektannahmen (Stand 22.10.2026)
+
+**Korrektur zur früheren Tabelle:** Die Aufschlüsselung „502 + 116 + …“ hatte die 116 Flachstäbe 33,3/20 mm doppelt gezählt. Die 502 Flachstäbe enthalten bereits die Gruppen 12 mm und 20 mm. Maßgeblich ist die Excel-Datei.
+
+**Bestätigungen des Teams (Projektannahmen, keine Modellangaben)**
+- P1: Flachstäbe (alle Dicken außer 162,5/20 mm mit Betonangabe, inkl. 33,3/20 mm auf Nachfrage bestätigt) → Stahl S355.
+- P2: Kastenprofile 500 × 500 mm → Stahlbeton C25/30.
+
+**Offen (keine Annahme eingetragen)**
+- Flachstäbe 162,5/20 mm (18 Stäbe): Betonangabe bei 20 mm Dicke bleibt Widerspruch. Korrektur im RFEM-Modell nötig.
+- RD 12 (175 Stäbe): Querschnitt und Material nicht im RFEM-Export. Kein Wert gesetzt.
+- Stufe 2 (Sprachmodell): `LLM_MODEL` fehlt, nicht ausgeführt.
+
+**Ergebnis (Excel `etappe3_materialzuordnung.xlsx`, 736 Stäbe)**
+
+| Stufe | Anzahl |
+|---|---|
+| 1 Regel (Stahl S355, Rohre mit Modellangabe) | 12 |
+| 2 Sprachmodell | 0 |
+| Projektannahme (P1 Stahl S355: 496, P2 Stahlbeton C25/30: 47) | 531 |
+| 3 Manuelle Prüfung (RD 12: 175, Flachstäbe 162,5/20 mm: 18) | 193 |
+
+Kontrolle: 12 + 531 + 193 = 736 (Excel). Der Projektannahme-Block umfasst 531 Stäbe (496 Stahl S355, 47 Stahlbeton C25/30).
+
+**Offene Punkte**
+1. RFEM-Modell: Betonangabe der 18 Flachstäbe 162,5/20 mm korrigieren.
+2. RFEM-Export: Querschnitt und Material für RD 12 (175 Stäbe) nachreichen.
+3. `LLM_MODEL` in `.env` setzen, danach Stufe 2 ausführen.
+4. Push: `pr/1` und Tags sind nicht auf GitHub (Verbindung zu GitHub).
+
+
 
 ### Etappe 3 – Klärung der offenen Fragen (Stand 22.10.2026)
 
