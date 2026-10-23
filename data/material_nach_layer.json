@@ -117,6 +117,15 @@
     "Volumen_m3": 0.00093
   },
   {
+    "Layer": "RD 12",
+    "Anzahl": 175,
+    "Material": "Baustahl S355JR",
+    "Kategorie": "Stahl",
+    "Norm": "DIN EN 10025-2 (S355JR)",
+    "Laenge_m": 367.17,
+    "Volumen_m3": 0.041525
+  },
+  {
     "Layer": "RO 139.7x8.0 | EN 10210-2:2006",
     "Anzahl": 12,
     "Material": "Baustahl S355JR",
@@ -136,11 +145,11 @@
   },
   {
     "Layer": "SUMME",
-    "Anzahl": 561,
+    "Anzahl": 736,
     "Material": "",
     "Kategorie": "",
     "Norm": "",
-    "Laenge_m": 319.209,
-    "Volumen_m3": 12.579271
+    "Laenge_m": 686.379,
+    "Volumen_m3": 12.620796
   }
 ]

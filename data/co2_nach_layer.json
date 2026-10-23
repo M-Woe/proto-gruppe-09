@@ -169,6 +169,19 @@
     "Bewehrung_CO2_A1A3_kg": 0
   },
   {
+    "Layer": "RD 12",
+    "Anzahl": 175,
+    "Laenge_m": 367.17,
+    "Volumen_m3": 0.041525,
+    "Masse_kg": 325.98,
+    "CO2_A1A3_gesamt_kg": 182.6414,
+    "CO2_A1A3_pro_Stab_kg": 1.043665,
+    "CO2_C_gesamt_kg": 1.5803,
+    "CO2_D_gesamt_kg": 68.3332,
+    "Bewehrung_kg": 0,
+    "Bewehrung_CO2_A1A3_kg": 0
+  },
+  {
     "Layer": "RO 139.7x8.0 | EN 10210-2:2006",
     "Anzahl": 12,
     "Laenge_m": 41.07,
@@ -196,14 +209,14 @@
   },
   {
     "Layer": "SUMME",
-    "Anzahl": 561,
-    "Laenge_m": 319.209,
-    "Volumen_m3": 12.579271,
-    "Masse_kg": 34677.86,
-    "CO2_A1A3_gesamt_kg": 5749.38,
+    "Anzahl": 736,
+    "Laenge_m": 686.379,
+    "Volumen_m3": 12.620796,
+    "Masse_kg": 35003.84,
+    "CO2_A1A3_gesamt_kg": 5932.0214,
     "CO2_A1A3_pro_Stab_kg": 0,
-    "CO2_C_gesamt_kg": 250.8184,
-    "CO2_D_gesamt_kg": 1212.7229,
+    "CO2_C_gesamt_kg": 252.3987,
+    "CO2_D_gesamt_kg": 1281.0561,
     "Bewehrung_kg": 999.25,
     "Bewehrung_CO2_A1A3_kg": 592.5542
   }
