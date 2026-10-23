@@ -1,0 +1,51 @@
+{
+  "_hinweis": "Zuordnung Querschnitt -> Material. Regeln werden von oben nach unten geprueft, die erste passende gilt. Zum Aendern 'material' einer Regel anpassen (Beton, Stahl, Holz, Glas) und den Server neu starten.",
+  "materials": {
+    "Beton": {"label": "Stahlbeton C25/30", "density_kg_m3": 2500, "color": "#9aa0a6"},
+    "Stahl": {"label": "Baustahl S355", "density_kg_m3": 7850, "color": "#4e79a7"},
+    "Holz": {"label": "Brettschichtholz GL24h", "density_kg_m3": 420, "color": "#c8913a"},
+    "Glas": {"label": "Verbundsicherheitsglas (VSG)", "density_kg_m3": 2500, "color": "#6fd0e0"}
+  },
+  "rules": [
+    {
+      "match": "^Rectangle 500/500$",
+      "material": "Beton",
+      "confidence": "hoch",
+      "reason": "47 waagrechte Blöcke 0,5 × 0,5 × 1,0 m knapp über Gelände (z = 0,26–0,85 m) = Fundamentblöcke → Stahlbeton."
+    },
+    {
+      "match": "^RO ",
+      "material": "Stahl",
+      "confidence": "hoch",
+      "reason": "Senkrechte Stützen (3,15–3,74 m lang, bis z = 4,0 m). Rohr nach EN 10210-2 ist ein Stahlprofil; das Modell nennt selbst Steel S 355."
+    },
+    {
+      "match": "^RD ",
+      "material": "Stahl",
+      "confidence": "hoch",
+      "reason": "Rundstahl Ø12 mm, im RFEM-Modell als Zugstab (Typ 'Tension'), waagrecht, 1,5–2,5 m lang → Stahl."
+    },
+    {
+      "match": "^Flat Bar 33\\.3/20$",
+      "material": "Stahl",
+      "confidence": "mittel",
+      "reason": "Nur 20 mm lange, waagrechte Stücke (20 × 33,3 mm) im Dachbereich = Knoten-/Distanzstücke, passend zu Stahl."
+    },
+    {
+      "match": "^Flat Bar [\\d.]+/12$",
+      "material": "Stahl",
+      "confidence": "mittel",
+      "reason": "'Flat Bar' ist in RFEM ein Stahlprofil (Flachstahl). 12 mm dicke, verjüngte Rippen (275 → 125 mm hoch, 0,37–0,85 m lang) im Dachbereich (z = 4,0–4,4 m)."
+    },
+    {
+      "match": "^Flat Bar [\\d.]+/20$",
+      "material": "Stahl",
+      "confidence": "mittel",
+      "reason": "Wie die 12-mm-Rippen, aber 20 mm dick. Holz (< 24 mm) und Beton (< 150 mm) scheiden wegen der Dicke aus; Glas käme nur als Glasschwert (VSG) in Frage, im Modell gibt es aber keine Glasflächen → Stahl."
+    }
+  ],
+  "unused_reason": {
+    "Holz": "Kein Stab plausibel: Holz bräuchte ≥ 24 mm Dicke und kompakte Querschnitte. Die Flachstähle (12/20 mm) sind Stahlprofile, Stützen und Zugstäbe sind Rohr bzw. Rundstahl.",
+    "Glas": "Kein Stab plausibel: Glas wird als Flächenbauteil (Scheibe) modelliert. Das Modell enthält nur Stäbe, keine Glasflächen."
+  }
+}
