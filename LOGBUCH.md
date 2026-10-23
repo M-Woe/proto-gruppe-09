@@ -7,7 +7,7 @@ One entry per stage. Short is fine. The log is part of the submission and the ba
 
 - **Was wir gemacht haben:**
 - **Wichtigste Prompts** (wörtlich kopieren):
-  > Bitte untersuche zuerst mein Repository und prüfe, ob die Datei vorhanden ist. Unsere Aufgabe ist es, eine vollständige Liste aller Stäbe des Pavillons zu erstellen. Das Rhino-Modell enthält Stäbe in zwei unterschiedlichen Darstellungen, deshalb müssen wir genau untersuchen, welche Objekte zu den tatsächlichen Stäben gehören und ob es doppelte Darstellungen gibt. Gehe bitte schrittweise vor: Prüfe, welche Dateien und Ordner vorhanden sind. Erkläre mir, wie wir die Rhino-Datei mit Python und rhino3dm auslesen können. Untersuche, welche Objekttypen, Layer und Attribute im Modell vorhanden sind. Erstelle ein Skript, das die erkannten Stäbe mit einer eindeutigen ID, ihrer Geometrie, Länge und vorhandenen Objektinformationen in eine CSV- oder JSON-Datei schreibt. Zeige mir die ermittelte Anzahl der Stäbe und erkläre, wie ich diese Zahl in Rhino überprüfen kann. Bitte ändere nicht unnötig bestehende Dateien. Lösche keine Objekte, nur weil sie ähnlich aussehen. Erfinde keine fehlenden Informationen. Erkläre mir die einzelnen Schritte und warte bei wichtigen Entscheidungen auf meine Rückmeldung.
+  > (Dieser Prompt wurde zu Etappe 1 verschoben)
 - **Was schiefging und woran wir es gemerkt haben:**
 - **Was wir selbst geprüft haben** (von Hand, im Plan, im Modell):
 
@@ -18,6 +18,9 @@ One entry per stage. Short is fine. The log is part of the submission and the ba
 ## Etappe 1: Modell lesen
 
 **Test:** Wie viele Stäbe hat der Pavillon? Prüft die Zahl am Modell nach.
+
+**Wichtigste Prompts:**
+> Bitte untersuche zuerst mein Repository und prüfe, ob die Datei vorhanden ist. Unsere Aufgabe ist es, eine vollständige Liste aller Stäbe des Pavillons zu erstellen. Das Rhino-Modell enthält Stäbe in zwei unterschiedlichen Darstellungen, deshalb müssen wir genau untersuchen, welche Objekte zu den tatsächlichen Stäben gehören und ob es doppelte Darstellungen gibt. Gehe bitte schrittweise vor: Prüfe, welche Dateien und Ordner vorhanden sind. Erkläre mir, wie wir die Rhino-Datei mit Python und rhino3dm auslesen können. Untersuche, welche Objekttypen, Layer und Attribute im Modell vorhanden sind. Erstelle ein Skript, das die erkannten Stäbe mit einer eindeutigen ID, ihrer Geometrie, Länge und vorhandenen Objektinformationen in eine CSV- oder JSON-Datei schreibt. Zeige mir die ermittelte Anzahl der Stäbe und erkläre, wie ich diese Zahl in Rhino überprüfen kann. Bitte ändere nicht unnötig bestehende Dateien. Lösche keine Objekte, nur weil sie ähnlich aussehen. Erfinde keine fehlenden Informationen. Erkläre mir die einzelnen Schritte und warte bei wichtigen Entscheidungen auf meine Rückmeldung.
 
 **Ergebnis:** Der Pavillon hat **561 Stäbe** (Stabachsen als LineCurve) mit jeweils einer korrespondierenden 3D-Darstellung als Brep (Volumenkörper) – insgesamt also 561 Stäbe in 1:1-Doppelrepräsentation.
 
@@ -58,6 +61,9 @@ One entry per stage. Short is fine. The log is part of the submission and the ba
 ## Etappe 2: Querschnitte verstehen
 
 **Test:** Rechnet einen Stab, dessen Querschnitt sich über die Länge ändert, von Hand nach und vergleicht mit eurem Programm.
+
+**Wichtigste Prompts:**
+> Wir beginnen mit Etappe 2: Querschnitte verstehen. Untersuche die Stabliste und die Rhino-Geometrien aus Etappe 1. Bestimme für jeden Stab die Querschnittsfläche in m² und das Volumen in m³. Unterscheide zwischen konstanten und veränderlichen Querschnitten. Nutze vorhandene 3D-Körper, Profilinformationen und Geometrien, soweit verfügbar. Falls Informationen fehlen, kennzeichne das ausdrücklich, statt Werte zu schätzen.
 
 **Ergebnis:** **386 von 502 Flat Bar Breps haben VARIABLEN Querschnitt** – die Breite ändert sich linear entlang der Länge (Verjüngung). Das gilt für **alle Flachstab-Querschnitte außer den quadratischen 33.3/20** (20 mm × 20 mm, konstant). Rundrohre und Kastenprofile sind konstant.
 
@@ -180,6 +186,9 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 
 **Test:** Sind die Materialangaben, die schon im Modell stehen, plausibel? Zeigt an einem Stab, wie ihr das geprüft habt.
 
+**Wichtigste Prompts:**
+> Wir bearbeiten jetzt Etappe 3 "Material zuordnen". Untersuche die vorhandenen Projektdaten und die Ergebnisse aus Etappe 1 und 2. Lies alle vorhandenen Materialinformationen aus dem Modell aus. Ordne jedem Stab ein Material zu. Verwende folgende Entscheidungsleiter: Regeln > Sprachmodell > Teamentscheidung. Dokumentiere für jeden Stab die Stab-ID, das vorhandene Material, das zugeordnete Material, die verwendete Entscheidungsstufe und die Begründung.
+
 **Verfügbare Materialinformationen im Modell:**
 - **Materialtabelle:** 15 Materialien definiert (B+G steel, B+G steel-00..03, B+G concrete-00..02, B+G timber-00..02, B+G glass, B+G default)
 - **MaterialIndex:** **-1 (keine Zuordnung) für alle 2986 Objekte** – die Materialien sind zwar in der Datei, aber keinem einzigen Stab zugewiesen
@@ -253,6 +262,9 @@ V = \int_0^L A(x)\,dx = t \times \frac{w_1 + w_2}{2} \times L = \frac{A_1 + A_2}
 
 **Test:** Rechnet einen Stab von seiner Länge bis zu kg CO₂e (A1–A3) von Hand nach.
 
+**Wichtigste Prompts:**
+> Wir bearbeiten Etappe 4 "Embodied Carbon aus der ÖKOBAUDAT". Rufe die vorgegebenen Datensätze live über die öffentliche API ab. Lies den Indikator GWP-total aus und untersuche die tatsächliche JSON-Struktur. Ermittle für jeden Datensatz die Bezugseinheit und die vorhandenen Werte der Lebenszyklusmodule A1–A3, C und D. Berechne die kg CO₂e für jeden Stab anhand seiner Materialzuordnung und seiner Materialmenge. Dokumentiere verwendete Dichten oder andere Umrechnungsfaktoren und begründe sie.
+
 **API-Anbindung ÖKOBAUDAT:**
 
 Fünf Datensätze live über die öffentliche API abgerufen:
@@ -324,6 +336,9 @@ https://oekobaudat.de/OEKOBAU.DAT/resource/processes/<UUID>?format=json&view=ext
 ## Etappe 5: Web-App
 
 **Test:** Schaltet beim Stahl auf die Alternative um. Was erwartet ihr vorher, was passiert, und warum?
+
+**Wichtigste Prompts:**
+> Wir bearbeiten Etappe 5 "Web-App". Baue eine lokal ausführbare Web-App auf Basis unserer bisherigen Ergebnisse aus Etappe 1–4. Anforderungen: Interaktives 3D-Modell des Pavillons mit Farbcodierung nach CO₂e, Umschaltung zwischen Standard- und Alternativdatensatz sowie zwischen A1–A3, C und D, Rangliste der Top 10 Stäbe, Klick-Interaktion für Stabdetails.
 
 **Umsetzung:** Lokale Web-App mit FastAPI + Plotly.js
 
