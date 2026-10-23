@@ -1,7 +1,7 @@
 [
   {
     "lc_uuid": "5499e7e7-e465-4e71-bb1c-4ffe596c628d",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -15,7 +15,7 @@
   },
   {
     "lc_uuid": "9f8c4c63-20aa-4078-89ae-335e9f3af54a",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -29,7 +29,7 @@
   },
   {
     "lc_uuid": "89e43f7e-b52a-402e-b241-19f1b4626d04",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -43,7 +43,7 @@
   },
   {
     "lc_uuid": "dd1918e1-65c8-448a-812e-fd0c2909ac7f",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -57,7 +57,7 @@
   },
   {
     "lc_uuid": "5e1d299b-d1d9-4643-bee9-deadd084b68b",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -71,7 +71,7 @@
   },
   {
     "lc_uuid": "5d480f39-078d-4abb-9cf0-d28cdcfd5ed4",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -85,7 +85,7 @@
   },
   {
     "lc_uuid": "34054ec4-4e22-460a-a5fb-98a6d311c4bc",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -99,7 +99,7 @@
   },
   {
     "lc_uuid": "fcd6a2a7-6991-4dea-9037-bb47388a6ccd",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -113,7 +113,7 @@
   },
   {
     "lc_uuid": "9d62494d-aed6-44b0-a080-028c07df8941",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -127,7 +127,7 @@
   },
   {
     "lc_uuid": "e2f378a8-537f-4ed8-8ed6-2190106c4e89",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -141,7 +141,7 @@
   },
   {
     "lc_uuid": "9c220d95-fe93-447a-9a94-50b076da08a1",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -155,7 +155,7 @@
   },
   {
     "lc_uuid": "e44fe205-4fb5-4224-b8f5-361c0e3a98c3",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -169,7 +169,7 @@
   },
   {
     "lc_uuid": "11323162-9fa3-4075-badf-c77db6639fa3",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -183,7 +183,7 @@
   },
   {
     "lc_uuid": "fde4ff37-cd99-47db-9254-fc766869a2ab",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -197,7 +197,7 @@
   },
   {
     "lc_uuid": "9fa461ed-3fb9-40fa-b582-5947040ecbb2",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -211,7 +211,7 @@
   },
   {
     "lc_uuid": "37f2bc34-3f0c-43b9-8f71-9a314f621851",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -225,7 +225,7 @@
   },
   {
     "lc_uuid": "f6694d5f-319b-44b1-8738-0a94d82728c7",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -239,7 +239,7 @@
   },
   {
     "lc_uuid": "92705a52-150c-40bd-827f-b286d607c261",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -253,7 +253,7 @@
   },
   {
     "lc_uuid": "c7d46bdd-22e2-49f2-b4b5-56d1e6d6c635",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -267,7 +267,7 @@
   },
   {
     "lc_uuid": "c97fe8b4-2991-46bb-87fc-271cd6904d7a",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -281,7 +281,7 @@
   },
   {
     "lc_uuid": "35c8c953-0a32-4234-b03d-52474d9603f4",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -295,7 +295,7 @@
   },
   {
     "lc_uuid": "5c92f747-89a3-436d-a67f-61dc7bf90fce",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -309,7 +309,7 @@
   },
   {
     "lc_uuid": "3f1ad036-b855-41e6-80dc-9dcaf5666a0c",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -323,7 +323,7 @@
   },
   {
     "lc_uuid": "22fd14be-9252-4a64-b1c9-3b3ae1cef2a4",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -337,7 +337,7 @@
   },
   {
     "lc_uuid": "d4e446a9-0a1d-4493-9cd2-933e698e637e",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -351,7 +351,7 @@
   },
   {
     "lc_uuid": "7539c1c4-2827-4475-bda7-e638bdf5408c",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -365,7 +365,7 @@
   },
   {
     "lc_uuid": "3ad88e68-f87c-452b-8193-1e40b54d916e",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -379,7 +379,7 @@
   },
   {
     "lc_uuid": "820f2d1f-84cd-4aa6-a48f-58c634abf953",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -393,7 +393,7 @@
   },
   {
     "lc_uuid": "559bc5cc-515a-48ed-94da-ff8773bdcd9b",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -407,7 +407,7 @@
   },
   {
     "lc_uuid": "e3656c8a-c16e-45c0-aeea-69eed03161b3",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -421,7 +421,7 @@
   },
   {
     "lc_uuid": "a82b38dc-b69e-4d7a-b2cf-203c564d2847",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -435,7 +435,7 @@
   },
   {
     "lc_uuid": "4b363953-0544-456a-8dac-5011575b20b9",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -449,7 +449,7 @@
   },
   {
     "lc_uuid": "d434017d-1b21-44c0-9b08-cc6b9ecfdf73",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -463,7 +463,7 @@
   },
   {
     "lc_uuid": "f141ea34-aea0-4afd-b8de-49f5baa79ec6",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -477,7 +477,7 @@
   },
   {
     "lc_uuid": "6fc6b5ed-dd55-41c0-9ad9-3339d75f26c0",
-    "layer": "Flat Bar 162.5/12",
+    "layer": "Flachstahl 163x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00067215,
@@ -491,7 +491,7 @@
   },
   {
     "lc_uuid": "e420e05b-5c02-4b8d-8d24-dbb5f8df1a01",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -505,7 +505,7 @@
   },
   {
     "lc_uuid": "7b0a9b9a-f755-40d4-9db4-eac88d896be5",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -519,7 +519,7 @@
   },
   {
     "lc_uuid": "fd327682-ea01-4a58-8acf-8bc370ffff63",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -533,7 +533,7 @@
   },
   {
     "lc_uuid": "e88425db-615b-47f4-81c5-7379c5010e2a",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -547,7 +547,7 @@
   },
   {
     "lc_uuid": "ed319110-2191-4763-a972-50f404981ac0",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -561,7 +561,7 @@
   },
   {
     "lc_uuid": "a9285724-f9c3-42e7-8fd1-1af3a0d764ea",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -575,7 +575,7 @@
   },
   {
     "lc_uuid": "5aab3dc2-ca07-4edd-9f34-f12c22f4a70d",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -589,7 +589,7 @@
   },
   {
     "lc_uuid": "c95a9600-8bf8-44d9-952f-188b049e1cec",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -603,7 +603,7 @@
   },
   {
     "lc_uuid": "79c1f580-75e6-4fae-b721-e621370ba3a2",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -617,7 +617,7 @@
   },
   {
     "lc_uuid": "6c4930ab-63f1-4227-8543-f43ebf4e6600",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -631,7 +631,7 @@
   },
   {
     "lc_uuid": "f0e8a360-0dd8-4f78-93ef-30bc6756f967",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -645,7 +645,7 @@
   },
   {
     "lc_uuid": "9a11668d-3cfc-405f-ba2d-76baa39ba47e",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -659,7 +659,7 @@
   },
   {
     "lc_uuid": "8de93e83-1e8b-4c28-b81d-f18f4685736d",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -673,7 +673,7 @@
   },
   {
     "lc_uuid": "18bbde38-f4a2-4ce5-9138-70c77b201233",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -687,7 +687,7 @@
   },
   {
     "lc_uuid": "ede33e6c-1de0-4041-aae2-b484fceaf6f9",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00111535,
@@ -701,7 +701,7 @@
   },
   {
     "lc_uuid": "dd4ae0f3-663f-441b-a5c4-3807c5ca768b",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -715,7 +715,7 @@
   },
   {
     "lc_uuid": "866a80b8-d9af-4749-be25-ee813c2d1aef",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -729,7 +729,7 @@
   },
   {
     "lc_uuid": "bc732359-9d94-43c2-9451-1e227e75d008",
-    "layer": "Flat Bar 162.5/20",
+    "layer": "Flachstahl 163x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00106038,
@@ -743,7 +743,7 @@
   },
   {
     "lc_uuid": "735fc3cd-c5dd-41a6-be99-e87fbbddf5af",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -757,7 +757,7 @@
   },
   {
     "lc_uuid": "33d668fa-e71f-4827-967e-b9ccc1bdf295",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -771,7 +771,7 @@
   },
   {
     "lc_uuid": "dd023897-53e8-4bda-a416-7b7a582f6f7c",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -785,7 +785,7 @@
   },
   {
     "lc_uuid": "a8868b00-feed-4d9e-8b68-8309b6f5c7e5",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -799,7 +799,7 @@
   },
   {
     "lc_uuid": "bf85eb75-567a-48c3-9159-6f6074d8f292",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -813,7 +813,7 @@
   },
   {
     "lc_uuid": "9789b1d3-a7c3-41d5-93b2-36d94563ee96",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -827,7 +827,7 @@
   },
   {
     "lc_uuid": "f79dfb43-5123-482f-a108-1d3661a7b89b",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -841,7 +841,7 @@
   },
   {
     "lc_uuid": "d1e04d94-c1f0-4cf0-8cd5-69dc67555065",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -855,7 +855,7 @@
   },
   {
     "lc_uuid": "6ba44033-29d7-4b1f-b95b-89a88bff3071",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -869,7 +869,7 @@
   },
   {
     "lc_uuid": "517d8fad-7381-4482-8140-86c47fc845fe",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -883,7 +883,7 @@
   },
   {
     "lc_uuid": "69266edb-b7d3-46f6-be39-813930ab2cfe",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -897,7 +897,7 @@
   },
   {
     "lc_uuid": "4c87379c-d536-4f8a-9a1b-da00051ddfd8",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -911,7 +911,7 @@
   },
   {
     "lc_uuid": "689d49e8-09b4-46bc-9e55-51b10e18fb8a",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -925,7 +925,7 @@
   },
   {
     "lc_uuid": "de7bee7c-2ada-4480-80f2-ed4b91007d2e",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -939,7 +939,7 @@
   },
   {
     "lc_uuid": "8b12266c-9ef3-4a27-8ac0-697a0c42047c",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -953,7 +953,7 @@
   },
   {
     "lc_uuid": "6129272d-d513-4d5d-bae3-435a42f279f2",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -967,7 +967,7 @@
   },
   {
     "lc_uuid": "0455021b-1a08-455c-9f07-546dccb4f44d",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -981,7 +981,7 @@
   },
   {
     "lc_uuid": "7ac33694-85ab-4839-ad2d-36e33ae26356",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -995,7 +995,7 @@
   },
   {
     "lc_uuid": "b7b3916e-d8e1-40cc-be37-ddceab72307c",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1009,7 +1009,7 @@
   },
   {
     "lc_uuid": "10e1f4ef-c923-46f7-8098-28fe47ed6abb",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1023,7 +1023,7 @@
   },
   {
     "lc_uuid": "c8976fbc-fd80-4a87-b7e7-3afdb746b9b3",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1037,7 +1037,7 @@
   },
   {
     "lc_uuid": "f4bf6c4a-fe57-4ed5-ae2c-6c1b00c9affe",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1051,7 +1051,7 @@
   },
   {
     "lc_uuid": "1968a045-5397-418f-8101-12cbf33c1c80",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1065,7 +1065,7 @@
   },
   {
     "lc_uuid": "a1b8e6d5-e48b-4bbc-a5e1-99713f4aa085",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1079,7 +1079,7 @@
   },
   {
     "lc_uuid": "8363b20a-84cc-4115-97b0-b383813379b3",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1093,7 +1093,7 @@
   },
   {
     "lc_uuid": "a4509a21-0756-4eba-a819-3a858521f1db",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1107,7 +1107,7 @@
   },
   {
     "lc_uuid": "24576814-1e1a-41c5-9398-9b5706d9a97f",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1121,7 +1121,7 @@
   },
   {
     "lc_uuid": "23a8bc19-74f0-4379-8402-4cb9c784ece6",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1135,7 +1135,7 @@
   },
   {
     "lc_uuid": "c17d89f8-d1db-4f3b-bb42-41b59c450665",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1149,7 +1149,7 @@
   },
   {
     "lc_uuid": "3fc6b903-ced3-47fc-946f-aabc671e9091",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1163,7 +1163,7 @@
   },
   {
     "lc_uuid": "0865db6f-04f8-4e56-82a3-574f084d4bd9",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1177,7 +1177,7 @@
   },
   {
     "lc_uuid": "90909ecc-1f0e-47b1-a3d1-c0d2f74f3375",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1191,7 +1191,7 @@
   },
   {
     "lc_uuid": "c41643c8-3f4c-48b6-80a0-cde853124207",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1205,7 +1205,7 @@
   },
   {
     "lc_uuid": "0ff3e0ec-3777-44a4-8b7d-adbf2cb4b71e",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1219,7 +1219,7 @@
   },
   {
     "lc_uuid": "98053cec-5591-4e6b-9c2e-fee18ab9ce7f",
-    "layer": "Flat Bar 175/12",
+    "layer": "Flachstahl 175x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0015219,
@@ -1233,7 +1233,7 @@
   },
   {
     "lc_uuid": "4a193d06-b08a-4f83-852d-2f8c53568a1d",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1247,7 +1247,7 @@
   },
   {
     "lc_uuid": "ff31e2a4-9f32-43b7-a5d0-58a755eb7153",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1261,7 +1261,7 @@
   },
   {
     "lc_uuid": "d2d6c950-5a3e-44da-bbbd-17d76fd23b2a",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1275,7 +1275,7 @@
   },
   {
     "lc_uuid": "a7890c69-6031-4b67-90ff-411e01b593b3",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1289,7 +1289,7 @@
   },
   {
     "lc_uuid": "f12db1f3-4c72-48cb-8b6c-32f0f034870d",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1303,7 +1303,7 @@
   },
   {
     "lc_uuid": "f68ec1ea-5343-463a-85b2-550f568e25fb",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1317,7 +1317,7 @@
   },
   {
     "lc_uuid": "09a36e9d-73b7-4346-911d-c98d6e8085ab",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1331,7 +1331,7 @@
   },
   {
     "lc_uuid": "d9b99f8a-eb2e-4af5-9759-10d3ee5504a2",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1345,7 +1345,7 @@
   },
   {
     "lc_uuid": "aed57ac6-d3e0-4393-a31e-c519ec4854cc",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1359,7 +1359,7 @@
   },
   {
     "lc_uuid": "c2782d1a-c2d9-45fa-95c7-3104f77ed500",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1373,7 +1373,7 @@
   },
   {
     "lc_uuid": "f3fc9c1c-cf65-45f2-af7e-96a920273b19",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1387,7 +1387,7 @@
   },
   {
     "lc_uuid": "88b54418-9d8f-4dfb-a41c-3cef44b8a637",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1401,7 +1401,7 @@
   },
   {
     "lc_uuid": "ff403df3-0b88-4cc0-b92b-7182bd67a447",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1415,7 +1415,7 @@
   },
   {
     "lc_uuid": "1ea3ce39-452b-47a2-a313-8f5bc7b36cb3",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1429,7 +1429,7 @@
   },
   {
     "lc_uuid": "6888f4cd-284e-4af8-9732-767983f4ad38",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1443,7 +1443,7 @@
   },
   {
     "lc_uuid": "1a0a026a-7c9a-460e-b7e6-de58627ff8e5",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1457,7 +1457,7 @@
   },
   {
     "lc_uuid": "36f47b3f-499c-4f46-8bac-feea255d75b6",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1471,7 +1471,7 @@
   },
   {
     "lc_uuid": "e6b4801a-05f2-4840-a60e-5a2619444b56",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1485,7 +1485,7 @@
   },
   {
     "lc_uuid": "8e5720cd-a813-4ac3-bbde-c86226242223",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1499,7 +1499,7 @@
   },
   {
     "lc_uuid": "e81b97ef-181d-4899-b297-737445927a88",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1513,7 +1513,7 @@
   },
   {
     "lc_uuid": "9d9fa76c-f53c-49af-8499-df539d926dfd",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1527,7 +1527,7 @@
   },
   {
     "lc_uuid": "e4a09856-71ea-4330-9a15-6c73108bbd6c",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00252541,
@@ -1541,7 +1541,7 @@
   },
   {
     "lc_uuid": "5dfc9ea1-b645-437b-8d15-c525295fa67f",
-    "layer": "Flat Bar 175/20",
+    "layer": "Flachstahl 175x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00246653,
@@ -1555,7 +1555,7 @@
   },
   {
     "lc_uuid": "bf3d7922-b3b4-429b-bdac-579ab7957f17",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1569,7 +1569,7 @@
   },
   {
     "lc_uuid": "6903c30c-ac46-4619-9b20-e0dfdcebc2f8",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1583,7 +1583,7 @@
   },
   {
     "lc_uuid": "7acd2073-8cde-44fd-b096-0ac5b2b3ee33",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1597,7 +1597,7 @@
   },
   {
     "lc_uuid": "1e7c5c0b-6980-472f-b2a9-24a6d2d29770",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1611,7 +1611,7 @@
   },
   {
     "lc_uuid": "0366fefa-f294-41a3-b1f4-b83d54c6a4ca",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1625,7 +1625,7 @@
   },
   {
     "lc_uuid": "4450ef36-6e0e-41a1-9477-97e62aa3df71",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1639,7 +1639,7 @@
   },
   {
     "lc_uuid": "4d5d0618-6d9f-4fd7-81fc-62e85f92b14c",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1653,7 +1653,7 @@
   },
   {
     "lc_uuid": "94a9c31f-1ded-4b7c-9318-98895918c3f3",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1667,7 +1667,7 @@
   },
   {
     "lc_uuid": "4d999a00-2d34-480f-bf6d-698c55027652",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1681,7 +1681,7 @@
   },
   {
     "lc_uuid": "8d5a49c6-f5b5-4981-a65e-58e42619ff07",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1695,7 +1695,7 @@
   },
   {
     "lc_uuid": "6cc4ba61-0ca8-42ff-99c4-4400c850574d",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1709,7 +1709,7 @@
   },
   {
     "lc_uuid": "44699d4e-8ebb-4791-a7a7-16e4b8b26801",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1723,7 +1723,7 @@
   },
   {
     "lc_uuid": "2062237b-2fc1-40b3-a309-776c6e7c0ee2",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1737,7 +1737,7 @@
   },
   {
     "lc_uuid": "7c04340b-7a72-40a4-8001-4109c30f2eab",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1751,7 +1751,7 @@
   },
   {
     "lc_uuid": "ce4391a9-5aa3-4faa-8348-70ff28871c65",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1765,7 +1765,7 @@
   },
   {
     "lc_uuid": "58d040ba-4a70-4cb4-aae9-b6fd17092064",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1779,7 +1779,7 @@
   },
   {
     "lc_uuid": "8357911a-3043-4c05-b197-5aa54c6a33f4",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1793,7 +1793,7 @@
   },
   {
     "lc_uuid": "6005f360-12b8-46db-aae8-1550f40ab8c5",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1807,7 +1807,7 @@
   },
   {
     "lc_uuid": "1485d408-405b-4373-b5ae-4036ba625908",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1821,7 +1821,7 @@
   },
   {
     "lc_uuid": "09760e56-4c6d-4c0f-a512-552a8456478f",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1835,7 +1835,7 @@
   },
   {
     "lc_uuid": "68db31af-8d98-434e-8b1b-9aa82331b8b0",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1849,7 +1849,7 @@
   },
   {
     "lc_uuid": "f840bb39-f39c-45fd-8933-68cecd68fa56",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1863,7 +1863,7 @@
   },
   {
     "lc_uuid": "cf7d9b6d-4c64-419f-9e52-6519c211378b",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1877,7 +1877,7 @@
   },
   {
     "lc_uuid": "b58ac9fb-c3dd-4d8a-8f50-a803cecc7a89",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1891,7 +1891,7 @@
   },
   {
     "lc_uuid": "37ddf183-a453-40b2-b9a9-07eb16f0a3a5",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1905,7 +1905,7 @@
   },
   {
     "lc_uuid": "85e52dc2-40de-47aa-9da8-3a80ebd61173",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1919,7 +1919,7 @@
   },
   {
     "lc_uuid": "19e54ba2-b5f5-408b-8bfe-67461bbe7908",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1933,7 +1933,7 @@
   },
   {
     "lc_uuid": "884deca9-b8df-471f-98bd-9ea4942ef449",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1947,7 +1947,7 @@
   },
   {
     "lc_uuid": "38e4d1dd-1d73-41fc-8e96-f4cf30315890",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1961,7 +1961,7 @@
   },
   {
     "lc_uuid": "b984cf4c-2d41-4de3-8022-6404b9846801",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1975,7 +1975,7 @@
   },
   {
     "lc_uuid": "5ebf1cc7-319a-476e-9812-22d500ccf688",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -1989,7 +1989,7 @@
   },
   {
     "lc_uuid": "ffcb9610-1500-4a33-8418-1831b1db0237",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -2003,7 +2003,7 @@
   },
   {
     "lc_uuid": "861a60b3-34a2-4230-8bf6-90dd3b4a5965",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -2017,7 +2017,7 @@
   },
   {
     "lc_uuid": "a94eca68-bd3d-4e41-8ae4-7e61f4c65d27",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -2031,7 +2031,7 @@
   },
   {
     "lc_uuid": "b9f3d77e-bca1-44dd-b5fc-2a68ad32b69c",
-    "layer": "Flat Bar 200/12",
+    "layer": "Flachstahl 200x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00084932,
@@ -2045,7 +2045,7 @@
   },
   {
     "lc_uuid": "fd69311e-c948-4864-ad91-0dad7aea4d3f",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2059,7 +2059,7 @@
   },
   {
     "lc_uuid": "0b4bed01-b0d6-46f9-beb3-ceb405bcd0ea",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2073,7 +2073,7 @@
   },
   {
     "lc_uuid": "a2b7b828-c575-48e9-838e-2b61c88c840b",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2087,7 +2087,7 @@
   },
   {
     "lc_uuid": "77b2fc26-7e14-4374-a612-a7cf65f2967a",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2101,7 +2101,7 @@
   },
   {
     "lc_uuid": "479ae7e6-a3a1-43b7-8b28-dddc64803178",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2115,7 +2115,7 @@
   },
   {
     "lc_uuid": "1c135016-e319-436d-b42f-e74676c26a52",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2129,7 +2129,7 @@
   },
   {
     "lc_uuid": "2dda8015-fbf9-4eb9-a0ab-dabb6fdfc2f9",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2143,7 +2143,7 @@
   },
   {
     "lc_uuid": "791dedd9-c35b-42f7-bb64-b6b6c8a5a679",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2157,7 +2157,7 @@
   },
   {
     "lc_uuid": "736b35fc-4e03-49bb-a09b-541b0116c603",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2171,7 +2171,7 @@
   },
   {
     "lc_uuid": "8027e6e9-6af5-4988-922a-935fd04e9236",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2185,7 +2185,7 @@
   },
   {
     "lc_uuid": "ed63c26b-537c-48b4-ba12-e948625bb940",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2199,7 +2199,7 @@
   },
   {
     "lc_uuid": "5b717015-9fbb-4bc8-8829-1781f8017b11",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2213,7 +2213,7 @@
   },
   {
     "lc_uuid": "f31ef3fb-2d78-4fd9-8fc4-da85d54ae4bb",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2227,7 +2227,7 @@
   },
   {
     "lc_uuid": "5058786e-096d-4481-92cc-8b3dfaf88ebd",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2241,7 +2241,7 @@
   },
   {
     "lc_uuid": "928ab4c1-532d-4670-92cc-0551837103cd",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2255,7 +2255,7 @@
   },
   {
     "lc_uuid": "023da4d1-b722-4ddc-953c-daeccfb832ee",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2269,7 +2269,7 @@
   },
   {
     "lc_uuid": "8ed4eef8-85c2-44ac-a8d9-62862e3d70b8",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2283,7 +2283,7 @@
   },
   {
     "lc_uuid": "41450aa0-fcd6-413e-aab8-906667acf781",
-    "layer": "Flat Bar 200/20",
+    "layer": "Flachstahl 200x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00140934,
@@ -2297,7 +2297,7 @@
   },
   {
     "lc_uuid": "9596b7af-a8d0-4cee-ba5f-ba720fcffc9b",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2311,7 +2311,7 @@
   },
   {
     "lc_uuid": "958dfc6c-20e5-44e0-b1e1-d8e1385550e3",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2325,7 +2325,7 @@
   },
   {
     "lc_uuid": "9c154122-7b63-4d57-8b42-2c7e24d1d768",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2339,7 +2339,7 @@
   },
   {
     "lc_uuid": "50b8d642-09af-4781-b015-30e20c25e666",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2353,7 +2353,7 @@
   },
   {
     "lc_uuid": "8b7e088c-f8a5-4ff7-80e3-9e33b9ede1a6",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2367,7 +2367,7 @@
   },
   {
     "lc_uuid": "c85a2b96-9808-40a5-b327-65533ee59210",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2381,7 +2381,7 @@
   },
   {
     "lc_uuid": "aa57e8a2-59f8-40e1-a9b0-b869767f7d56",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2395,7 +2395,7 @@
   },
   {
     "lc_uuid": "413aa50a-fed5-4a66-94e3-d873f8f2d9ff",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2409,7 +2409,7 @@
   },
   {
     "lc_uuid": "12c56fd9-4f57-4f43-8a98-128b97f72997",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2423,7 +2423,7 @@
   },
   {
     "lc_uuid": "e101de3c-4027-4f31-b4ef-77330cce0fc0",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2437,7 +2437,7 @@
   },
   {
     "lc_uuid": "2617e62a-a5f8-48e2-968b-36bf3583cf8b",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2451,7 +2451,7 @@
   },
   {
     "lc_uuid": "b34bce9f-6d36-4bce-bd2b-1d637f87fd1c",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2465,7 +2465,7 @@
   },
   {
     "lc_uuid": "92fbbebd-150d-4aff-bf9c-094232daa571",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2479,7 +2479,7 @@
   },
   {
     "lc_uuid": "0f758d32-5924-4f3f-ad40-17e36a0e10f1",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2493,7 +2493,7 @@
   },
   {
     "lc_uuid": "f9d3e52f-ce5c-4ddb-83fd-225489cc8fa4",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2507,7 +2507,7 @@
   },
   {
     "lc_uuid": "bc69796d-a85e-403e-b4fe-09b9dbfaa389",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2521,7 +2521,7 @@
   },
   {
     "lc_uuid": "6d609ceb-462d-41eb-a19d-72f37411088b",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2535,7 +2535,7 @@
   },
   {
     "lc_uuid": "fcae4dbd-b10c-4925-a0a9-0a98365bff0f",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2549,7 +2549,7 @@
   },
   {
     "lc_uuid": "ab7556cc-3e45-4724-94b3-ffa4d8c69df5",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2563,7 +2563,7 @@
   },
   {
     "lc_uuid": "f7b273a4-240e-48f2-82c8-b174f9ca1325",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2577,7 +2577,7 @@
   },
   {
     "lc_uuid": "aa65e735-51be-4b67-8e81-2e5ac0b04ff4",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2591,7 +2591,7 @@
   },
   {
     "lc_uuid": "91d5a227-fa51-45a8-89fe-3d2459ad8f4c",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2605,7 +2605,7 @@
   },
   {
     "lc_uuid": "10b4f62b-09d6-44b5-bba3-90f73cf60bc9",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2619,7 +2619,7 @@
   },
   {
     "lc_uuid": "557ba50c-7707-4f89-b6c6-0c36ae6cc1cc",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2633,7 +2633,7 @@
   },
   {
     "lc_uuid": "837274e5-50ea-4324-8804-6819ab6edd2f",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2647,7 +2647,7 @@
   },
   {
     "lc_uuid": "ee210e7d-f339-4eef-8f79-08e0b879f66c",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2661,7 +2661,7 @@
   },
   {
     "lc_uuid": "50f7f551-f8fe-448a-a067-3811380300fa",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2675,7 +2675,7 @@
   },
   {
     "lc_uuid": "d1a6f690-d498-4041-8488-9255036acf5b",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2689,7 +2689,7 @@
   },
   {
     "lc_uuid": "30d9c5c6-979d-4490-9171-3235cbc78ab2",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2703,7 +2703,7 @@
   },
   {
     "lc_uuid": "4c1b5cdb-3790-4e3b-aa23-cde44f461663",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2717,7 +2717,7 @@
   },
   {
     "lc_uuid": "a3c06d11-02ef-4ef1-ad48-8f9c1dc273f8",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2731,7 +2731,7 @@
   },
   {
     "lc_uuid": "dbd13b0e-7206-404c-b384-209dbb7bb317",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2745,7 +2745,7 @@
   },
   {
     "lc_uuid": "21ed7dcb-a2a6-4a62-bdca-f06161fa65f6",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2759,7 +2759,7 @@
   },
   {
     "lc_uuid": "8b5f5fd8-a5b5-41aa-ae87-ab4670a1b30d",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2773,7 +2773,7 @@
   },
   {
     "lc_uuid": "54d21919-6c67-402a-8b7a-1231c5e0e366",
-    "layer": "Flat Bar 225/12",
+    "layer": "Flachstahl 225x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00203261,
@@ -2787,7 +2787,7 @@
   },
   {
     "lc_uuid": "3822c55d-dfa0-4369-86ec-16063d127da2",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2801,7 +2801,7 @@
   },
   {
     "lc_uuid": "aab54f0d-9823-4a85-984a-6f168a9ed87e",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2815,7 +2815,7 @@
   },
   {
     "lc_uuid": "3587ff4e-db17-4247-9dce-6aeb968cc521",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2829,7 +2829,7 @@
   },
   {
     "lc_uuid": "17814f2c-6013-4351-8e19-2dd590049c9e",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2843,7 +2843,7 @@
   },
   {
     "lc_uuid": "bc7737cb-cd17-4a6a-a945-1d5e568b8a1a",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2857,7 +2857,7 @@
   },
   {
     "lc_uuid": "640b314a-176b-4ea0-be72-50bac8683a0f",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2871,7 +2871,7 @@
   },
   {
     "lc_uuid": "58d4edff-00c2-47c0-b671-92f175ac2fe0",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2885,7 +2885,7 @@
   },
   {
     "lc_uuid": "a6b0372c-7a75-4650-a621-fb901f7fe9a3",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2899,7 +2899,7 @@
   },
   {
     "lc_uuid": "0d83cce0-5460-4947-958b-5c7ece0d9219",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2913,7 +2913,7 @@
   },
   {
     "lc_uuid": "9aff22f6-9350-468f-a452-a86da609bacc",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2927,7 +2927,7 @@
   },
   {
     "lc_uuid": "5319250d-e384-47e0-8166-9916808276e0",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2941,7 +2941,7 @@
   },
   {
     "lc_uuid": "5577ae05-c0f3-43b9-b876-eb39e716d523",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2955,7 +2955,7 @@
   },
   {
     "lc_uuid": "3507821f-6af2-4312-876e-40ff710b8388",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2969,7 +2969,7 @@
   },
   {
     "lc_uuid": "cd5892d6-30cc-409b-bb99-7cc34aac5c6d",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2983,7 +2983,7 @@
   },
   {
     "lc_uuid": "27922123-f2ab-47c3-a830-064c34f17c67",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -2997,7 +2997,7 @@
   },
   {
     "lc_uuid": "069de7d5-8a33-4354-b10d-f006013d9ec8",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3011,7 +3011,7 @@
   },
   {
     "lc_uuid": "5100eedb-34fb-4a70-a090-27dd6b797ee7",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3025,7 +3025,7 @@
   },
   {
     "lc_uuid": "dcf0539b-a0ed-40e3-aec2-e45f4edc9de1",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3039,7 +3039,7 @@
   },
   {
     "lc_uuid": "74ce2ce9-6681-405c-a238-0e6bc9aa301d",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3053,7 +3053,7 @@
   },
   {
     "lc_uuid": "3571ebc5-a682-4acd-b742-52f5d1888ebc",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3067,7 +3067,7 @@
   },
   {
     "lc_uuid": "b3ef034f-470a-4153-83b5-3fd5b319265f",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3081,7 +3081,7 @@
   },
   {
     "lc_uuid": "5114b5d8-4d30-4601-9a82-1d8ed894da65",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3095,7 +3095,7 @@
   },
   {
     "lc_uuid": "a9fa9bc9-080e-416f-a519-5dcab94a0641",
-    "layer": "Flat Bar 225/20",
+    "layer": "Flachstahl 225x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00337286,
@@ -3109,7 +3109,7 @@
   },
   {
     "lc_uuid": "e89a9b8f-6024-4e47-a20d-a055e41a7153",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3123,7 +3123,7 @@
   },
   {
     "lc_uuid": "4b7040ce-2dba-46c1-9498-a1aa89500fc4",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3137,7 +3137,7 @@
   },
   {
     "lc_uuid": "ed0b9650-ad3d-4e76-b8c9-e8a5e9414300",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3151,7 +3151,7 @@
   },
   {
     "lc_uuid": "fb2d6a93-e6ca-4765-bc5e-fe1538ff6d76",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3165,7 +3165,7 @@
   },
   {
     "lc_uuid": "fd9f4b13-ec4a-4b69-ad1a-330db59e2633",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3179,7 +3179,7 @@
   },
   {
     "lc_uuid": "790e1ab9-53e5-42ca-a001-51478e34dd46",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3193,7 +3193,7 @@
   },
   {
     "lc_uuid": "b72cc1ca-e59c-40c1-b652-be7d0063eada",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3207,7 +3207,7 @@
   },
   {
     "lc_uuid": "b367514a-3c51-4df3-a422-4646894006d4",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3221,7 +3221,7 @@
   },
   {
     "lc_uuid": "64bd153c-8d62-4334-be49-274bcef8ce57",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3235,7 +3235,7 @@
   },
   {
     "lc_uuid": "458026c2-4041-47a5-ac5a-d46acd99d381",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3249,7 +3249,7 @@
   },
   {
     "lc_uuid": "7a017cab-d271-45e4-8457-e5c5d4a99b26",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3263,7 +3263,7 @@
   },
   {
     "lc_uuid": "4eb92502-6c8e-4b61-aa79-21d78348c72b",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3277,7 +3277,7 @@
   },
   {
     "lc_uuid": "d087968c-f730-4475-91c2-c23fbdc89d93",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3291,7 +3291,7 @@
   },
   {
     "lc_uuid": "9dbff4ea-9aad-4459-82af-cd6c99d725ff",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3305,7 +3305,7 @@
   },
   {
     "lc_uuid": "b5591a13-ad88-47dd-8387-854612856f04",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3319,7 +3319,7 @@
   },
   {
     "lc_uuid": "cc59ec06-9f99-4f54-be8b-f037c3358976",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3333,7 +3333,7 @@
   },
   {
     "lc_uuid": "c06dc3ef-cc47-43d7-be29-c3d2a709148d",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3347,7 +3347,7 @@
   },
   {
     "lc_uuid": "74e76c18-2090-415f-b178-cf35262a6608",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3361,7 +3361,7 @@
   },
   {
     "lc_uuid": "e91a62ae-34f5-4372-8647-0eeddb07d9dd",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3375,7 +3375,7 @@
   },
   {
     "lc_uuid": "746e367e-ac4e-482a-bd87-a6fb0c771692",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3389,7 +3389,7 @@
   },
   {
     "lc_uuid": "d057c825-0b86-45ff-8264-f1eca3a3ac38",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3403,7 +3403,7 @@
   },
   {
     "lc_uuid": "bb2c70df-3b1f-4123-a453-0d9af13dddc7",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3417,7 +3417,7 @@
   },
   {
     "lc_uuid": "c707d61a-36f6-4349-9735-142a33383c83",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3431,7 +3431,7 @@
   },
   {
     "lc_uuid": "89559a0d-ce9d-4ea1-92b1-b62f7206bc2b",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3445,7 +3445,7 @@
   },
   {
     "lc_uuid": "ccd2c546-a728-4b9b-955e-f694fa9f8e06",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3459,7 +3459,7 @@
   },
   {
     "lc_uuid": "f42c9c55-fcfb-44ca-b615-b8a7e24a0a39",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3473,7 +3473,7 @@
   },
   {
     "lc_uuid": "5fb1a30a-b4fa-4733-8d7c-42286de5383e",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3487,7 +3487,7 @@
   },
   {
     "lc_uuid": "52300a10-bdc7-4ec8-8d19-ffd3cc8cbfbc",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3501,7 +3501,7 @@
   },
   {
     "lc_uuid": "8263df50-dcce-4062-8f3f-90a21e491817",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3515,7 +3515,7 @@
   },
   {
     "lc_uuid": "60c557eb-79e7-4feb-a0f7-9057cd63f020",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3529,7 +3529,7 @@
   },
   {
     "lc_uuid": "3d0bcb73-6a62-40cd-af06-7aa259ecd19d",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3543,7 +3543,7 @@
   },
   {
     "lc_uuid": "f23cee81-687b-46c4-9442-ed2565abe57a",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3557,7 +3557,7 @@
   },
   {
     "lc_uuid": "cf02f167-6626-484a-8afc-943ebeabaaf1",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3571,7 +3571,7 @@
   },
   {
     "lc_uuid": "c6820e30-f226-4f70-a6fb-4e1b40c26039",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3585,7 +3585,7 @@
   },
   {
     "lc_uuid": "1f7c6544-553b-4302-aeee-28467fc89585",
-    "layer": "Flat Bar 237.5/12",
+    "layer": "Flachstahl 238x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00102529,
@@ -3599,7 +3599,7 @@
   },
   {
     "lc_uuid": "ef3da2d1-1975-4276-b0b5-46b1de672692",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3613,7 +3613,7 @@
   },
   {
     "lc_uuid": "01ad2315-54e7-4204-bd1b-7a1b016c020c",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3627,7 +3627,7 @@
   },
   {
     "lc_uuid": "6fdaf5a0-8a8f-4783-9b12-05bcafc5fc00",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3641,7 +3641,7 @@
   },
   {
     "lc_uuid": "78c4fa35-27e4-4068-9402-1fe133894dbe",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3655,7 +3655,7 @@
   },
   {
     "lc_uuid": "fc85a734-de2e-4b06-a976-7cb870257737",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3669,7 +3669,7 @@
   },
   {
     "lc_uuid": "8dab0618-0a3e-453b-98c8-6c1cabbc67bf",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3683,7 +3683,7 @@
   },
   {
     "lc_uuid": "8c99478e-7a8a-4aa0-807f-c149766c55d1",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3697,7 +3697,7 @@
   },
   {
     "lc_uuid": "c659a577-9ee3-4e99-a016-492c2ad5e029",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3711,7 +3711,7 @@
   },
   {
     "lc_uuid": "a2f8192d-6233-4a3e-8feb-3ab6fcc09676",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3725,7 +3725,7 @@
   },
   {
     "lc_uuid": "676b0378-751a-45b7-85dc-429678788875",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3739,7 +3739,7 @@
   },
   {
     "lc_uuid": "ca74fbe0-be09-421c-acdf-17e247d83352",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3753,7 +3753,7 @@
   },
   {
     "lc_uuid": "0e80ab1e-5703-4bba-bbd9-807686083ce8",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3767,7 +3767,7 @@
   },
   {
     "lc_uuid": "c1fd5aa8-ef57-4cbb-816e-0fb712906edb",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3781,7 +3781,7 @@
   },
   {
     "lc_uuid": "ff2a2e58-539d-4d04-b9d6-9b91133cbf7d",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3795,7 +3795,7 @@
   },
   {
     "lc_uuid": "37017937-e9c7-444f-a723-78c25a136641",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3809,7 +3809,7 @@
   },
   {
     "lc_uuid": "fe4be1f7-b157-4ce9-a062-fe7e88cde5ce",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3823,7 +3823,7 @@
   },
   {
     "lc_uuid": "0a1b69fb-f3ae-46bf-816a-72f43311db55",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3837,7 +3837,7 @@
   },
   {
     "lc_uuid": "cb6b6ee6-c179-46f9-838f-bec14fb6673d",
-    "layer": "Flat Bar 237.5/20",
+    "layer": "Flachstahl 238x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00170135,
@@ -3851,7 +3851,7 @@
   },
   {
     "lc_uuid": "b8cc1b87-85f9-4969-9e16-cf7f9d216318",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -3865,7 +3865,7 @@
   },
   {
     "lc_uuid": "8e8eb07b-1830-41fb-a422-bdfd4077ca4b",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3879,7 +3879,7 @@
   },
   {
     "lc_uuid": "8cca082e-3bd4-44cb-9c89-109c77072005",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3893,7 +3893,7 @@
   },
   {
     "lc_uuid": "537c6790-b55e-4e93-8593-affc58353c8d",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3907,7 +3907,7 @@
   },
   {
     "lc_uuid": "8fc0e427-2f47-4cde-8ed4-0ff5d7486bf1",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3921,7 +3921,7 @@
   },
   {
     "lc_uuid": "e8e5344d-ff77-4560-8cea-6677b8479c06",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3935,7 +3935,7 @@
   },
   {
     "lc_uuid": "787413ae-495c-4208-bb8c-1c5644f794a7",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3949,7 +3949,7 @@
   },
   {
     "lc_uuid": "aef9cb00-acd3-4d89-b78a-125405f1671c",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3963,7 +3963,7 @@
   },
   {
     "lc_uuid": "5ba9c2e9-fdd2-4d25-b3f3-5d31ade3c005",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3977,7 +3977,7 @@
   },
   {
     "lc_uuid": "ff0619ac-f227-4ab9-ba54-3843eb0f0838",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -3991,7 +3991,7 @@
   },
   {
     "lc_uuid": "bb79bac9-a97e-44b8-896c-1d0e98611b98",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4005,7 +4005,7 @@
   },
   {
     "lc_uuid": "07fbf2fc-be9a-4813-8e3d-0132ce19d840",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4019,7 +4019,7 @@
   },
   {
     "lc_uuid": "63d818a5-115b-498b-9e4b-6c8089e08f37",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4033,7 +4033,7 @@
   },
   {
     "lc_uuid": "39497b79-8b21-425e-83ca-7cc1042d6b0e",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4047,7 +4047,7 @@
   },
   {
     "lc_uuid": "6c5eecaf-0849-4ac0-8f89-f0dacf77b3c6",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4061,7 +4061,7 @@
   },
   {
     "lc_uuid": "4afffaca-f807-4b79-aaec-03574d2d6ed1",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4075,7 +4075,7 @@
   },
   {
     "lc_uuid": "2e3ec15f-ec2b-4e62-8138-9cd8713cb747",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4089,7 +4089,7 @@
   },
   {
     "lc_uuid": "043f67ce-3a9a-4786-b414-7fe1b2d47f7c",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4103,7 +4103,7 @@
   },
   {
     "lc_uuid": "978be8b9-4949-42a5-aac3-a8798305f886",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4117,7 +4117,7 @@
   },
   {
     "lc_uuid": "c437f7ee-c174-4ea8-badd-50db1eea0e0f",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4131,7 +4131,7 @@
   },
   {
     "lc_uuid": "181700ec-fab8-4b7c-af1b-bf988e37533e",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4145,7 +4145,7 @@
   },
   {
     "lc_uuid": "10b052a4-8d71-4067-aa22-b7bba77142d2",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4159,7 +4159,7 @@
   },
   {
     "lc_uuid": "e04ac0ad-962b-4907-87e4-f570eb176a50",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4173,7 +4173,7 @@
   },
   {
     "lc_uuid": "43708757-8b19-40ea-9023-61868305eac6",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4187,7 +4187,7 @@
   },
   {
     "lc_uuid": "6b72c28c-9396-4f32-bc98-6c06044115af",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4201,7 +4201,7 @@
   },
   {
     "lc_uuid": "d49eb4e3-46ff-4891-a86a-cc2cf00c9915",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4215,7 +4215,7 @@
   },
   {
     "lc_uuid": "e8a7e7cf-e83d-47e4-88d1-3a1156511803",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4229,7 +4229,7 @@
   },
   {
     "lc_uuid": "dea6ae92-4192-456d-be8c-658f22c3e463",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4243,7 +4243,7 @@
   },
   {
     "lc_uuid": "3f45a165-96fc-4918-a3e3-e342be3e6d6b",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4257,7 +4257,7 @@
   },
   {
     "lc_uuid": "c9be1a1d-d3f8-43a1-85f5-0c3981861392",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4271,7 +4271,7 @@
   },
   {
     "lc_uuid": "dc30f980-92ce-492e-be16-07804c6a640a",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4285,7 +4285,7 @@
   },
   {
     "lc_uuid": "a3d9dc79-79f9-44b2-9c39-c3465bfa069f",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4299,7 +4299,7 @@
   },
   {
     "lc_uuid": "b967e50d-341b-4d6b-8597-f5e58c8a002f",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4313,7 +4313,7 @@
   },
   {
     "lc_uuid": "4d973e33-a971-430f-a071-36d251c31e94",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4327,7 +4327,7 @@
   },
   {
     "lc_uuid": "8f158147-3c49-448a-95dc-fd21feae7b80",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4341,7 +4341,7 @@
   },
   {
     "lc_uuid": "f4e31e0f-fdda-4e1c-9d5e-6f4017a1b28b",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4355,7 +4355,7 @@
   },
   {
     "lc_uuid": "65985e97-5bee-49c8-ab8d-8d9f0ced405a",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4369,7 +4369,7 @@
   },
   {
     "lc_uuid": "565fe026-2779-47a9-8a10-a3c58496a848",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4383,7 +4383,7 @@
   },
   {
     "lc_uuid": "07bbb789-78b0-49ee-9457-d8ba2278704b",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4397,7 +4397,7 @@
   },
   {
     "lc_uuid": "cb8d7be2-5454-4863-9abf-b13ce9524029",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4411,7 +4411,7 @@
   },
   {
     "lc_uuid": "12a17cf4-9e2e-4df4-8341-e25639157f4b",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4425,7 +4425,7 @@
   },
   {
     "lc_uuid": "2fa9d234-def6-4976-ad2e-0ba869ca66dc",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4439,7 +4439,7 @@
   },
   {
     "lc_uuid": "2be09cff-a9d1-498c-8e09-5e6ae8172b70",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4453,7 +4453,7 @@
   },
   {
     "lc_uuid": "98127196-296e-4d9d-8585-ab64d5713577",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4467,7 +4467,7 @@
   },
   {
     "lc_uuid": "257ecf15-5cf9-43ec-89e9-82087055f8df",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4481,7 +4481,7 @@
   },
   {
     "lc_uuid": "9eaf0604-bc4a-4250-b2da-803690d5a2e9",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4495,7 +4495,7 @@
   },
   {
     "lc_uuid": "8e4d89cd-b618-4025-894c-61d3c8481b5b",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4509,7 +4509,7 @@
   },
   {
     "lc_uuid": "cb66bb7f-fafe-4136-8167-89b9ef268b17",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4523,7 +4523,7 @@
   },
   {
     "lc_uuid": "5a032f0c-46dd-45bc-ad99-73c2620f24c6",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4537,7 +4537,7 @@
   },
   {
     "lc_uuid": "d0be51f9-14eb-4696-a635-5bf2e3fbe771",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4551,7 +4551,7 @@
   },
   {
     "lc_uuid": "15897dd3-bcbb-4488-b64f-637c694a24c0",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4565,7 +4565,7 @@
   },
   {
     "lc_uuid": "9023119e-85c4-4f34-ad4f-a5078244398c",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4579,7 +4579,7 @@
   },
   {
     "lc_uuid": "a1f8b884-176e-42cd-92b1-efb65e3afa33",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4593,7 +4593,7 @@
   },
   {
     "lc_uuid": "c4c0c9ef-ba93-4075-a4c3-14f999781829",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4607,7 +4607,7 @@
   },
   {
     "lc_uuid": "a9b6fa61-d4de-4698-9568-845dfb7a9098",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4621,7 +4621,7 @@
   },
   {
     "lc_uuid": "ef8d3084-6023-421d-a3b1-ec42b89dd0b1",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0024835,
@@ -4635,7 +4635,7 @@
   },
   {
     "lc_uuid": "4db5f05c-41ff-48d7-91c9-51913b50fcf5",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4649,7 +4649,7 @@
   },
   {
     "lc_uuid": "e058560c-32c8-40b6-8e40-0a15342a2804",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4663,7 +4663,7 @@
   },
   {
     "lc_uuid": "3a29ecd9-c543-42ff-a916-fb50d799570a",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4677,7 +4677,7 @@
   },
   {
     "lc_uuid": "35ed5dd4-7b7a-4953-97dc-62ac147c2379",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4691,7 +4691,7 @@
   },
   {
     "lc_uuid": "2ad4a481-dc6e-4c0a-b6e9-3aa72aed12f4",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00120186,
@@ -4705,7 +4705,7 @@
   },
   {
     "lc_uuid": "82980a97-f300-46e0-bbf2-1833976b1ae6",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4719,7 +4719,7 @@
   },
   {
     "lc_uuid": "e4d0a3b8-959f-4804-9ef3-607377ed5801",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4733,7 +4733,7 @@
   },
   {
     "lc_uuid": "2ec4ec6f-33d4-4e22-bc4b-15f19dd85d02",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00114263,
@@ -4747,7 +4747,7 @@
   },
   {
     "lc_uuid": "a673def7-158f-4b9a-bba5-b9a975ed0d96",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4761,7 +4761,7 @@
   },
   {
     "lc_uuid": "5bbcd66f-788e-44d2-be8c-6faf314d0306",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4775,7 +4775,7 @@
   },
   {
     "lc_uuid": "aa563e67-81e0-4386-a9dd-36b4e48df30c",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4789,7 +4789,7 @@
   },
   {
     "lc_uuid": "7dbd3cc6-31ab-4364-8f49-3150f044d442",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4803,7 +4803,7 @@
   },
   {
     "lc_uuid": "f4994c4a-93af-40f9-a8f9-2fab673b42f6",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4817,7 +4817,7 @@
   },
   {
     "lc_uuid": "bf9a92df-637a-45a7-a45a-466e0ae0fe29",
-    "layer": "Flat Bar 275/12",
+    "layer": "Flachstahl 275x12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00254281,
@@ -4831,7 +4831,7 @@
   },
   {
     "lc_uuid": "0575757f-ea62-4a0e-8ae1-b73065774860",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4845,7 +4845,7 @@
   },
   {
     "lc_uuid": "a98cb4dd-b697-4bd2-b5ed-deb2a7864a20",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4859,7 +4859,7 @@
   },
   {
     "lc_uuid": "6fb2c98b-c698-428d-86b2-0567b074a159",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4873,7 +4873,7 @@
   },
   {
     "lc_uuid": "3637d3c5-eb87-48ec-8354-eb36a5f005e0",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4887,7 +4887,7 @@
   },
   {
     "lc_uuid": "cbc6169e-53b9-4982-8184-c127c2e4f4d8",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4901,7 +4901,7 @@
   },
   {
     "lc_uuid": "b2a23032-1750-46f8-b62c-88962ba92f0a",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -4915,7 +4915,7 @@
   },
   {
     "lc_uuid": "e8f702ba-01c0-44f5-adb2-ac4839cb8a08",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -4929,7 +4929,7 @@
   },
   {
     "lc_uuid": "7d867882-2e58-4011-a93d-d004cbc550ea",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -4943,7 +4943,7 @@
   },
   {
     "lc_uuid": "f2ab717e-387e-45cb-bfce-c225ca08ca02",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4957,7 +4957,7 @@
   },
   {
     "lc_uuid": "2bef4708-96dd-41e0-9062-800f8bd8d213",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -4971,7 +4971,7 @@
   },
   {
     "lc_uuid": "577253e1-a5aa-47de-8fa4-ac15560b8bd8",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -4985,7 +4985,7 @@
   },
   {
     "lc_uuid": "5fa6694c-1b85-4f5a-8516-011de8ca437c",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -4999,7 +4999,7 @@
   },
   {
     "lc_uuid": "0f52c161-c85e-4340-97bb-7e666c52dcc5",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5013,7 +5013,7 @@
   },
   {
     "lc_uuid": "e9e9fd5e-441b-4310-890b-701217a2d835",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5027,7 +5027,7 @@
   },
   {
     "lc_uuid": "44ad12b2-451f-4d0d-9fb5-4442265ce080",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5041,7 +5041,7 @@
   },
   {
     "lc_uuid": "1660ec60-907f-4f9c-9c61-9ed4081fd272",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5055,7 +5055,7 @@
   },
   {
     "lc_uuid": "b5bca65c-039c-48d2-8682-4f567d58b680",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5069,7 +5069,7 @@
   },
   {
     "lc_uuid": "fd12f3fe-b998-4d6c-80ab-55edcaf78932",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5083,7 +5083,7 @@
   },
   {
     "lc_uuid": "56567f35-66e5-4cc8-9d26-c337f8fc9942",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5097,7 +5097,7 @@
   },
   {
     "lc_uuid": "d50b99fa-7765-4473-be21-d09a183fad9e",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5111,7 +5111,7 @@
   },
   {
     "lc_uuid": "301286e1-f7d4-4762-bd4c-9253358e3a05",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5125,7 +5125,7 @@
   },
   {
     "lc_uuid": "e92cc173-fc2e-4a24-a015-0e67656aac86",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5139,7 +5139,7 @@
   },
   {
     "lc_uuid": "b1ac563e-6281-4250-adcd-ff3547e1f379",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5153,7 +5153,7 @@
   },
   {
     "lc_uuid": "d3c3985b-cce0-4f51-8a0f-dcb333921cff",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5167,7 +5167,7 @@
   },
   {
     "lc_uuid": "24ed2be6-babe-4620-a59d-cd45025d61ad",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5181,7 +5181,7 @@
   },
   {
     "lc_uuid": "b034782d-bc46-478d-a87a-4b882e547a0f",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5195,7 +5195,7 @@
   },
   {
     "lc_uuid": "f6f40e27-0c28-4179-a7b6-f074416e362c",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5209,7 +5209,7 @@
   },
   {
     "lc_uuid": "5d129814-7415-4285-ae4c-f67a178fdefc",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5223,7 +5223,7 @@
   },
   {
     "lc_uuid": "f3fd24ba-3f53-4d3c-be95-699f08f13190",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5237,7 +5237,7 @@
   },
   {
     "lc_uuid": "85423917-b9bb-4941-ba06-38a5cf5bb17d",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5251,7 +5251,7 @@
   },
   {
     "lc_uuid": "330c1699-7e54-41fc-8374-b45d95acde97",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5265,7 +5265,7 @@
   },
   {
     "lc_uuid": "d572efc2-a1cf-4fde-998a-dd16ea0f3b58",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5279,7 +5279,7 @@
   },
   {
     "lc_uuid": "ae3baab8-c9b9-4830-97d4-4e6bcf624100",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5293,7 +5293,7 @@
   },
   {
     "lc_uuid": "4ee4b9e7-c30b-4ef7-bf66-354ce456972f",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5307,7 +5307,7 @@
   },
   {
     "lc_uuid": "ffecf969-af05-4f87-8946-a0827a535209",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00199435,
@@ -5321,7 +5321,7 @@
   },
   {
     "lc_uuid": "090b9d7e-5900-4f8e-8d6e-86c1e18a9069",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5335,7 +5335,7 @@
   },
   {
     "lc_uuid": "d735c29c-1042-456d-bf59-a2f439629815",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5349,7 +5349,7 @@
   },
   {
     "lc_uuid": "b7d8f056-2a82-40e8-831d-28e6a63d6114",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5363,7 +5363,7 @@
   },
   {
     "lc_uuid": "5d645f54-3397-49d0-af0b-7c439841e8dd",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5377,7 +5377,7 @@
   },
   {
     "lc_uuid": "fddcc8f5-cfde-4f13-a4fc-100b3eff72a0",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5391,7 +5391,7 @@
   },
   {
     "lc_uuid": "6a69ab1a-b9e8-4743-a61e-b83cc3586161",
-    "layer": "Flat Bar 275/20",
+    "layer": "Flachstahl 275x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00421948,
@@ -5405,7 +5405,7 @@
   },
   {
     "lc_uuid": "dd6bdadb-4457-4919-b39e-e41e57356f39",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5419,7 +5419,7 @@
   },
   {
     "lc_uuid": "6ba0950d-0b7d-4c85-b3be-7ec88a3016f3",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5433,7 +5433,7 @@
   },
   {
     "lc_uuid": "6ddaceca-f9cb-4710-8b7c-c8fb56dbc9b0",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5447,7 +5447,7 @@
   },
   {
     "lc_uuid": "a9710753-c40e-4292-bba1-67b50c40998f",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5461,7 +5461,7 @@
   },
   {
     "lc_uuid": "0189ae82-2d8c-4c45-bdde-a03c993f1312",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5475,7 +5475,7 @@
   },
   {
     "lc_uuid": "293cb205-12e3-4cda-9f9b-dc22dea81589",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5489,7 +5489,7 @@
   },
   {
     "lc_uuid": "90e2f228-6fe1-4606-8a0f-16da0b564e8d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5503,7 +5503,7 @@
   },
   {
     "lc_uuid": "586236e0-3483-4ccb-9ec8-ff474e351cd9",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5517,7 +5517,7 @@
   },
   {
     "lc_uuid": "67cd5688-97ee-4a58-9484-5d5c392a628c",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5531,7 +5531,7 @@
   },
   {
     "lc_uuid": "8a79e620-18f9-4d3d-930f-e3f22d9c96cb",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5545,7 +5545,7 @@
   },
   {
     "lc_uuid": "05a8deeb-5e3f-4cfd-b59d-515a5553064e",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5559,7 +5559,7 @@
   },
   {
     "lc_uuid": "458ab59d-b5a5-462d-afce-63ae6adce6a3",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5573,7 +5573,7 @@
   },
   {
     "lc_uuid": "fd67ec91-89cc-4fec-8a24-44fedb68b3fc",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5587,7 +5587,7 @@
   },
   {
     "lc_uuid": "58fcd5db-5b7e-4a2d-804b-0ee6c0870c18",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5601,7 +5601,7 @@
   },
   {
     "lc_uuid": "b797be6d-bfa0-4f5a-96b1-63edc354b1ea",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5615,7 +5615,7 @@
   },
   {
     "lc_uuid": "a3d1da80-926c-4a5c-a96c-677676ee29f7",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5629,7 +5629,7 @@
   },
   {
     "lc_uuid": "93640eec-af21-4ef6-98d1-64931b29630a",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5643,7 +5643,7 @@
   },
   {
     "lc_uuid": "94786e2f-b572-4c7d-95f5-0b6e311fc116",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5657,7 +5657,7 @@
   },
   {
     "lc_uuid": "792c56e7-1a7f-444e-972c-0567104c05d1",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5671,7 +5671,7 @@
   },
   {
     "lc_uuid": "d15f6a58-8641-431a-b6b8-4183696a8fe6",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5685,7 +5685,7 @@
   },
   {
     "lc_uuid": "c612b373-d462-430b-8cbf-562d0dcc2803",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5699,7 +5699,7 @@
   },
   {
     "lc_uuid": "264eb156-5b33-4318-8d88-cc466af3f659",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5713,7 +5713,7 @@
   },
   {
     "lc_uuid": "69a6c4f7-2f24-4c82-ad4f-68cc8c3cdb21",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5727,7 +5727,7 @@
   },
   {
     "lc_uuid": "36c0a599-0706-4173-b921-05f5ec27a12d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5741,7 +5741,7 @@
   },
   {
     "lc_uuid": "1a612602-463c-4255-9cbf-3719dcd9af68",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5755,7 +5755,7 @@
   },
   {
     "lc_uuid": "2a0cf860-e903-4a51-81cf-4fb07af837ee",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5769,7 +5769,7 @@
   },
   {
     "lc_uuid": "c069f1d9-2b6a-44c1-86a6-649c51494dc3",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5783,7 +5783,7 @@
   },
   {
     "lc_uuid": "8e6bcd84-c601-463f-a22d-c91b1b443d0e",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5797,7 +5797,7 @@
   },
   {
     "lc_uuid": "5172c10b-e3d2-420e-83ff-e5944939b24f",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5811,7 +5811,7 @@
   },
   {
     "lc_uuid": "d8903d00-0ca2-469b-b7db-852fcbafb44a",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5825,7 +5825,7 @@
   },
   {
     "lc_uuid": "45935a84-60c9-49e8-bb6e-bb2fe172fe92",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5839,7 +5839,7 @@
   },
   {
     "lc_uuid": "5963646b-f381-4626-9f81-370cffa0533a",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5853,7 +5853,7 @@
   },
   {
     "lc_uuid": "e0749575-bed6-4f18-aa9f-3f09702d9d62",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5867,7 +5867,7 @@
   },
   {
     "lc_uuid": "a5f2e75f-6dc4-4859-8749-aa927ddcaa08",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5881,7 +5881,7 @@
   },
   {
     "lc_uuid": "28b8b620-2d32-4d97-9bad-4e3d5ff9e69d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5895,7 +5895,7 @@
   },
   {
     "lc_uuid": "c6432523-865e-4a74-b348-b750a1ff7f30",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5909,7 +5909,7 @@
   },
   {
     "lc_uuid": "5a32afd2-94f1-4b27-b04b-7c183c03de68",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5923,7 +5923,7 @@
   },
   {
     "lc_uuid": "24f35bb8-3623-446e-a1c1-47283e1d5fa0",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5937,7 +5937,7 @@
   },
   {
     "lc_uuid": "c6b1b835-0da6-47f8-bbda-310a29f599ba",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5951,7 +5951,7 @@
   },
   {
     "lc_uuid": "92b4e6a4-e367-4601-a86a-24b1adf1f314",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5965,7 +5965,7 @@
   },
   {
     "lc_uuid": "2b0cf48a-8649-4a64-9c60-e0aa0d703344",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5979,7 +5979,7 @@
   },
   {
     "lc_uuid": "3a348486-55bb-479b-91ef-0fc8887cf1fa",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -5993,7 +5993,7 @@
   },
   {
     "lc_uuid": "6b4c7f5f-1c82-4fe8-b9df-4405812d4bd5",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6007,7 +6007,7 @@
   },
   {
     "lc_uuid": "9a6d04cd-4be1-4a06-8305-23bb840b06b1",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6021,7 +6021,7 @@
   },
   {
     "lc_uuid": "e4451687-72a0-4566-95f9-eb9affc81f0c",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6035,7 +6035,7 @@
   },
   {
     "lc_uuid": "f4f71863-28fe-40fb-b5a7-e38e59379ac2",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6049,7 +6049,7 @@
   },
   {
     "lc_uuid": "a2bfc0d3-6d2a-4fcd-8690-74ebed23a342",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6063,7 +6063,7 @@
   },
   {
     "lc_uuid": "cc44e9e0-9b9d-4d49-a48b-eda47e2cb3ff",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6077,7 +6077,7 @@
   },
   {
     "lc_uuid": "9b47c71b-ea91-46d9-88e4-a4420a7e33fa",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6091,7 +6091,7 @@
   },
   {
     "lc_uuid": "f688373d-783d-43bb-857d-5014a41640d6",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6105,7 +6105,7 @@
   },
   {
     "lc_uuid": "497a4938-a91e-4ca6-9dfa-1c93dc62f2b1",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6119,7 +6119,7 @@
   },
   {
     "lc_uuid": "7eb5d594-49b2-424a-a939-0633939edb8d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6133,7 +6133,7 @@
   },
   {
     "lc_uuid": "ee446a3b-af4c-4093-b247-a3e96269a759",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6147,7 +6147,7 @@
   },
   {
     "lc_uuid": "6fdef32f-7126-4fdf-b109-8c1c0ab4dbd7",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6161,7 +6161,7 @@
   },
   {
     "lc_uuid": "24135600-0146-48ca-a645-767c36751a6d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6175,7 +6175,7 @@
   },
   {
     "lc_uuid": "51bffaaa-0aeb-438b-b8e1-3312991efeaf",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6189,7 +6189,7 @@
   },
   {
     "lc_uuid": "270c2954-22fb-450c-b0f4-7949c4ee1a72",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6203,7 +6203,7 @@
   },
   {
     "lc_uuid": "69cb51d9-e7c1-4871-9ae7-9dd28f4f3e54",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6217,7 +6217,7 @@
   },
   {
     "lc_uuid": "086045f5-250a-4075-9400-47e47bbc4c32",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6231,7 +6231,7 @@
   },
   {
     "lc_uuid": "bfd24330-1cb1-4f4c-b848-44f4aa94d6d5",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6245,7 +6245,7 @@
   },
   {
     "lc_uuid": "f15d6db2-7d23-4c60-bc85-12b566bc58fc",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6259,7 +6259,7 @@
   },
   {
     "lc_uuid": "fde5f940-545e-431b-8c19-6571e6f001cc",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6273,7 +6273,7 @@
   },
   {
     "lc_uuid": "d4af14d5-50dc-4dee-a7cc-b977fe5396b4",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6287,7 +6287,7 @@
   },
   {
     "lc_uuid": "ccfeb21a-b42c-4e41-91e9-a912a1958be1",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6301,7 +6301,7 @@
   },
   {
     "lc_uuid": "ac4ba124-60e7-4a54-b9bc-aa2f210cf888",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6315,7 +6315,7 @@
   },
   {
     "lc_uuid": "37abd55c-a1a6-4a1b-a577-24ee7b74b125",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6329,7 +6329,7 @@
   },
   {
     "lc_uuid": "5119f793-b59f-42bf-80ad-69e25e937003",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6343,7 +6343,7 @@
   },
   {
     "lc_uuid": "3a7d9e43-ff23-4d76-a853-22ed892b2356",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6357,7 +6357,7 @@
   },
   {
     "lc_uuid": "d83fee0c-391a-407c-93f6-67a0392fa70d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6371,7 +6371,7 @@
   },
   {
     "lc_uuid": "7a58c09f-8048-4eb8-b18d-70a9efc85871",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6385,7 +6385,7 @@
   },
   {
     "lc_uuid": "cfccb387-06c1-4932-9b82-b7a1035a1027",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6399,7 +6399,7 @@
   },
   {
     "lc_uuid": "ab5c98e9-4fb8-4c5e-ad18-fbf0adc1b79d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6413,7 +6413,7 @@
   },
   {
     "lc_uuid": "32cb4659-c779-4e45-aefe-9c03214918ac",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6427,7 +6427,7 @@
   },
   {
     "lc_uuid": "b7ec5c07-e69f-49d7-8011-2109b605542f",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6441,7 +6441,7 @@
   },
   {
     "lc_uuid": "2debb2af-a466-440a-b806-4257e488eade",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6455,7 +6455,7 @@
   },
   {
     "lc_uuid": "411f06a6-5df4-4898-a0e1-97a87b873784",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6469,7 +6469,7 @@
   },
   {
     "lc_uuid": "e08fc852-0ed7-4e49-a82f-e93594604962",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6483,7 +6483,7 @@
   },
   {
     "lc_uuid": "5217f2b4-bfbb-43f5-8715-e137fc0937e6",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6497,7 +6497,7 @@
   },
   {
     "lc_uuid": "ddb5cb36-83b3-431e-ad20-fa3d474ac83d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6511,7 +6511,7 @@
   },
   {
     "lc_uuid": "ef113fda-ad4f-43ad-9595-fffdfe1276b0",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6525,7 +6525,7 @@
   },
   {
     "lc_uuid": "67cd5406-e223-42c6-b1fb-c13b10cb42b7",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6539,7 +6539,7 @@
   },
   {
     "lc_uuid": "12af44eb-293e-4cd1-b5a7-0c9ff487182c",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6553,7 +6553,7 @@
   },
   {
     "lc_uuid": "76eaccd5-2d2b-415d-aa83-ce01d0824bca",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6567,7 +6567,7 @@
   },
   {
     "lc_uuid": "ffbf88f0-d749-441d-8630-1f268a7ebadc",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6581,7 +6581,7 @@
   },
   {
     "lc_uuid": "e62e8a96-40be-4eee-bdae-b2869de214b4",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6595,7 +6595,7 @@
   },
   {
     "lc_uuid": "ad3f9faf-22a6-4d21-a1ab-95ac67acba4d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6609,7 +6609,7 @@
   },
   {
     "lc_uuid": "35903191-2f00-4443-ba26-67a161439dfd",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6623,7 +6623,7 @@
   },
   {
     "lc_uuid": "b20b8264-0038-4517-85e5-5eeb949e96f0",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6637,7 +6637,7 @@
   },
   {
     "lc_uuid": "fb11ca35-aec2-4157-9a2e-4bda1e6ba6b1",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6651,7 +6651,7 @@
   },
   {
     "lc_uuid": "e1a36d2e-609c-4b94-b603-953076a980aa",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6665,7 +6665,7 @@
   },
   {
     "lc_uuid": "c54f396b-e0be-492a-8177-0f80e3d2b556",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6679,7 +6679,7 @@
   },
   {
     "lc_uuid": "8a4f65f0-bece-4eba-97d3-0fa0436bb9fb",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6693,7 +6693,7 @@
   },
   {
     "lc_uuid": "15ed19e9-0147-4233-bf8e-8d6ad023a784",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6707,7 +6707,7 @@
   },
   {
     "lc_uuid": "317b9241-ab31-4bc0-adaa-9408ca5a304b",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6721,7 +6721,7 @@
   },
   {
     "lc_uuid": "e1b6a005-d1e4-4cc5-aa3a-0a374a2c1306",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6735,7 +6735,7 @@
   },
   {
     "lc_uuid": "466d3a2a-b53a-4fa1-940d-1864035d8bc6",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6749,7 +6749,7 @@
   },
   {
     "lc_uuid": "94bbb5ae-1a3d-4e3e-bbb0-f2669d29dae7",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6763,7 +6763,7 @@
   },
   {
     "lc_uuid": "58f8f9b8-bf58-4dbb-8b46-a10a244946da",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6777,7 +6777,7 @@
   },
   {
     "lc_uuid": "ecd21422-7819-4f3e-a22f-4de0d843bcd5",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6791,7 +6791,7 @@
   },
   {
     "lc_uuid": "5182ef99-01c7-488d-8fb5-c872e0d95d6a",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6805,7 +6805,7 @@
   },
   {
     "lc_uuid": "09de48be-87f8-45cf-be40-610f7078b8f2",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6819,7 +6819,7 @@
   },
   {
     "lc_uuid": "236389a7-349d-47fc-bfd4-355a44b70604",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6833,7 +6833,7 @@
   },
   {
     "lc_uuid": "f387c62e-16f6-4e6f-9590-39423d0b0a98",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6847,7 +6847,7 @@
   },
   {
     "lc_uuid": "8fc13da1-60ce-42e4-9440-418c49188a74",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6861,7 +6861,7 @@
   },
   {
     "lc_uuid": "d6b8e88a-e1e1-47b1-a5a8-2c30f66d0bd2",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6875,7 +6875,7 @@
   },
   {
     "lc_uuid": "0c6caf02-3802-4520-9cc7-6eefc17116d1",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6889,7 +6889,7 @@
   },
   {
     "lc_uuid": "5c0092b7-ca23-44b6-8bc9-802a52cb0dc8",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6903,7 +6903,7 @@
   },
   {
     "lc_uuid": "fb607410-7dec-46aa-b224-ae299dd51ed5",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6917,7 +6917,7 @@
   },
   {
     "lc_uuid": "31e766d2-9d3f-4bee-ab89-6b9d0b1ee515",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6931,7 +6931,7 @@
   },
   {
     "lc_uuid": "e4dd6be5-1e78-40b5-8f45-422f55d55fd2",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6945,7 +6945,7 @@
   },
   {
     "lc_uuid": "b267548d-92f8-40c4-a31e-e84391efc35c",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6959,7 +6959,7 @@
   },
   {
     "lc_uuid": "bd8fa978-5f11-425f-a213-6d2db2816f9d",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6973,7 +6973,7 @@
   },
   {
     "lc_uuid": "cdfd61b2-5dbf-4d1c-9187-bfb2587a3c54",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -6987,7 +6987,7 @@
   },
   {
     "lc_uuid": "e695c607-82ff-4837-872a-c27ef9776b0c",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -7001,7 +7001,7 @@
   },
   {
     "lc_uuid": "e3a22b26-a5fe-4d0c-8b59-a41ef047a393",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -7015,7 +7015,7 @@
   },
   {
     "lc_uuid": "1eba9d48-eb15-4ea7-9a33-9cf178ae6a15",
-    "layer": "Flat Bar 33.3/20",
+    "layer": "Flachstahl 33x20",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 8.02e-06,
@@ -7029,7 +7029,7 @@
   },
   {
     "lc_uuid": "659398e8-cf92-4e80-afc3-a18aa68bf7e8",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01149115,
@@ -7043,7 +7043,7 @@
   },
   {
     "lc_uuid": "daeeb4e3-05ae-40d6-b7ea-ec25b3c85427",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01116567,
@@ -7057,7 +7057,7 @@
   },
   {
     "lc_uuid": "e1795ddd-f344-4a70-8ad5-20c5dad22a88",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01042644,
@@ -7071,7 +7071,7 @@
   },
   {
     "lc_uuid": "f9927f48-fbc6-4670-9f08-15fd8dd1fb6c",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01125394,
@@ -7085,7 +7085,7 @@
   },
   {
     "lc_uuid": "be9e8982-669d-42fb-a512-d295deb3a022",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01237933,
@@ -7099,7 +7099,7 @@
   },
   {
     "lc_uuid": "4ddeeb0d-5cdf-4d9d-9863-6dc391df4126",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01125394,
@@ -7113,7 +7113,7 @@
   },
   {
     "lc_uuid": "de802b5c-d6af-4e8d-aa46-aabff2db8bbb",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01097811,
@@ -7127,7 +7127,7 @@
   },
   {
     "lc_uuid": "eea183da-910c-4c77-99c2-4a2aede7ba1f",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01070228,
@@ -7141,7 +7141,7 @@
   },
   {
     "lc_uuid": "56a7b4e4-4a1d-41c9-836c-f68df5202e91",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0120042,
@@ -7155,7 +7155,7 @@
   },
   {
     "lc_uuid": "50795e56-2211-48c2-98fa-52aba91a4342",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01162907,
@@ -7169,7 +7169,7 @@
   },
   {
     "lc_uuid": "98fe8486-2da9-4546-b388-dccd691d4d0a",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01084019,
@@ -7183,7 +7183,7 @@
   },
   {
     "lc_uuid": "0f3192bb-360d-4ee6-aace-3671e75ca93f",
-    "layer": "RO 139.7x8.0 | EN 10210-2:2006",
+    "layer": "Rundrohr 140x8",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.01181664,
@@ -7197,7 +7197,7 @@
   },
   {
     "lc_uuid": "043c0eac-3416-4af5-b721-ced1d7d66806",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7211,7 +7211,7 @@
   },
   {
     "lc_uuid": "ac9cf83d-7bdc-4555-8a11-d3976078c67a",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7225,7 +7225,7 @@
   },
   {
     "lc_uuid": "8f5e3c92-e093-4282-80b2-8679e4d2a540",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7239,7 +7239,7 @@
   },
   {
     "lc_uuid": "c1ad0201-8a04-42ab-8173-d0671a6c1b4a",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7253,7 +7253,7 @@
   },
   {
     "lc_uuid": "d9f0a9bb-36cd-4f31-8158-bc34cfba9e40",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7267,7 +7267,7 @@
   },
   {
     "lc_uuid": "e5a72d30-b474-4117-a285-268f0bfdbc5e",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7281,7 +7281,7 @@
   },
   {
     "lc_uuid": "63c46b38-3288-45ef-9863-26f0b73cf056",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7295,7 +7295,7 @@
   },
   {
     "lc_uuid": "fb9f6c00-38fe-4a28-92fa-2afffe365c64",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7309,7 +7309,7 @@
   },
   {
     "lc_uuid": "ca5a92f4-db47-4114-a84b-71dc2a994378",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7323,7 +7323,7 @@
   },
   {
     "lc_uuid": "dbeeb5fc-d7ac-429b-a9df-e2141f744de4",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7337,7 +7337,7 @@
   },
   {
     "lc_uuid": "da34fbe5-19de-487b-8633-e1e6211fbfa7",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7351,7 +7351,7 @@
   },
   {
     "lc_uuid": "6417606b-3753-4b84-8d25-e5f42bb7bc60",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7365,7 +7365,7 @@
   },
   {
     "lc_uuid": "62a10bed-c4aa-4760-a08f-6e5153ef32bc",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7379,7 +7379,7 @@
   },
   {
     "lc_uuid": "9af107c2-ef9a-48d0-857e-1a4aaa5fe529",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7393,7 +7393,7 @@
   },
   {
     "lc_uuid": "5dcbe3c4-6af6-4772-9e1b-7eb104f3f80f",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7407,7 +7407,7 @@
   },
   {
     "lc_uuid": "b8ce6ffb-a3d8-407b-98d3-45d825a6b777",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7421,7 +7421,7 @@
   },
   {
     "lc_uuid": "881b25e1-258e-467e-a395-b28b668d29fe",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7435,7 +7435,7 @@
   },
   {
     "lc_uuid": "8954d5c7-4590-43eb-9445-01c810b1d58f",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7449,7 +7449,7 @@
   },
   {
     "lc_uuid": "79615c8f-4ff7-491b-8e36-a797d139cb7f",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7463,7 +7463,7 @@
   },
   {
     "lc_uuid": "d0561eaa-f4a0-426c-ba28-b4d714735c7b",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7477,7 +7477,7 @@
   },
   {
     "lc_uuid": "33966844-1efa-45eb-8dff-b401e0318771",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7491,7 +7491,7 @@
   },
   {
     "lc_uuid": "2f5b1ffe-452d-4e6a-8ade-6b7a9b383d8e",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7505,7 +7505,7 @@
   },
   {
     "lc_uuid": "eb5c329a-0b2a-4ccd-8cc2-c111b398fe06",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7519,7 +7519,7 @@
   },
   {
     "lc_uuid": "9e923a01-2fe8-4181-83ef-1fcad8e79b52",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7533,7 +7533,7 @@
   },
   {
     "lc_uuid": "aaaf5124-cba6-4b6c-bff3-6f71bc73e74f",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25017833,
@@ -7547,7 +7547,7 @@
   },
   {
     "lc_uuid": "529a4dba-4800-444b-9af0-b5c1b6247939",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7561,7 +7561,7 @@
   },
   {
     "lc_uuid": "c6eebd7d-0197-49ee-8fd4-1bdf86b186d7",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25013426,
@@ -7575,7 +7575,7 @@
   },
   {
     "lc_uuid": "cccabf3a-d30a-4a38-8ba3-b50c83070674",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7589,7 +7589,7 @@
   },
   {
     "lc_uuid": "fd0a2682-41fd-4810-ad9d-a0babdfe7f63",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7603,7 +7603,7 @@
   },
   {
     "lc_uuid": "3cad7233-b7ac-43fa-9f80-9bb338d24fc9",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7617,7 +7617,7 @@
   },
   {
     "lc_uuid": "f5f8ea5b-1174-4cae-93cc-692c1c17d63a",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009643,
@@ -7631,7 +7631,7 @@
   },
   {
     "lc_uuid": "b0f54a41-9590-491c-8afe-ebf1a8df5a85",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7645,7 +7645,7 @@
   },
   {
     "lc_uuid": "822292ce-0368-43e6-a968-5a91b6935cbc",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7659,7 +7659,7 @@
   },
   {
     "lc_uuid": "0c3e6392-04e1-451b-80cc-b7ed0f5c21cc",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7673,7 +7673,7 @@
   },
   {
     "lc_uuid": "b2b83f79-5119-4042-9562-042795537b0b",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7687,7 +7687,7 @@
   },
   {
     "lc_uuid": "b93b4836-25bc-4f43-a77c-cec09bd115ba",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7701,7 +7701,7 @@
   },
   {
     "lc_uuid": "40cbd9da-a2f9-4a06-b38f-157ce53a0334",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7715,7 +7715,7 @@
   },
   {
     "lc_uuid": "0d99400b-e954-4b71-8af6-c538101f2fd0",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7729,7 +7729,7 @@
   },
   {
     "lc_uuid": "25d4c481-f44b-41ce-b924-74a4fd2ad42a",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7743,7 +7743,7 @@
   },
   {
     "lc_uuid": "1db52ab2-b236-4eea-94d6-7104b9d608ce",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7757,7 +7757,7 @@
   },
   {
     "lc_uuid": "8ebbd7a6-6086-41e5-ae7a-4367c24d5295",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7771,7 +7771,7 @@
   },
   {
     "lc_uuid": "9e256179-3e73-4476-9d1f-301b3a649946",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7785,7 +7785,7 @@
   },
   {
     "lc_uuid": "b4f5d4ec-2332-463a-8a11-7d5a41b83233",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.25009798,
@@ -7799,7 +7799,7 @@
   },
   {
     "lc_uuid": "b674fa9f-1be9-493a-942e-6ac88893c767",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7813,7 +7813,7 @@
   },
   {
     "lc_uuid": "be1c5271-1129-4647-ae19-c8600a041d54",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7827,7 +7827,7 @@
   },
   {
     "lc_uuid": "9db1d1c8-03ce-48b4-9ee4-055b038c3fc2",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7841,7 +7841,7 @@
   },
   {
     "lc_uuid": "e609b4c1-0687-4f79-843d-e66a18ab4e45",
-    "layer": "Rectangle 500/500",
+    "layer": "Fundament 500x500",
     "material": "Beton C25/30",
     "datensatz": "Beton C25/30",
     "volumen_m3": 0.2501201,
@@ -7855,7 +7855,7 @@
   },
   {
     "lc_uuid": "674c33ec-d668-4e7b-9330-ef2ba904e2d9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7869,7 +7869,7 @@
   },
   {
     "lc_uuid": "253862a2-33b1-451f-8676-4ed83d01d47d",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7883,7 +7883,7 @@
   },
   {
     "lc_uuid": "a812a5f7-84cf-461a-b87c-c6aca8cfafe8",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7897,7 +7897,7 @@
   },
   {
     "lc_uuid": "a3cd4e67-84c8-4016-b932-640b3d03c678",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7911,7 +7911,7 @@
   },
   {
     "lc_uuid": "c0a3f48f-3b1c-409a-ba7c-81d154371f59",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7925,7 +7925,7 @@
   },
   {
     "lc_uuid": "e1835c25-362d-4cc2-91b8-30e936a0df27",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7939,7 +7939,7 @@
   },
   {
     "lc_uuid": "e80b67fb-e0f0-4a60-94fe-a7caa900f03e",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7953,7 +7953,7 @@
   },
   {
     "lc_uuid": "f3c05648-8bc9-4374-8c62-2e76bf73975b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7967,7 +7967,7 @@
   },
   {
     "lc_uuid": "bf01fff7-9a27-469a-a71e-8a24eb834ec3",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7981,7 +7981,7 @@
   },
   {
     "lc_uuid": "9fe80c8f-fece-45ea-b722-0b72a80e80d7",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -7995,7 +7995,7 @@
   },
   {
     "lc_uuid": "ba8ed345-ca38-48b2-8fb1-6641cb3bcfdf",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8009,7 +8009,7 @@
   },
   {
     "lc_uuid": "382bd170-47d6-4882-89aa-093ed5a5f85a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8023,7 +8023,7 @@
   },
   {
     "lc_uuid": "6b60f04d-19dd-4cb8-8a13-4cbf7253446b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8037,7 +8037,7 @@
   },
   {
     "lc_uuid": "6dbb393f-ce96-4ba6-af08-e932536bf8f1",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8051,7 +8051,7 @@
   },
   {
     "lc_uuid": "dd2cca20-43d7-4acf-b66b-1d7bbc08df2a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8065,7 +8065,7 @@
   },
   {
     "lc_uuid": "ee3e9db9-fc7b-42e2-a7f8-417ee8ce0064",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8079,7 +8079,7 @@
   },
   {
     "lc_uuid": "feec3703-9ee6-4131-9818-559ea4e60008",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8093,7 +8093,7 @@
   },
   {
     "lc_uuid": "8bc8aadd-497f-46bb-9d9d-94c0030db5c2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8107,7 +8107,7 @@
   },
   {
     "lc_uuid": "809cafd6-476c-475b-b7d8-a7310c216493",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8121,7 +8121,7 @@
   },
   {
     "lc_uuid": "9262962c-6ee9-45f1-8949-6d088a2ed2eb",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8135,7 +8135,7 @@
   },
   {
     "lc_uuid": "0b868fef-e41d-41d0-8074-8c56254c5fc0",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8149,7 +8149,7 @@
   },
   {
     "lc_uuid": "0b1cb288-65ae-4808-bfa6-56a8dc3fb9d6",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8163,7 +8163,7 @@
   },
   {
     "lc_uuid": "1b687b55-d08f-41bd-8725-d1399cf1714a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8177,7 +8177,7 @@
   },
   {
     "lc_uuid": "834624a6-8f40-428f-80bd-8dec5d441934",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8191,7 +8191,7 @@
   },
   {
     "lc_uuid": "2ae1e74c-19a2-4406-b4b6-eff1e337d402",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8205,7 +8205,7 @@
   },
   {
     "lc_uuid": "5f08cbb6-f073-420d-9330-d55c9d8bd409",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8219,7 +8219,7 @@
   },
   {
     "lc_uuid": "4641ec87-4d9c-46ba-823a-2efd16daa649",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8233,7 +8233,7 @@
   },
   {
     "lc_uuid": "e0794458-da49-444c-8048-3f7c961bc02c",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8247,7 +8247,7 @@
   },
   {
     "lc_uuid": "8818d14c-ffb5-4d7d-b9b3-8cbb2aa9e413",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8261,7 +8261,7 @@
   },
   {
     "lc_uuid": "24905537-bfeb-4dac-9cb6-3b0076ef3a23",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8275,7 +8275,7 @@
   },
   {
     "lc_uuid": "6eaf7c83-0e21-4fac-97f1-97b766781766",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8289,7 +8289,7 @@
   },
   {
     "lc_uuid": "22f7b6db-bb7b-4c43-9ec3-ee0735bfc1a6",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8303,7 +8303,7 @@
   },
   {
     "lc_uuid": "446ab5eb-a0ef-4541-8908-1462b791fb4b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8317,7 +8317,7 @@
   },
   {
     "lc_uuid": "64c3408c-4053-465a-b7e9-bedc2efed855",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.0001704,
@@ -8331,7 +8331,7 @@
   },
   {
     "lc_uuid": "bb1025a5-ab31-4bc2-955b-a98fbe5faa09",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8345,7 +8345,7 @@
   },
   {
     "lc_uuid": "0e228719-f44c-460e-bf8b-73508b0a93cc",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8359,7 +8359,7 @@
   },
   {
     "lc_uuid": "86088834-a0c7-49b2-9807-6495a6cfb653",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8373,7 +8373,7 @@
   },
   {
     "lc_uuid": "c44da484-d95e-43be-ad0c-c8c10773affd",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8387,7 +8387,7 @@
   },
   {
     "lc_uuid": "972350de-cb26-4cef-9048-7cb25aa04b31",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8401,7 +8401,7 @@
   },
   {
     "lc_uuid": "c44fd4cc-953c-40ae-ab01-8d0131591cd5",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8415,7 +8415,7 @@
   },
   {
     "lc_uuid": "4a0441aa-3875-471a-8eaf-40144503498f",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8429,7 +8429,7 @@
   },
   {
     "lc_uuid": "4ad07793-ff6c-4d82-ae4c-1fdb402c5cb8",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8443,7 +8443,7 @@
   },
   {
     "lc_uuid": "f6d00df9-9801-4b76-a44f-77c2cf72ec83",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8457,7 +8457,7 @@
   },
   {
     "lc_uuid": "6f699217-4d4f-4154-8b9b-2682dde675f4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8471,7 +8471,7 @@
   },
   {
     "lc_uuid": "67ee3a71-2401-4608-8383-6c99365f4092",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8485,7 +8485,7 @@
   },
   {
     "lc_uuid": "b7ff76f8-9d21-408b-a05e-c3590adecf43",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8499,7 +8499,7 @@
   },
   {
     "lc_uuid": "21029a37-3960-4dbf-a74e-d6bcb71b7fc2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8513,7 +8513,7 @@
   },
   {
     "lc_uuid": "bb27ee47-e9a3-4ebc-9546-381a90a76727",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8527,7 +8527,7 @@
   },
   {
     "lc_uuid": "ba1d031d-e7a8-417e-80e4-6976dc3f38de",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8541,7 +8541,7 @@
   },
   {
     "lc_uuid": "0718b1c8-7d38-4348-8f39-e3064b7ac240",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8555,7 +8555,7 @@
   },
   {
     "lc_uuid": "a70c8fe5-dce8-4605-a07d-14186e9d47b2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8569,7 +8569,7 @@
   },
   {
     "lc_uuid": "81744b06-f731-40f9-821f-8007cf4168fe",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8583,7 +8583,7 @@
   },
   {
     "lc_uuid": "6121da8a-026f-4cd1-bfcb-1b6250a1013d",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8597,7 +8597,7 @@
   },
   {
     "lc_uuid": "37d6f938-1082-41aa-a0b3-a86c28b5481c",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8611,7 +8611,7 @@
   },
   {
     "lc_uuid": "7706c8eb-3cd9-4b14-ace8-ce8698c1d5be",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8625,7 +8625,7 @@
   },
   {
     "lc_uuid": "09a21961-13cf-452a-8830-c97d7c10af4a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8639,7 +8639,7 @@
   },
   {
     "lc_uuid": "a8d55201-cc8c-4896-9661-413de4a92f89",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8653,7 +8653,7 @@
   },
   {
     "lc_uuid": "d46a82d6-868a-49cd-a37f-b567aad7fdca",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8667,7 +8667,7 @@
   },
   {
     "lc_uuid": "fd0a46b1-b020-4149-bf01-ff5c2671b6db",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8681,7 +8681,7 @@
   },
   {
     "lc_uuid": "7a5059a4-5cef-4fd4-8809-40bac507ba32",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8695,7 +8695,7 @@
   },
   {
     "lc_uuid": "47b0c6ce-af71-4487-ac4a-b285e319ef6e",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8709,7 +8709,7 @@
   },
   {
     "lc_uuid": "ade2e205-5dcf-4933-ae46-228f2bf8afe5",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8723,7 +8723,7 @@
   },
   {
     "lc_uuid": "a38d4528-ce4d-41c4-9df3-a714c88a3056",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8737,7 +8737,7 @@
   },
   {
     "lc_uuid": "5ce97dd8-c642-426d-80c0-915722168f8b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8751,7 +8751,7 @@
   },
   {
     "lc_uuid": "9b06ac35-ef18-4a6b-9cf8-cc9e2b3dcc6b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8765,7 +8765,7 @@
   },
   {
     "lc_uuid": "c009b91c-a53f-4c1e-95f5-3be496230c91",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8779,7 +8779,7 @@
   },
   {
     "lc_uuid": "6e034853-41bd-4883-a3d9-4bfb62a49c36",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -8793,7 +8793,7 @@
   },
   {
     "lc_uuid": "9073ca1e-3a6c-4c71-8995-a5354e2b4600",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -8807,7 +8807,7 @@
   },
   {
     "lc_uuid": "affa0286-0aac-4a80-b30b-f29a4f5816e3",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -8821,7 +8821,7 @@
   },
   {
     "lc_uuid": "6398be07-f092-48bd-bb8a-89c5f360c375",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -8835,7 +8835,7 @@
   },
   {
     "lc_uuid": "300a220f-7884-4484-b7a7-65d115a41d55",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -8849,7 +8849,7 @@
   },
   {
     "lc_uuid": "780c03f6-43df-4f45-93ce-c011cfaac6ac",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -8863,7 +8863,7 @@
   },
   {
     "lc_uuid": "e61411a9-93db-421c-86cb-883e11fd6947",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8877,7 +8877,7 @@
   },
   {
     "lc_uuid": "174dcf75-0e94-4553-bb1b-e272442b3f37",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8891,7 +8891,7 @@
   },
   {
     "lc_uuid": "b990b973-04a1-4fcf-ad01-5117a724590d",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8905,7 +8905,7 @@
   },
   {
     "lc_uuid": "c29b3b4a-815f-49e1-ab59-3f783cf2db41",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8919,7 +8919,7 @@
   },
   {
     "lc_uuid": "69f6557f-d622-4580-b6df-803564d1007a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8933,7 +8933,7 @@
   },
   {
     "lc_uuid": "163299ed-842a-4bf4-960a-8bedc4c7ed9e",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8947,7 +8947,7 @@
   },
   {
     "lc_uuid": "1834d7ab-b06e-4e9f-8e58-26bc5511d14c",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -8961,7 +8961,7 @@
   },
   {
     "lc_uuid": "55344ace-e3ff-4e83-8f22-45114745cd7f",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -8975,7 +8975,7 @@
   },
   {
     "lc_uuid": "e656d1ae-a496-460b-b15e-11bb6ca6cba1",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -8989,7 +8989,7 @@
   },
   {
     "lc_uuid": "908aae76-e27e-4609-83e1-5f86625e190b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9003,7 +9003,7 @@
   },
   {
     "lc_uuid": "ea1ffcdb-efce-4028-a100-c5a4bbfd6fd6",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9017,7 +9017,7 @@
   },
   {
     "lc_uuid": "416f3c97-d778-4a2b-9c98-aae0adc9eda2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9031,7 +9031,7 @@
   },
   {
     "lc_uuid": "8b58957d-332a-4f9a-9373-7a737a930cda",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9045,7 +9045,7 @@
   },
   {
     "lc_uuid": "71a9600f-8fa6-4148-8ce8-f365e44affe4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9059,7 +9059,7 @@
   },
   {
     "lc_uuid": "b5c39a26-b778-4b61-9f7b-7e51d2d12318",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9073,7 +9073,7 @@
   },
   {
     "lc_uuid": "8f677ece-6f17-4cac-99be-f07063789adf",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9087,7 +9087,7 @@
   },
   {
     "lc_uuid": "267ea8de-cd30-4448-8fc4-74325de042fa",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9101,7 +9101,7 @@
   },
   {
     "lc_uuid": "d01d3a9b-5e97-45d2-a64d-d7777a82e54e",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9115,7 +9115,7 @@
   },
   {
     "lc_uuid": "6bfa9c2f-80b6-4e91-a656-31decaf91ecc",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9129,7 +9129,7 @@
   },
   {
     "lc_uuid": "22c4928f-a84c-473c-bfe4-d74fc7471185",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9143,7 +9143,7 @@
   },
   {
     "lc_uuid": "d93a1ed5-f886-4d2d-99c6-e56c070428a8",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9157,7 +9157,7 @@
   },
   {
     "lc_uuid": "15ef47e2-9e2d-41da-85e5-b96e551a5466",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9171,7 +9171,7 @@
   },
   {
     "lc_uuid": "43940be7-6ed1-459a-a4a6-70bdaaacc1b7",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9185,7 +9185,7 @@
   },
   {
     "lc_uuid": "d23d11cf-a5fb-4f2f-ab77-6e698b99e59b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9199,7 +9199,7 @@
   },
   {
     "lc_uuid": "8e052a75-338e-4d5f-b3cb-a600b39d6a2a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9213,7 +9213,7 @@
   },
   {
     "lc_uuid": "8b3ad453-b318-441e-99ee-d9c5bb222413",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9227,7 +9227,7 @@
   },
   {
     "lc_uuid": "9adecaff-3eb4-45b4-942a-6927b09f36a9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9241,7 +9241,7 @@
   },
   {
     "lc_uuid": "2959107d-2aaa-4e23-b71d-fd2534319c60",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9255,7 +9255,7 @@
   },
   {
     "lc_uuid": "3939b8d3-2163-4474-8d7c-985ee3f4ef3b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9269,7 +9269,7 @@
   },
   {
     "lc_uuid": "e31a1f09-d521-43e1-9d96-7834e09394cf",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9283,7 +9283,7 @@
   },
   {
     "lc_uuid": "3c80384b-15a7-496a-92f3-da6c64db9a18",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9297,7 +9297,7 @@
   },
   {
     "lc_uuid": "41df3b6b-571d-444d-baab-38bd9352df86",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9311,7 +9311,7 @@
   },
   {
     "lc_uuid": "32521849-8ce5-4103-8056-57b6bccb4ef2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9325,7 +9325,7 @@
   },
   {
     "lc_uuid": "7da9c3b2-7b95-4901-b4cb-0844fa007cd4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9339,7 +9339,7 @@
   },
   {
     "lc_uuid": "c2c730a3-d23f-4116-bf64-e3b4e385e7d8",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9353,7 +9353,7 @@
   },
   {
     "lc_uuid": "4eb38f47-1b77-4d13-acd9-34f683fc918d",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9367,7 +9367,7 @@
   },
   {
     "lc_uuid": "ce1913e5-8a43-48dd-be99-091ab69340b1",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9381,7 +9381,7 @@
   },
   {
     "lc_uuid": "c8bae0cc-c7f9-4a79-a575-5be9fbfe9ce9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9395,7 +9395,7 @@
   },
   {
     "lc_uuid": "ae8f3a13-c737-4dc9-a027-2a3eeaf4bf6a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9409,7 +9409,7 @@
   },
   {
     "lc_uuid": "ab3fef20-22b6-48ce-b2cc-6eec4411c61a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9423,7 +9423,7 @@
   },
   {
     "lc_uuid": "2a202522-8b0a-4096-bd7f-89a457e1b06c",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9437,7 +9437,7 @@
   },
   {
     "lc_uuid": "86e4d6c1-798e-4ce6-8583-dc49639dcd45",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9451,7 +9451,7 @@
   },
   {
     "lc_uuid": "0bd84a12-99db-4897-9e4f-11293efd48a5",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9465,7 +9465,7 @@
   },
   {
     "lc_uuid": "4e657053-2379-42f2-8b38-8f688ea0e3af",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9479,7 +9479,7 @@
   },
   {
     "lc_uuid": "1ab13d3d-3b11-4dff-97e9-521ce870de46",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9493,7 +9493,7 @@
   },
   {
     "lc_uuid": "b16ecf01-22f1-4869-8bb6-414b374f19b5",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9507,7 +9507,7 @@
   },
   {
     "lc_uuid": "c1ca454e-a70f-4526-99a9-2c6d55639bcb",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9521,7 +9521,7 @@
   },
   {
     "lc_uuid": "e9672b4d-fb1d-4a04-a6c2-5dac7e232292",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9535,7 +9535,7 @@
   },
   {
     "lc_uuid": "5e5ee177-0680-4702-9e3a-05abe4f7c2b9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9549,7 +9549,7 @@
   },
   {
     "lc_uuid": "f03e6b08-8e8b-46fa-a2f8-e10ee3e031d0",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9563,7 +9563,7 @@
   },
   {
     "lc_uuid": "30d34a73-9ce5-42ce-9019-2a2e378940fe",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9577,7 +9577,7 @@
   },
   {
     "lc_uuid": "d5cb66b2-df0e-44af-b4cb-89d351598c97",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9591,7 +9591,7 @@
   },
   {
     "lc_uuid": "318bdcad-4efb-43cc-bba0-247846f7f963",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9605,7 +9605,7 @@
   },
   {
     "lc_uuid": "ed230d5f-0ea1-46a7-90fe-c31e51a64cc9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9619,7 +9619,7 @@
   },
   {
     "lc_uuid": "12960344-0671-4929-a856-4ddefe0a687d",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9633,7 +9633,7 @@
   },
   {
     "lc_uuid": "04134b1c-b30a-4b25-a26c-ab9eb14bd0cf",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9647,7 +9647,7 @@
   },
   {
     "lc_uuid": "8f27b2b9-9baf-40fc-b191-cc69026d0cad",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9661,7 +9661,7 @@
   },
   {
     "lc_uuid": "87de8d3d-0be2-4f69-9cff-4aa7cfa23405",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9675,7 +9675,7 @@
   },
   {
     "lc_uuid": "0f1d186b-972a-451d-be7d-1c60bf694810",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9689,7 +9689,7 @@
   },
   {
     "lc_uuid": "3cbfe33e-a5b9-4979-8e27-7ba46531f6c1",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9703,7 +9703,7 @@
   },
   {
     "lc_uuid": "557f6fb2-6f16-4069-9480-968314e50cb4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9717,7 +9717,7 @@
   },
   {
     "lc_uuid": "d63e85a6-2afb-499f-9abe-b118ca8ebdb2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9731,7 +9731,7 @@
   },
   {
     "lc_uuid": "5d205218-59b4-4160-824e-10fab997d9be",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9745,7 +9745,7 @@
   },
   {
     "lc_uuid": "3102e0a0-6adf-4a01-9026-a4a9f9a227d4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9759,7 +9759,7 @@
   },
   {
     "lc_uuid": "0e7a668f-2d71-4550-8c1c-880645635732",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9773,7 +9773,7 @@
   },
   {
     "lc_uuid": "968d3f1d-c460-4422-9e43-83144806d492",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9787,7 +9787,7 @@
   },
   {
     "lc_uuid": "d402dc7c-f5a1-4956-8f9e-1053417ca881",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9801,7 +9801,7 @@
   },
   {
     "lc_uuid": "69558aea-ac14-49fa-8d3e-f92afb672356",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9815,7 +9815,7 @@
   },
   {
     "lc_uuid": "b710aed3-896d-4ff4-ac2f-3956308b49ee",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -9829,7 +9829,7 @@
   },
   {
     "lc_uuid": "2c8c5d1a-3f3e-4b53-8bc1-e02d7f216907",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -9843,7 +9843,7 @@
   },
   {
     "lc_uuid": "14c1fd99-b74e-45a8-bd60-d65c37098c06",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9857,7 +9857,7 @@
   },
   {
     "lc_uuid": "0a466606-ed05-4da3-9bbc-91e4d5856447",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9871,7 +9871,7 @@
   },
   {
     "lc_uuid": "db13eccc-ae25-4eb9-aca7-6249726f903a",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9885,7 +9885,7 @@
   },
   {
     "lc_uuid": "84379ce3-cf88-4487-b727-0eb1d149d7e4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9899,7 +9899,7 @@
   },
   {
     "lc_uuid": "8a4b4544-6928-4c29-a16f-4a94028b3077",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9913,7 +9913,7 @@
   },
   {
     "lc_uuid": "f9ee2c90-34ee-40ac-b411-cd88d3210643",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9927,7 +9927,7 @@
   },
   {
     "lc_uuid": "c938ee63-66cb-4715-8dde-779c99b1ace1",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9941,7 +9941,7 @@
   },
   {
     "lc_uuid": "d468fa87-a644-4fd2-8c60-b836d14c23c3",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -9955,7 +9955,7 @@
   },
   {
     "lc_uuid": "320cb75e-66cb-478e-b917-d1fd45862278",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9969,7 +9969,7 @@
   },
   {
     "lc_uuid": "a1ac77da-9d2e-41d8-b39c-bfb8201fa325",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -9983,7 +9983,7 @@
   },
   {
     "lc_uuid": "94a0a504-658f-47a0-8fda-43ed46a056f9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -9997,7 +9997,7 @@
   },
   {
     "lc_uuid": "e8d84810-f2a9-43d3-88c1-665af2aab379",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10011,7 +10011,7 @@
   },
   {
     "lc_uuid": "0cb30212-103f-48c3-b09f-232d19aa5aaf",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10025,7 +10025,7 @@
   },
   {
     "lc_uuid": "7f699927-f76f-4124-9356-69bb62793650",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -10039,7 +10039,7 @@
   },
   {
     "lc_uuid": "6e101a65-1e7a-46bd-9c45-4fc529d718b9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -10053,7 +10053,7 @@
   },
   {
     "lc_uuid": "9def8572-97a9-47fc-b4c4-5cb83aac9d21",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -10067,7 +10067,7 @@
   },
   {
     "lc_uuid": "f6886b40-192f-4d82-a0eb-ea74bd506b0e",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10081,7 +10081,7 @@
   },
   {
     "lc_uuid": "17eb9a7e-fa07-4025-b179-90148883cbd2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10095,7 +10095,7 @@
   },
   {
     "lc_uuid": "9868f170-0ddd-484b-ab7d-ca4fc0916457",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -10109,7 +10109,7 @@
   },
   {
     "lc_uuid": "01ecb1b1-8c10-4490-b20f-aa8b9fd50cf2",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -10123,7 +10123,7 @@
   },
   {
     "lc_uuid": "035b38b7-c272-4b7a-9065-caf9be07d645",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -10137,7 +10137,7 @@
   },
   {
     "lc_uuid": "a585200a-f989-4f1c-9911-dbd798bf17fe",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10151,7 +10151,7 @@
   },
   {
     "lc_uuid": "5122ebc8-b64c-4e4d-9d59-de7fb7a2486e",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10165,7 +10165,7 @@
   },
   {
     "lc_uuid": "d39d6f45-2cf3-4ad2-93b4-77fc77d99342",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -10179,7 +10179,7 @@
   },
   {
     "lc_uuid": "be12fadc-e395-46ff-9062-9516ab2d3322",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028048,
@@ -10193,7 +10193,7 @@
   },
   {
     "lc_uuid": "4af7e7b8-6250-4913-a88c-f564dfeeefc7",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028151,
@@ -10207,7 +10207,7 @@
   },
   {
     "lc_uuid": "8a680f5f-9837-4057-a7c0-f22113b0738f",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10221,7 +10221,7 @@
   },
   {
     "lc_uuid": "330f633a-2680-4e9c-9a06-3fb2376b5c9b",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10235,7 +10235,7 @@
   },
   {
     "lc_uuid": "0e77180c-9aca-436e-8793-b93e418c92d4",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -10249,7 +10249,7 @@
   },
   {
     "lc_uuid": "782a6c3d-4c21-45aa-991e-ba9a2d6d6b53",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028274,
@@ -10263,7 +10263,7 @@
   },
   {
     "lc_uuid": "80a099d9-1e60-4805-9b16-7060d5711040",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00028377,
@@ -10277,7 +10277,7 @@
   },
   {
     "lc_uuid": "573935ca-2d18-4aa2-a151-121d51495ac9",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
@@ -10291,7 +10291,7 @@
   },
   {
     "lc_uuid": "f21c4165-fbf7-4f9d-aaf8-dc06bba0cfc3",
-    "layer": "RD 12",
+    "layer": "Zugstab D12",
     "material": "Baustahl S355JR",
     "datensatz": "Baustahl S355JR",
     "volumen_m3": 0.00016815,
