@@ -1,0 +1,1945 @@
+{
+  "summary": {
+    "file": "C:\\Users\\marle\\Desktop\\Studium Master\\Seminar\\reuse-twin-student\\out\\_uploads\\e931af3ac4e2\\UPV_BIM#7_ST_2022_07_27.ifc",
+    "sha256": "e931af3ac4e23d56d87d8f7575b86e7494e696ca893039dfe40c89ed9d57aa99",
+    "schema": "IFC4",
+    "authoring_application": "Autodesk Revit 2019 (ENU) 2019",
+    "length_unit": "METRE",
+    "n_elements": 188,
+    "n_types": 66,
+    "n_spatial": 8,
+    "elements_by_id_status": {
+      "valid": 188
+    },
+    "material_kinds": {
+      "none": 106,
+      "single": 74,
+      "profile_set": 6,
+      "layer_set_usage": 2
+    },
+    "geometry_status": {
+      "ok": 187,
+      "no_representation": 1
+    },
+    "relationships": {
+      "voids": 22,
+      "aggregates": 1
+    },
+    "findings_by_severity": {
+      "warning": 225,
+      "info": 4
+    },
+    "findings_by_code": {
+      "PROXY_ELEMENT": 142,
+      "NO_MATERIAL": 83,
+      "GEOMETRY_AS_BOX": 1,
+      "LAYER_THICKNESS_CHECK": 1,
+      "NO_CONNECTION_RELATIONSHIPS": 1,
+      "QTO_VOLUME_CHECK": 1
+    },
+    "run": {
+      "run_id": "ec6d67085f37",
+      "started_at": "2026-11-16T09:18:05+00:00",
+      "duration_s": 4.8,
+      "reuse_twin_version": "0.1.0",
+      "ifcopenshell_version": "0.9.0.post1",
+      "python_version": "3.13.17",
+      "settings": {
+        "with_geometry": true,
+        "threads": 12,
+        "geometry_settings": {
+          "use-world-coords": true,
+          "weld-vertices": true
+        },
+        "meshes": true
+      }
+    }
+  },
+  "coverage": [
+    {
+      "ifc_class": "IfcBuildingElementProxy",
+      "count": 142,
+      "with_material": 59,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 142,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcColumn",
+      "count": 18,
+      "with_material": 18,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 18,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcFurniture",
+      "count": 2,
+      "with_material": 2,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 2,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcSlab",
+      "count": 2,
+      "with_material": 2,
+      "with_layered_buildup": 2,
+      "with_geometry_ok": 2,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcStair",
+      "count": 2,
+      "with_material": 1,
+      "with_layered_buildup": 1,
+      "with_geometry_ok": 1,
+      "with_qto": 0
+    }
+  ],
+  "findings": [
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "04OVEiKcf0ORhJ0ubEi$Zm",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "04OVEiKcf0ORhJ0ubEiyHa",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "04OVEiKcf0ORhJ0ubEiyni",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0NT7qJjDLEOfqBFR$zTOFs",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0NT7qJjDLEOfqBFR$zTOHY",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0NT7qJjDLEOfqBFR$zTOTe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0NT7qJjDLEOfqBFR$zTPyn",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79F",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79q",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79r",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79s",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79t",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79u",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79v",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7AQ",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7AR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7AS",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7Am",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7B2",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7B3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7B4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7BW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7BX",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7C3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7CF",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7CR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7F1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7Fe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0ZnXBosjb4QffMUVUaZZGo",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0eI0xKdVXEKOm3jZtOQjUi",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0kW4jEy5z0l9RuRDd$E0AD",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0kW4jEy5z0l9RuRDd$E1uc",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0qyPxJwXn15BD2SpZSzmKr",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0qyPxJwXn15BD2SpZSzmi3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0qyPxJwXn15BD2SpZSzn6e",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0qyPxJwXn15BD2SpZSznLL",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0qyPxJwXn15BD2SpZSznPF",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0qyPxJwXn15BD2SpZSznia",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0uWv2IX5nEkh_XrdBj0Gfn",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "0uWv2IX5nEkh_XrdBj0Ghd",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "13SluvrQf4FA2GgQg3UJNT",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGD0r",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGD48",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGD4k",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGD5g",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGD6s",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDAO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDBK",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDBo",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDX6",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDX8",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDXI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDX_",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1dRWELWpH7HgVuMPfDGDXq",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "1pp61626r3UeJdFR$RVBJH",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3Gx0xWiKnCLvG06EAiuXZb",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcSL",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcTY",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcXI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcX_",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcY8",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcYe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcZG",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcZv",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcby",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBccA",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBccG",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBccO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBccW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcdC",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcey",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcfp",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg0",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg5",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg6",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg7",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcip",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcjw",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBclI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3LP3BDJ3v2BejdquJxBcov",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "NO_MATERIAL",
+      "severity": "warning",
+      "message": "No material association on the element, its type, or its parts.",
+      "element_key": "3YGXV7JHb2EhV_UPBCpgs$",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "04OVEiKcf0ORhJ0ubEi$Zm",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "04OVEiKcf0ORhJ0ubEiyHa",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "04OVEiKcf0ORhJ0ubEiyni",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0CmZogcWf1LxBvY0POD3G7",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0NT7qJjDLEOfqBFR$zTOFs",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0NT7qJjDLEOfqBFR$zTOHY",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0NT7qJjDLEOfqBFR$zTOTe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0NT7qJjDLEOfqBFR$zTPyn",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79F",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79q",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79r",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79s",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79t",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79u",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV79v",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7AQ",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7AR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7AS",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7Am",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7B2",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7B3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7B4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7BW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7BX",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7C3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7CF",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7CR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7F1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0Nl8xqWHPCah$ZHUSrV7Fe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0ZnXBosjb4QffMUVUaZZGo",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0eI0xKdVXEKOm3jZtOQjUi",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0kW4jEy5z0l9RuRDd$E0AD",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0kW4jEy5z0l9RuRDd$E1uc",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qyPxJwXn15BD2SpZSzmKr",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qyPxJwXn15BD2SpZSzmi3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qyPxJwXn15BD2SpZSzn6e",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qyPxJwXn15BD2SpZSznLL",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qyPxJwXn15BD2SpZSznPF",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qyPxJwXn15BD2SpZSznia",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0uWv2IX5nEkh_XrdBj0Gfn",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0uWv2IX5nEkh_XrdBj0Ghd",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "13SluvrQf4FA2GgQg3UJNT",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1RXf75AmX5vBW6G7WGEN84",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1RXf75AmX5vBW6G7WGEN86",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1c2gmrZpf7qQ13R$ulC1Gx",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1c2gmrZpf7qQ13R$ulC1H3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1c2gmrZpf7qQ13R$ulC1HD",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1c2gmrZpf7qQ13R$ulC1HX",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1c2gmrZpf7qQ13R$ulC1Hr",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1c2gmrZpf7qQ13R$ulC1Jf",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD0M",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD0r",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD2p",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD48",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD4k",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD5g",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGD6s",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDAO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDAb",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDBK",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDBo",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDL7",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDX6",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDX8",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDXI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDX_",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGDXq",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGo$Z",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGoYG",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGoYO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGoZW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGoZe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGoZm",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGomr",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGoo0",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGooG",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGors",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1dRWELWpH7HgVuMPfDGouX",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1ivQVwKPv8Sv_dMNAbXAfH",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1pp61626r3UeJdFR$RVBJH",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2Eh3jw1vP8Yf4jgVHS_U4$",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2Eh3jw1vP8Yf4jgVHS_U4j",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2Eh3jw1vP8Yf4jgVHS_U59",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2Eh3jw1vP8Yf4jgVHS_U5R",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2Eh3jw1vP8Yf4jgVHS_U5d",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2LMMckmpHD1gKgMUm4ICq4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2LMMckmpHD1gKgMUm4ICrU",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2LMMckmpHD1gKgMUm4ICra",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2LMMckmpHD1gKgMUm4ICro",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2LMMckmpHD1gKgMUm4ICru",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "31dh6u5I5FXP3Nf62XQn0X",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "31dh6u5I5FXP3Nf62XQn1V",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "31dh6u5I5FXP3Nf62XQn2$",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "31dh6u5I5FXP3Nf62XQn6X",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "31dh6u5I5FXP3Nf62XQn9w",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "36yos0RUTEj9HGM2_2mz_9",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "36yos0RUTEj9HGM2_2mzwy",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "38Nkh8K$5COgo6gkM5oqeK",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "38Nkh8K$5COgo6gkM5oqfW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3By7SZK_j7KvVQG3qkGX_n",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3By7SZK_j7KvVQG3qkGXu0",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3By7SZK_j7KvVQG3qkGXuA",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3By7SZK_j7KvVQG3qkGXuO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3By7SZK_j7KvVQG3qkGXvo",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3By7SZK_j7KvVQG3qkGXvy",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3Gx0xWiKnCLvG06EAiuXZb",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcSL",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcTY",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcXI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcX_",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcY8",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcYe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcZG",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcZv",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcby",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBccA",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBccG",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBccO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBccW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcdC",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcey",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcfp",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg0",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg5",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg6",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcg7",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcip",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcjw",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBclI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3LP3BDJ3v2BejdquJxBcov",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3VXUZHIUT7C9U22spCBO9d",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3YGXV7JHb2EhV_UPBCpgs$",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z10m",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z1N4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z1O0",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z1Q0",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z1U6",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z1Uf",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3ZUgskZ7X4yPTcfHJ8Z1Vc",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3nZyg3JZPC486d7JF97yh3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "GEOMETRY_AS_BOX",
+      "severity": "info",
+      "message": "Furnishing elements are shown as their bounding box, openings not cut; their closed-mesh test and volume are not evaluated.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {
+        "n_elements": 2
+      }
+    },
+    {
+      "code": "LAYER_THICKNESS_CHECK",
+      "severity": "info",
+      "message": "Layer thickness vs geometry: 2 elements compared, 0 on a different axis than declared, 0 matching no axis.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {
+        "checked": 2,
+        "direction_inconsistent": 0,
+        "mismatched": 0
+      }
+    },
+    {
+      "code": "NO_CONNECTION_RELATIONSHIPS",
+      "severity": "info",
+      "message": "No IfcRelConnects* relationships: element adjacency and connections must be inferred from geometry.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {}
+    },
+    {
+      "code": "QTO_VOLUME_CHECK",
+      "severity": "info",
+      "message": "NetVolume cross-check: 0 elements compared, 0 beyond tolerance.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {
+        "checked": 0,
+        "mismatched": 0,
+        "rel_tol": 0.05,
+        "abs_tol_m3": 0.0001
+      }
+    }
+  ]
+}

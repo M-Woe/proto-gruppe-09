@@ -1,0 +1,10 @@
+node_modules/
+dist/
+core/.venv/
+core/.venv-windows/
+__pycache__/
+.DS_Store
+
+# Ausnahme gegenueber dem Projektstand: out/ (die importierten Modelle model.json + geometry.glb
+# und die Original-IFC-Dateien) ist in dieser Sicherung bewusst enthalten, damit der Stand sofort
+# wieder startklar ist. Siehe BACKUP-NOTIZ.md.
