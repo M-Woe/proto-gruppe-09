@@ -9,6 +9,12 @@ import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 export type DisplayMode = "isolate" | "ghost" | "all";
 
+/** A box in world space, as three numbers for the minimum and three for the maximum. */
+export interface Bounds {
+  min: [number, number, number];
+  max: [number, number, number];
+}
+
 export interface Label {
   el: HTMLElement; // positioned by the viewer; created and owned by the caller
   at: [number, number, number]; // scene (glTF) point at the label's bottom-left corner
@@ -223,26 +229,70 @@ export class Viewer {
   }
 
   /** Sorted arrangement: per element a matrix (GLB → layout, column-major) from the backend; null = in place. */
-  setArrangement(matrices: Map<string, number[]> | null): void {
-    const st = this.state();
-    if (!st) return;
+  /**
+   * The arrangement of the 3D view: per model, per element a matrix in world space (column-major).
+   * null = the elements stand where the file puts them.
+   *
+   * The matrices are only for the picture. The home matrix of every element - the one the GLB was
+   * loaded with - stays untouched, so putting the arrangement back to null restores the original
+   * IFC positions exactly, to the last bit.
+   */
+  setArrangement(arrangements: Map<string, Map<string, number[]>> | null): void {
     this.scene.updateMatrixWorld(true);
     const t = new THREE.Matrix4();
-    for (const [key, el] of st.elements) {
-      const m = matrices?.get(key);
-      for (const mesh of el.meshes) {
-        const home = mesh.userData.home as THREE.Matrix4;
-        if (!m) mesh.matrix.copy(home);
-        else {
-          // world = T · (parent · home)  ⇒  local = parent⁻¹ · T · parent · home
-          const parent = mesh.parent ? mesh.parent.matrixWorld : new THREE.Matrix4();
-          t.fromArray(m);
-          mesh.matrix.copy(parent).invert().multiply(t).multiply(parent).multiply(home);
+    for (const st of this.states.values()) {
+      const perModel = arrangements?.get(st.label);
+      for (const [key, el] of st.elements) {
+        const m = perModel?.get(key);
+        for (const mesh of el.meshes) {
+          const home = mesh.userData.home as THREE.Matrix4;
+          if (!m) mesh.matrix.copy(home);
+          else {
+            // world = T * (parent * home)  ->  local = parent^-1 * T * parent * home
+            const parent = mesh.parent ? mesh.parent.matrixWorld : new THREE.Matrix4();
+            t.fromArray(m);
+            mesh.matrix.copy(parent).invert().multiply(t).multiply(parent).multiply(home);
+          }
         }
       }
     }
     this.scene.updateMatrixWorld(true);
     this.invalidate();
+  }
+
+  /**
+   * The world box of every element: model -> element key -> box. The boxes are in the scene, so they
+   * include the offset that brings two models of one building onto each other. The explosion uses
+   * them to find the groups and the distances between them; the IFC coordinates themselves are not
+   * touched by it.
+   */
+  elementBounds(): Map<string, Map<string, Bounds>> {
+    this.scene.updateMatrixWorld(true);
+    const out = new Map<string, Map<string, Bounds>>();
+    for (const st of this.states.values()) {
+      const perModel = new Map<string, Bounds>();
+      for (const [key, el] of st.elements) {
+        const box = new THREE.Box3();
+        for (const mesh of el.meshes) box.expandByObject(mesh);
+        if (box.isEmpty()) continue;
+        perModel.set(key, {
+          min: [box.min.x, box.min.y, box.min.z],
+          max: [box.max.x, box.max.y, box.max.z],
+        });
+      }
+      out.set(st.label, perModel);
+    }
+    return out;
+  }
+
+  /**
+   * Wie viele Bauteile je Modell gerade zu sehen sind (nach der Sichtbarkeitseinstellung). */
+  visibleCount(): { model: string; shown: number; total: number }[] {
+    return [...this.states.values()].map((st) => ({
+      model: st.label,
+      total: st.elements.size,
+      shown: st.mode === "isolate" ? [...st.members].filter((k) => st.elements.has(k)).length : st.elements.size,
+    }));
   }
 
   /** HTML labels pinned to scene points; overlapping ones are hidden (earlier labels win). */

@@ -7,6 +7,8 @@ import { initChat } from "./chat";
 import { h } from "./dom";
 import { PartsPanel } from "./parts-panel";
 import { InfoCard } from "./info-card";
+import { Explosion, type VisibilityMode } from "./explosion";
+import { ExplosionPanel } from "./explosion-panel";
 
 initChat();
 
@@ -25,10 +27,49 @@ openPage().then((page) => {
   panel.onFocus = () => page.focusSelection();
   // Die Karte zoomt auf dieselbe Auswahl.
   card.onFocus = () => page.focusSelection();
-  // Jede Änderung der Auswahl kommt bei allen drei Ansichten an.
+
+  // --- Die Explosionsdarstellung ---------------------------------------------------------------------
+  // Das Bedienfeld liegt im 3D-Viewport. Die Explosion ist nur eine zusaetzliche, temporaere
+  // Verschiebung fuer das Bild: die IFC-Weltkoordinaten der Bauteile bleiben unveraendert.
+  const explosion = new Explosion(page.parts, page.viewer);
+  const exPanel = new ExplosionPanel(document.getElementById("viewport")!);
+
+  /** Was im 3D zu sehen ist - getrennt von der Filterung der Tabelle. */
+  const applyVisibility = (mode: VisibilityMode): void => {
+    const selected = page.selection.list();
+    const filtered = panel.filteredIds();
+    for (const model of page.viewer.models()) {
+      const prefix = `${model.label}\0`;
+      const keys = (ids: string[]) => ids.filter((id) => id.startsWith(prefix)).map((id) => id.slice(prefix.length));
+      const members = mode === "selection" ? keys(selected) : mode === "filter" ? keys(filtered) : model.keys;
+      page.viewer.setDisplay(members, mode === "all" ? "all" : "isolate", model.label);
+    }
+  };
+
+  /** Die Anordnung neu setzen (nach Grad, Gruppierung oder Auswahl). */
+  const applyArrangement = (): void => {
+    const state = exPanel.getState();
+    const ids = page.selection.list();
+    explosion.apply(state.criterion, state.exploded ? state.factor : 0, ids);
+    exPanel.setGroups(explosion.groups(state.criterion, ids));
+  };
+
+  exPanel.onChange = (state) => {
+    applyArrangement();
+    applyVisibility(state.visibility);
+  };
+  // Ein Filter der Tabelle darf auch das 3D beeinflussen (nur ueber die Sichtbarkeit).
+  panel.onFilter = () => {
+    if (exPanel.getState().visibility === "filter") applyVisibility("filter");
+  };
+  // Jede Änderung der Auswahl kommt bei allen Ansichten an.
   page.selection.onChange((ids) => {
     panel.setSelection(ids);
     card.show(ids);
+    const state = exPanel.getState();
+    // Nach Auswahl gruppiert heisst jede neue Auswahl eine neue Anordnung.
+    if (state.exploded && state.criterion === "selection") applyArrangement();
+    if (state.visibility === "selection") applyVisibility("selection");
   });
 
   // --- Die rechte Spalte: Tabelle ein- und ausblenden, Breite ziehen ------------------------------

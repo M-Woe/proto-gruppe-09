@@ -190,6 +190,34 @@ body.shell.inventory #right-top { overflow: hidden; }
 .parts-group-item { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .parts-group-list li .muted { flex: none; font-size: 10.5px; }
 
+/* --- Das Bedienfeld fuer die Darstellung (im 3D-Viewport, oben links) ---------------------------- */
+.explosion-panel { position: absolute; left: 14px; top: 14px; z-index: 6; width: 252px; max-width: calc(100% - 28px);
+  background: var(--details); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; }
+.explosion-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 7px 10px;
+  font-size: 11.5px; border-bottom: 1px solid var(--line); }
+.explosion-head strong { font-weight: 600; }
+.explosion-collapse { width: 20px; height: 20px; padding: 0; border: none; background: transparent; color: var(--muted);
+  border-radius: 6px; font-size: 13px; line-height: 1; box-shadow: none; }
+.explosion-collapse:hover { background: var(--chip); color: var(--text); filter: none; }
+.explosion-panel.collapsed .explosion-body { display: none; }
+.explosion-panel.collapsed .explosion-head { border-bottom: none; }
+.explosion-body { padding: 8px 10px 10px; display: flex; flex-direction: column; gap: 7px; }
+.explosion-seg { display: flex; gap: 2px; padding: 2px; background: var(--chip); border-radius: 9px; }
+.explosion-seg button { flex: 1 1 0; border: none; background: transparent; color: var(--soft); font-size: 11px; font-weight: 600;
+  padding: 4px 6px; border-radius: 7px; box-shadow: none; cursor: pointer; }
+.explosion-seg button:hover { background: var(--chip-hover); filter: none; }
+.explosion-seg button.on { background: var(--card); color: var(--accent-ink); box-shadow: var(--shadow); }
+.explosion-field { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); }
+.explosion-field > span:first-child { flex: none; width: 62px; }
+.explosion-select { flex: 1 1 auto; font-size: 11.5px; padding: 3px 6px; border-radius: 7px; }
+.explosion-range { flex: 1 1 auto; accent-color: var(--primary); min-width: 0; }
+.explosion-value { flex: none; font-size: 11px; color: var(--text); font-variant-numeric: tabular-nums; width: 38px; text-align: right; }
+.explosion-actions { display: flex; gap: 6px; }
+.explosion-btn { flex: 1 1 0; font-size: 11px; padding: 4px 8px; border-radius: 999px; background: var(--card); color: var(--soft);
+  border: 1px solid var(--line); box-shadow: none; font-weight: 600; }
+.explosion-btn:hover { background: var(--chip-hover); color: var(--text); filter: none; }
+.explosion-groups { font-size: 10.5px; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
 /* --- Die Bauteil-Infokarte am Rand des 3D-Viewports ---------------------------------------------- */
 /* Ein kleines Panel unten links im Viewport: es überdeckt wenig vom Modell und lässt die
    rechte Bauteiltabelle unberührt. */

@@ -118,6 +118,13 @@ export class PartsPanel {
   onPick: (id: string, additive: boolean) => void = () => {};
   /** Wird aufgerufen, wenn die Kamera auf die Auswahl zoomen soll. */
   onFocus: () => void = () => {};
+  /** Wird aufgerufen, wenn sich der Filter aendert (für die Sichtbarkeit im 3D). */
+  onFilter: () => void = () => {};
+
+  /** Die Ids der Bauteile, die der aktuelle Filter findet - für die Sichtbarkeit im 3D. */
+  filteredIds(): string[] {
+    return this.visible().map((p) => p.id);
+  }
 
   constructor(private readonly parts: Parts, container: HTMLElement) {
     this.root = h("div", { class: "parts-panel" });
@@ -158,26 +165,27 @@ export class PartsPanel {
     search.oninput = () => {
       this.filters.search = search.value.trim().toLowerCase();
       this.render();
+      this.onFilter();
     };
     const model = this.selectFilter(
       "Alle Modelle",
       this.parts.models.map((m) => ({ value: m.label, label: `${m.code} – ${m.file}` })),
-      (v) => { this.filters.model = v; this.render(); },
+      (v) => { this.filters.model = v; this.render(); this.onFilter(); },
     );
     const type = this.selectFilter(
       "Alle Typen",
       this.parts.types.map((t) => ({ value: t, label: t })),
-      (v) => { this.filters.type = v; this.render(); },
+      (v) => { this.filters.type = v; this.render(); this.onFilter(); },
     );
     const storey = this.selectFilter(
       "Alle Geschosse",
       this.parts.storeys.map((s) => ({ value: s, label: s })),
-      (v) => { this.filters.storey = v; this.render(); },
+      (v) => { this.filters.storey = v; this.render(); this.onFilter(); },
     );
     const material = this.selectFilter(
       "Alle Materialien",
       this.parts.materials.map((s) => ({ value: s, label: s })),
-      (v) => { this.filters.material = v; this.render(); },
+      (v) => { this.filters.material = v; this.render(); this.onFilter(); },
     );
     const reset = h("button", { class: "parts-reset", type: "button", title: "Alle Filter zurücksetzen" },
       "Zurücksetzen");
@@ -369,6 +377,7 @@ export class PartsPanel {
       el.value = "";
     }
     this.render();
+    this.onFilter();
   }
 
   /** Der Hinweis auf der rechten Seite der Kopfzeile. */

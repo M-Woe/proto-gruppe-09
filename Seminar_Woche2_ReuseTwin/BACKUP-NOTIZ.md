@@ -1,6 +1,6 @@
 # Sicherung: Seminar Woche 2 - ReuseTwin IFC Webapp
 
-Dieser Ordner ist eine **eigenstaendige Kopie** (65 Dateien, rund 40 MB) des lokalen Entwicklungsstands der
+Dieser Ordner ist eine **eigenstaendige Kopie** (67 Dateien, rund 40 MB) des lokalen Entwicklungsstands der
 Reuse-Twin-Webapp. Er wurde am 16.11.2026 in das Repository `M-Woe/proto-gruppe-09`
 (Ordner `Seminar_Woche2_ReuseTwin`) gelegt. Die lokale Arbeitsversion wurde dabei
 **nicht veraendert**; dieser Ordner ist nur die Sicherung.
@@ -14,13 +14,21 @@ Reuse-Twin-Webapp. Er wurde am 16.11.2026 in das Repository `M-Woe/proto-gruppe-
 | Bereich | Dateien |
 |---|---|
 | Seiten | `index.html`, `import.html`, `studio.html` |
-| Frontend | `src/` mit 19 Dateien (TypeScript, CSS) - darunter `parts.ts`, `parts-panel.ts`, `selection.ts`, `info-card.ts`, `de.ts` |
+| Frontend | `src/` mit 21 Dateien (TypeScript, CSS) - darunter `parts.ts`, `parts-panel.ts`, `selection.ts`, `info-card.ts`, `explosion.ts`, `explosion-panel.ts`, `de.ts` |
 | Core | `core/reuse_twin/` (Python, kompiliert ausgeliefert), `core/requirements.txt`, `core/VERSION` |
 | Projekt | `package.json`, `package-lock.json`, `tsconfig.json`, `vite.config.ts` |
 | Start | `scripts/setup.mjs`, `scripts/start.mjs`, `Start Reuse Twin (Windows).bat`, `Start Reuse Twin (Mac).command` |
 | Oberflaeche | `public/shell.js`, `public/theme.js`, `src/style.css`, `src/student.css` |
 | Daten | `out/` mit den importierten Modellen (`model.json`, `geometry.glb`, `audit.json/md`) und den Original-IFC-Dateien |
 | Doku | `README.md` |
+
+## Enthaltene Funktionen
+
+- Mehrere IFC-Modelle gleichzeitig in einer 3D-Ansicht, an ihren IFC-Weltkoordinaten ausgerichtet
+- Deutsche Bauteiltabelle in der rechten Panelspalte (5 Reiter, Filter, Suche, Sortierung)
+- Gemeinsame Auswahlverwaltung (Modell + IFC-Key) zwischen 3D-Ansicht, Tabelle und Infokarte
+- Bauteil-Infokarte am Rand des 3D-Viewports
+- Interaktive Explosionsdarstellung (nach Bauteiltyp, Geschoss, Material oder Auswahl)
 
 ## Bewusst nicht enthalten
 
