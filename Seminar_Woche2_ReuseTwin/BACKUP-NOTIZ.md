@@ -1,6 +1,6 @@
 # Sicherung: Seminar Woche 2 - ReuseTwin IFC Webapp
 
-Dieser Ordner ist eine **eigenstaendige Kopie** des lokalen Entwicklungsstands der
+Dieser Ordner ist eine **eigenstaendige Kopie** (65 Dateien, rund 40 MB) des lokalen Entwicklungsstands der
 Reuse-Twin-Webapp. Er wurde am 16.11.2026 in das Repository `M-Woe/proto-gruppe-09`
 (Ordner `Seminar_Woche2_ReuseTwin`) gelegt. Die lokale Arbeitsversion wurde dabei
 **nicht veraendert**; dieser Ordner ist nur die Sicherung.
@@ -14,7 +14,7 @@ Reuse-Twin-Webapp. Er wurde am 16.11.2026 in das Repository `M-Woe/proto-gruppe-
 | Bereich | Dateien |
 |---|---|
 | Seiten | `index.html`, `import.html`, `studio.html` |
-| Frontend | `src/` mit 21 Dateien (TypeScript, CSS) - darunter `parts.ts`, `parts-panel.ts`, `selection.ts`, `info-card.ts`, `de.ts` |
+| Frontend | `src/` mit 19 Dateien (TypeScript, CSS) - darunter `parts.ts`, `parts-panel.ts`, `selection.ts`, `info-card.ts`, `de.ts` |
 | Core | `core/reuse_twin/` (Python, kompiliert ausgeliefert), `core/requirements.txt`, `core/VERSION` |
 | Projekt | `package.json`, `package-lock.json`, `tsconfig.json`, `vite.config.ts` |
 | Start | `scripts/setup.mjs`, `scripts/start.mjs`, `Start Reuse Twin (Windows).bat`, `Start Reuse Twin (Mac).command` |
