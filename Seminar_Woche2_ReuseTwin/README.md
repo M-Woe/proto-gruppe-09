@@ -97,3 +97,43 @@ The IFC files you get in this course are third-party models: do not share them o
 `qwen3:1.7b`, running on your computer through Ollama. It sees only what is written in the conversation — not the
 model, the selection or the screen. What it should know, and whether it may do anything in the viewer, is yours to
 design (`src/chat.ts`). Another Ollama model: change `MODEL` there.
+
+## Der 3D-Bauteilkatalog (Etappe 1)
+
+Im Inventory-Fenster gibt es oben rechts im 3D-Bereich den Umschalter **Gebäude | Bauteilkatalog**.
+Im Katalog sind alle geometrisch verfuegbaren Bauteile der geladenen IFC-Modelle aus ihrem
+Gebaeudeverband geloest und wie in einem Bauteillager geordnet:
+
+| Ebene | Regel |
+|---|---|
+| 1. Kategorie | Stuetzen, Traeger, Waende, Decken und Bodenplatten, Daecher, Fenster, Tueren, Treppen, Einrichtungen, Sonstige Bauteile - jeder Bereich mit eigener Beschriftung |
+| 2. Material | echte IFC-Materialien; bei einem Schichtaufbau der Aufbau selbst (kein erfundenes Hauptmaterial) |
+| 3. Typ und Geometrie | gleicher Typ und gleiche Masse (auf den Millimeter genau); gleiche Bauteile stehen unmittelbar nebeneinander, gleiche Typen mit anderen Massen in benachbarten Gruppen |
+| 4. Groesse | innerhalb der Gruppe von klein nach gross, nach den tatsaechlichen Massen |
+
+Die Bauteile behalten ihre echten Abmessungen und ihre echte Geometrie; im Katalog bekommen sie nur
+eine zusaetzliche, temporaere Drehung und Verschiebung. In der Gebaeudeansicht stehen sie wieder
+exakt an ihrer IFC-Position (0 abweichende Koordinaten, geprueft).
+
+### Dateien dieser Etappe
+
+| Datei | Was |
+|---|---|
+| `src/catalog.ts` | Die gemeinsame Datenstruktur, die Gruppierung, der Layout-Algorithmus und die Drehungen |
+| `src/catalog-panel.ts` | Der Umschalter Gebaeude/Bauteilkatalog und die Beschriftungen im 3D |
+| `src/viewer.ts` | Neu: `elementFrames()` (Box und Achsrichtung jedes Elements in seinem eigenen Koordinatensystem), `focus()` mit Blickrichtung |
+| `src/inventory.ts` | Der Katalog wird beim Umschalten aufgebaut und angewendet |
+| `src/explosion-panel.ts` | Neu: `setVisible()` - im Katalog gibt es keine Explosionsdarstellung |
+| `src/style.css` | Das Aussehen des Umschalters und der Beschriftungen |
+
+### Einschraenkungen
+
+- Die Drehung richtet die Bauteile nach ihrer Kategorie aus (Stuetzen senkrecht, Traeger flach
+  liegend, Waende aufrecht, Decken horizontal). Sie ist immer eine echte Drehung, keine Spiegelung.
+- Offnungen, Platten und andere Sonderbauteile ohne klare Funktion liegen in "Sonstige Bauteile".
+- Die Reihenbreite des Lagers betraegt 46 m; an einem Reihenwechsel stehen gleiche Bauteile
+  untereinander statt nebeneinander (die Lesereihenfolge bleibt).
+- Katalog und Explosionsdarstellung schliessen sich aus; die Explosionsdarstellung wird beim
+  Wechsel zur Gebaeudeansicht wiederhergestellt.
+- Bauteile ohne Geometrie sind nicht im Katalog - sie sind auch im 3D nicht zu sehen.
+- Die 2D-Katalogansicht und die erweiterten Filter gehoeren zu Etappe 2 und sind nicht Teil dieser Etappe.
