@@ -59,20 +59,15 @@ const CATEGORY_OF: Record<string, Category> = {
  * Die Zielrichtung der drei lokalen Achsen: wohin sollen sie im Katalog zeigen?
  * X, Y und Z sind die lokalen Achsen des Bauteils (X = Laenge, Y = Breite/Dicke, Z = Hoehe).
  */
-const CANONICAL: Record<Category, [number, number, number]> = {
-  //         lokal X → , lokal Y → , lokal Z →
-  column: [0, 2, 1],   // steht senkrecht: die Hoehe (Z) zeigt nach oben
-  beam: [0, 1, 2],     // liegt flach: die Breite (Y) zeigt nach oben, die Laenge nach X
-  wall: [0, 2, 1],     // steht aufrecht: die Hoehe (Z) zeigt nach oben
-  slab: [0, 1, 2],     // liegt flach: die Dicke (Z) zeigt nach oben
-  roof: [0, 2, 1],
-  window: [0, 2, 1],
-  door: [0, 2, 1],
-  stair: [0, 2, 1],
-  furniture: [0, 2, 1],
-  other: [0, 2, 1],
-};
-
+/**
+ * Die Zielrichtung der drei Ausdehnungen eines Bauteils im Katalog: die Szenenachse (0 = X,
+ * 1 = Y, 2 = Z), in die die senkrechte Ausdehnung, die Laenge und die Breite zeigen sollen.
+ *
+ * Die Ausdehnungen werden nicht ueber die lokalen Achsen des Bauteils benannt, sondern ueber ihre
+ * Groesse und ihre Lage: die senkrechte Ausdehnung ist die, die in der Szene nach oben zeigt. So
+ * stimmt die Zuordnung, egal ob das Modell die Platzierung in die Geometrie gerechnet hat oder
+ * nicht - die beiden Testmodelle machen es unterschiedlich.
+ */
 /** Der Abstand zwischen zwei Bauteilen in einer Reihe (Meter). */
 const GAP = 0.3;
 /** Der Abstand zwischen zwei Materialgruppen (Meter). */
@@ -83,9 +78,50 @@ const CATEGORY_GAP = 7;
 const ROW_WIDTH = 46;
 /** Die Mass-Toleranz: zwei Bauteile gelten als gleich, wenn sie um weniger als 1 mm abweichen. */
 const EXACT_TOLERANCE = 0.001;
-/** Die aehnliche Toleranz: bis hierher gehoeren Bauteile zur selben Geometriegruppe. */
+/** Die aehnliche Toleranz: bis hierher werden Proportionen als gleich beschrieben. */
 const SIMILAR_TOLERANCE = 0.03;
 
+const CANONICAL: Record<Category, { vertical: number; length: number; width: number }> = {
+  column: { vertical: 1, length: 0, width: 2 },   // steht senkrecht
+  beam: { vertical: 2, length: 0, width: 1 },     // liegt flach: die Breite zeigt nach oben
+  wall: { vertical: 1, length: 0, width: 2 },     // steht aufrecht
+  slab: { vertical: 1, length: 0, width: 2 },     // liegt flach: die Dicke zeigt nach oben
+  roof: { vertical: 1, length: 0, width: 2 },
+  window: { vertical: 1, length: 0, width: 2 },
+  door: { vertical: 1, length: 0, width: 2 },
+  stair: { vertical: 1, length: 0, width: 2 },
+  furniture: { vertical: 1, length: 0, width: 2 },
+  other: { vertical: 1, length: 0, width: 2 },
+};
+
+/** Die Kategorie eines Bauteils. */
+/**
+ * Die Kategorie eines Bauteils. Neben dem genauen Namen zaehlt auch die Endung: aus „Holzstuetze"
+ * wird „Stuetze", aus „Geschossdecke" wird „Decke" – das Material steht vor der Art, die Art
+ * bleibt dieselbe.
+ */
+export function categoryOf(part: Part): Category {
+  const direct = CATEGORY_OF[part.type];
+  if (direct) return direct;
+  // Gross-/Kleinschreibung egal: im deutschen Kompositum steht der Anfangsbuchstabe klein
+  // („Holzträger" endet auf „träger").
+  const type = part.type.toLowerCase();
+  for (const [word, category] of SUFFIXES) {
+    if (type.endsWith(word.toLowerCase())) return category;
+  }
+  return "other";
+}
+
+/** Die Art am Ende des Namens, laengste zuerst (damit „Bodenplatte" vor „Decke" kommt). */
+export const SUFFIXES: [string, Category][] = Object.entries({
+  "Vorhangfassade": "wall", "Trennwand": "wall", "Bodenplatte": "slab", "Geschossdecke": "slab",
+  "Dachdecke": "slab", "Einrichtung": "furniture", "Heizkörper": "furniture", "Dachfenster": "window",
+  "Stütze": "column", "Pfeiler": "column", "Träger": "beam", "Unterzug": "beam", "Stürze": "beam",
+  "Wand": "wall", "Fassade": "wall", "Decke": "slab", "Dach": "roof", "Fenster": "window",
+  "Tür": "door", "Tor": "door", "Treppe": "stair", "Möbel": "furniture", "Schrank": "furniture",
+} as Record<string, Category>).sort((a, b) => b[0].length - a[0].length);
+
+/** Die Materialgruppe eines Bauteils: bei einem Schichtaufbau der Aufbau selbst, sonst das Material. */
 /** Ein Bauteil im Katalog. */
 export interface CatalogItem {
   /** Die eindeutige Id: Modell + NUL + IFC-Key. */
@@ -121,35 +157,6 @@ export interface CatalogItem {
   rotation: number[];
 }
 
-/** Die Kategorie eines Bauteils. */
-/**
- * Die Kategorie eines Bauteils. Neben dem genauen Namen zaehlt auch die Endung: aus „Holzstuetze"
- * wird „Stuetze", aus „Geschossdecke" wird „Decke" – das Material steht vor der Art, die Art
- * bleibt dieselbe.
- */
-export function categoryOf(part: Part): Category {
-  const direct = CATEGORY_OF[part.type];
-  if (direct) return direct;
-  // Gross-/Kleinschreibung egal: im deutschen Kompositum steht der Anfangsbuchstabe klein
-  // („Holzträger" endet auf „träger").
-  const type = part.type.toLowerCase();
-  for (const [word, category] of SUFFIXES) {
-    if (part.type.endsWith(word)) return category;
-    if (type.endsWith(word.toLowerCase())) return category;
-  }
-  return "other";
-}
-
-/** Die Art am Ende des Namens, laengste zuerst (damit „Bodenplatte" vor „Decke" kommt). */
-export const SUFFIXES: [string, Category][] = Object.entries({
-  "Vorhangfassade": "wall", "Trennwand": "wall", "Bodenplatte": "slab", "Geschossdecke": "slab",
-  "Dachdecke": "slab", "Einrichtung": "furniture", "Heizkörper": "furniture", "Dachfenster": "window",
-  "Stütze": "column", "Pfeiler": "column", "Träger": "beam", "Unterzug": "beam", "Stürze": "beam",
-  "Wand": "wall", "Fassade": "wall", "Decke": "slab", "Dach": "roof", "Fenster": "window",
-  "Tür": "door", "Tor": "door", "Treppe": "stair", "Möbel": "furniture", "Schrank": "furniture",
-} as Record<string, Category>).sort((a, b) => b[0].length - a[0].length);
-
-/** Die Materialgruppe eines Bauteils: bei einem Schichtaufbau der Aufbau selbst, sonst das Material. */
 function materialOf(part: Part): { key: string; label: string } {
   if (!part.material) return { key: "ohne", label: "Ohne Material" };
   const layers = part.layers.length;
@@ -219,36 +226,74 @@ function det3(m: M3): number {
  * Drehung (keine Spiegelung); dafuer wird im Zweifel die dünnste Achse umgekehrt - das sieht man
  * bei einem Bauteil am wenigsten.
  */
-function rotationFor(category: Category, axes: ElementFrame["axes"], half: [number, number, number]): M3 {
-  const target = CANONICAL[category];
+/**
+ * Die Katalogorientierung eines Bauteils: welche Szenenachse zeigen die drei Ausdehnungen am Ende?
+ * Die senkrechte Ausdehnung ist die, die in der Szene nach oben zeigt; die beiden anderen werden
+ * nach ihrer Groesse als Laenge und Breite unterschieden.
+ */
+export interface Orientation {
+  /** Die Szenenachse fuer jede der drei lokalen Achsen. */
+  target: [number, number, number];
+  /** Die halben Masse in der Katalogorientierung (X, Y, Z). */
+  half: [number, number, number];
+}
+
+/** Die Katalogorientierung eines Bauteils bestimmen. */
+export function orientationOf(
+  category: Category,
+  axes: ElementFrame["axes"],
+  half: [number, number, number],
+): Orientation {
+  // Welche lokale Achse zeigt in der Szene nach oben?
+  let vertical = 2;
+  let best = -Infinity;
+  for (let i = 0; i < 3; i++) {
+    const d = Math.abs(([axes.x, axes.y, axes.z] as [number, number, number][])[i][1]);
+    if (d > best) { best = d; vertical = i; }
+  }
+  // Die beiden anderen: die groessere ist die Laenge, die kleinere die Breite.
+  const rest = [0, 1, 2].filter((i) => i !== vertical).sort((a, b) => half[b] - half[a]);
+  const rule = CANONICAL[category];
+  const target: [number, number, number] = [0, 0, 0];
+  target[vertical] = rule.vertical;
+  target[rest[0]] = rule.length;
+  target[rest[1]] = rule.width;
+  // Die halben Masse in der Katalogorientierung.
+  const out: [number, number, number] = [0, 0, 0];
+  for (let i = 0; i < 3; i++) out[target[i]] = half[i];
+  return { target, half: out };
+}
+
+/**
+ * Die Drehung, die das Bauteil in die Katalogorientierung bringt: die lokalen Achsen zeigen danach in
+ * die Szenenrichtungen, die fuer die Kategorie festgelegt sind. Die Drehung ist immer eine echte
+ * Drehung (keine Spiegelung); dafuer wird im Zweifel die duennste Ausdehnung umgekehrt - das sieht
+ * man bei einem Bauteil am wenigsten.
+ */
+function rotationFor(
+  axes: ElementFrame["axes"],
+  half: [number, number, number],
+  target: [number, number, number],
+): M3 {
   const current: M3 = [
     axes.x[0], axes.x[1], axes.x[2],
     axes.y[0], axes.y[1], axes.y[2],
     axes.z[0], axes.z[1], axes.z[2],
   ];
-  // Die Zielmatrix: die Spalten sind die Szenenachsen, in die die lokalen Achsen zeigen sollen.
+  // Die Zielmatrix: die Spalte i ist die Szenenachse, in die die lokale Achse i zeigen soll.
   const goal: M3 = new Array<number>(9).fill(0);
-  for (let i = 0; i < 3; i++) {
-    goal[target[i] * 3 + i] = 1;
-  }
+  for (let i = 0; i < 3; i++) goal[i * 3 + target[i]] = 1;
   if (det3(goal) < 0) {
-    // Die Vertauschung würde spiegeln: die dünnste lokale Achse wird umgekehrt.
+    // Die Vertauschung wuerde spiegeln: die duennste Ausdehnung wird umgekehrt.
     let thin = 0;
     for (let i = 1; i < 3; i++) if (half[i] < half[thin]) thin = i;
-    goal[target[thin] * 3 + thin] = -1;
+    goal[thin * 3 + target[thin]] = -1;
   }
   // R = Ziel · Current^T (die Current-Matrix ist orthonormal, ihre Transponierte ist die Inverse).
   const inv: M3 = [current[0], current[3], current[6], current[1], current[4], current[7], current[2], current[5], current[8]];
   return mul3(goal, inv);
 }
 
-/** Die halben Masse in der Katalogorientierung: die Spalte der Szenenachse bekommt das Mass. */
-function halfInOrientation(category: Category, half: [number, number, number]): [number, number, number] {
-  const target = CANONICAL[category];
-  const out: [number, number, number] = [0, 0, 0];
-  for (let i = 0; i < 3; i++) out[target[i]] = half[i];
-  return out;
-}
 
 /**
  * Baut den Katalog aus dem Katalog der Bauteile (src/parts.ts) und den Rahmen aus dem Viewer.
@@ -266,6 +311,7 @@ export function buildCatalog(parts: Parts, frames: Map<string, Map<string, Eleme
     ];
     const dims: [number, number, number] = [half[0] * 2, half[1] * 2, half[2] * 2];
     const category = categoryOf(part);
+    const orientation = orientationOf(category, frame.axes, half);
     const material = materialOf(part);
     const geometry = geometryOf(part, dims);
     const centre = frame.centre;
@@ -276,8 +322,8 @@ export function buildCatalog(parts: Parts, frames: Map<string, Map<string, Eleme
       identical: true, dims, volume: part.volume.value === null ? 0 : Number(part.volume.value),
       centre, axes: frame.axes,
       slot: [0, 0, 0],
-      half: halfInOrientation(category, half),
-      rotation: rotationFor(category, frame.axes, half),
+      half: orientation.half,
+      rotation: rotationFor(frame.axes, half, orientation.target),
     });
   }
   return items;
