@@ -9,6 +9,8 @@ import { PartsPanel } from "./parts-panel";
 import { InfoCard } from "./info-card";
 import { Explosion, type VisibilityMode } from "./explosion";
 import { ExplosionPanel } from "./explosion-panel";
+import { buildCatalog, catalogArrangement, catalogLabels, layoutCatalog, type CatalogItem } from "./catalog";
+import { CatalogPanel } from "./catalog-panel";
 
 initChat();
 
@@ -27,6 +29,41 @@ openPage().then((page) => {
   panel.onFocus = () => page.focusSelection();
   // Die Karte zoomt auf dieselbe Auswahl.
   card.onFocus = () => page.focusSelection();
+
+  // --- Der Bauteilkatalog ---------------------------------------------------------------------------
+  // Der Katalog loest die Bauteile aus dem Gebaeudeverband und ordnet sie wie in einem Bauteillager.
+  // Er aendert nichts an den Daten: die Bauteile bekommen nur eine zusaetzliche, temporaere
+  // Verschiebung und Drehung. In der Gebaeudeansicht stehen sie wieder exakt an ihrer IFC-Position.
+  const catalogPanel = new CatalogPanel(document.getElementById("viewport")!);
+  let catalogItems: CatalogItem[] = [];
+
+  /** Der Katalog: aufbauen, anordnen, anzeigen. */
+  const showCatalog = (): void => {
+    const frames = page.viewer.elementFrames();
+    catalogItems = buildCatalog(page.parts, frames);
+    layoutCatalog(catalogItems);
+    page.viewer.setArrangement(catalogArrangement(catalogItems));
+    page.viewer.setLabels(catalogPanel.labels(catalogLabels(catalogItems)));
+    catalogPanel.setSummary(catalogItems);
+    // Die isometrische Gesamtansicht auf den Katalog.
+    page.viewer.focus(catalogItems.map((i) => ({ model: i.model, key: i.key })), [1, 0.85, 1], true);
+  };
+
+  /** Zurueck zur Gebaeudeansicht: die Anordnung des Baues (Explosion) wiederherstellen. */
+  const showBuilding = (): void => {
+    page.viewer.setLabels([]);
+    catalogPanel.clearLabels();
+    const state = exPanel.getState();
+    if (state.exploded) applyArrangement();
+    else page.viewer.setArrangement(null);
+  };
+
+  catalogPanel.onChange = (mode) => {
+    // Im Katalog gibt es keine Explosionsdarstellung: sie waere doppelt und unuebersichtlich.
+    exPanel.setVisible(mode === "building");
+    if (mode === "catalog") showCatalog();
+    else showBuilding();
+  };
 
   // --- Die Explosionsdarstellung ---------------------------------------------------------------------
   // Das Bedienfeld liegt im 3D-Viewport. Die Explosion ist nur eine zusaetzliche, temporaere

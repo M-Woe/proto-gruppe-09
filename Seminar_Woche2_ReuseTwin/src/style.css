@@ -218,6 +218,23 @@ body.shell.inventory #right-top { overflow: hidden; }
 .explosion-btn:hover { background: var(--chip-hover); color: var(--text); filter: none; }
 .explosion-groups { font-size: 10.5px; line-height: 1.4; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
+/* --- Der Bauteilkatalog: Umschalter und Beschriftungen -------------------------------------------- */
+.explosion-panel.hidden { display: none; }
+.catalog-panel { position: absolute; right: 14px; top: 14px; z-index: 6; width: 252px; max-width: calc(100% - 28px);
+  background: var(--details); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; }
+.catalog-seg { display: flex; gap: 2px; padding: 3px; }
+.catalog-seg button { flex: 1 1 0; border: none; background: transparent; color: var(--soft); font-size: 11.5px;
+  font-weight: 600; padding: 5px 7px; border-radius: 9px; box-shadow: none; cursor: pointer; }
+.catalog-seg button:hover { background: var(--chip-hover); filter: none; }
+.catalog-seg button.on { background: var(--card); color: var(--accent-ink); box-shadow: var(--shadow); }
+.catalog-summary { font-size: 10.5px; line-height: 1.45; padding: 7px 10px 8px; border-top: 1px solid var(--line); }
+.catalog-labels { position: absolute; inset: 0; pointer-events: none; }
+.catalog-label { position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap;
+  font-size: 11px; font-weight: 600; color: var(--soft); background: var(--details);
+  border: 1px solid var(--line); border-radius: 8px; padding: 2px 7px; }
+.catalog-label.category { font-size: 13px; font-weight: 700; color: var(--text); background: var(--card);
+  box-shadow: var(--shadow); }
+
 /* --- Die Bauteil-Infokarte am Rand des 3D-Viewports ---------------------------------------------- */
 /* Ein kleines Panel unten links im Viewport: es überdeckt wenig vom Modell und lässt die
    rechte Bauteiltabelle unberührt. */

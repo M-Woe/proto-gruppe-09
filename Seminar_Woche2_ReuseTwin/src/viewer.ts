@@ -15,6 +15,36 @@ export interface Bounds {
   max: [number, number, number];
 }
 
+/** An element in its own coordinate system: its box there and the direction of its three axes. */
+export interface ElementFrame {
+  /** The lower corner of the geometry in the element's own coordinates. */
+  min: [number, number, number];
+  /** The upper corner of the geometry in the element's own coordinates. */
+  max: [number, number, number];
+  /** Where the middle of the geometry stands in the scene. */
+  centre: [number, number, number];
+  /** Where the element's local axes point in the scene. */
+  axes: {
+    x: [number, number, number];
+    y: [number, number, number];
+    z: [number, number, number];
+  };
+}
+
+/** An element in its own coordinate system: its box there and the direction of its three axes. */
+export interface ElementFrame {
+  /** The lower corner of the geometry in the element's own coordinates. */
+  min: [number, number, number];
+  /** The upper corner of the geometry in the element's own coordinates. */
+  max: [number, number, number];
+  /** Where the element's local axes point in the scene. */
+  axes: {
+    x: [number, number, number];
+    y: [number, number, number];
+    z: [number, number, number];
+  };
+}
+
 export interface Label {
   el: HTMLElement; // positioned by the viewer; created and owned by the caller
   at: [number, number, number]; // scene (glTF) point at the label's bottom-left corner
@@ -295,6 +325,66 @@ export class Viewer {
     }));
   }
 
+  /**
+   * Die Box und die Achsrichtung jedes Elements in seinem eigenen Koordinatensystem: die Box aus
+   * der Geometrie (nicht aus der Welt-Bounding-Box, die bei gedrehten Elementen zu gross waere) und
+   * die Richtung, in die seine drei lokalen Achsen im Szenenraum zeigen. Der Katalog braucht beides,
+   * um die Bauteile einheitlich auszurichten. Die Ausgangslage wird genommen - der Katalog darf sie
+   * nicht veraendern.
+   */
+  elementFrames(): Map<string, Map<string, ElementFrame>> {
+    this.scene.updateMatrixWorld(true);
+    const out = new Map<string, Map<string, ElementFrame>>();
+    const inv = new THREE.Matrix4();
+    const full = new THREE.Matrix4();
+    const v = new THREE.Vector3();
+    for (const st of this.states.values()) {
+      const perModel = new Map<string, ElementFrame>();
+      for (const [key, el] of st.elements) {
+        const min = new THREE.Vector3(Infinity, Infinity, Infinity);
+        const max = new THREE.Vector3(-Infinity, -Infinity, -Infinity);
+        const axes = { x: new THREE.Vector3(), y: new THREE.Vector3(), z: new THREE.Vector3() };
+        let any = false;
+        for (const mesh of el.meshes) {
+          const home = mesh.userData.home as THREE.Matrix4;
+          const parent = mesh.parent ? mesh.parent.matrixWorld : new THREE.Matrix4();
+          // Die Weltmatrix der Ausgangslage: die Achsen des Elements im Szenenraum.
+          full.multiplyMatrices(parent, home);
+          const e = full.elements;
+          axes.x.set(e[0], e[1], e[2]).normalize();
+          axes.y.set(e[4], e[5], e[6]).normalize();
+          axes.z.set(e[8], e[9], e[10]).normalize();
+          // Die Box der Geometrie im Koordinatensystem des Elements.
+          const geo = mesh.geometry;
+          if (!geo.boundingBox) geo.computeBoundingBox();
+          const bb = geo.boundingBox;
+          if (!bb) continue;
+          inv.copy(home).invert();
+          for (let i = 0; i < 8; i++) {
+            v.set(i & 1 ? bb.max.x : bb.min.x, i & 2 ? bb.max.y : bb.min.y, i & 4 ? bb.max.z : bb.min.z);
+            v.applyMatrix4(inv);
+            min.min(v);
+            max.max(v);
+          }
+          any = true;
+        }
+        if (!any) continue;
+        // Die Mitte der Geometrie in der Szene: der Mittelpunkt der Box im eigenen System,
+        // mit der Ausgangsmatrix in die Szene gerechnet.
+        v.set((min.x + max.x) / 2, (min.y + max.y) / 2, (min.z + max.z) / 2);
+        v.applyMatrix4(full);
+        perModel.set(key, {
+          min: [min.x, min.y, min.z],
+          max: [max.x, max.y, max.z],
+          centre: [v.x, v.y, v.z],
+          axes: { x: [axes.x.x, axes.x.y, axes.x.z], y: [axes.y.x, axes.y.y, axes.y.z], z: [axes.z.x, axes.z.y, axes.z.z] },
+        });
+      }
+      out.set(st.label, perModel);
+    }
+    return out;
+  }
+
   /** HTML labels pinned to scene points; overlapping ones are hidden (earlier labels win). */
   setLabels(labels: Label[]): void {
     for (const l of this.labels) l.el.remove();
@@ -368,11 +458,12 @@ export class Viewer {
    * element stands right now - so a part that was moved (in an exploded view) is framed where it
    * is, not where it was.
    */
-  focus(entries: { model: string; key: string }[], fly = true): void {
+  focus(entries: { model: string; key: string }[], from?: [number, number, number], fly = true): void {
     const box = new THREE.Box3();
     for (const e of entries) {
       for (const m of this.states.get(e.model)?.elements.get(e.key)?.meshes ?? []) box.expandByObject(m);
     }
+    this.flyTo(box, from, fly);
     this.flyTo(box, undefined, fly);
   }
 

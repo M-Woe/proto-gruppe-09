@@ -14,7 +14,7 @@ Reuse-Twin-Webapp. Er wurde am 16.11.2026 in das Repository `M-Woe/proto-gruppe-
 | Bereich | Dateien |
 |---|---|
 | Seiten | `index.html`, `import.html`, `studio.html` |
-| Frontend | `src/` mit 21 Dateien (TypeScript, CSS) - darunter `parts.ts`, `parts-panel.ts`, `selection.ts`, `info-card.ts`, `explosion.ts`, `explosion-panel.ts`, `de.ts` |
+| Frontend | `src/` mit 23 Dateien (TypeScript, CSS) - darunter `parts.ts`, `parts-panel.ts`, `selection.ts`, `info-card.ts`, `explosion.ts`, `explosion-panel.ts`, `catalog.ts`, `catalog-panel.ts`, `de.ts` |
 | Core | `core/reuse_twin/` (Python, kompiliert ausgeliefert), `core/requirements.txt`, `core/VERSION` |
 | Projekt | `package.json`, `package-lock.json`, `tsconfig.json`, `vite.config.ts` |
 | Start | `scripts/setup.mjs`, `scripts/start.mjs`, `Start Reuse Twin (Windows).bat`, `Start Reuse Twin (Mac).command` |
@@ -29,6 +29,7 @@ Reuse-Twin-Webapp. Er wurde am 16.11.2026 in das Repository `M-Woe/proto-gruppe-
 - Gemeinsame Auswahlverwaltung (Modell + IFC-Key) zwischen 3D-Ansicht, Tabelle und Infokarte
 - Bauteil-Infokarte am Rand des 3D-Viewports
 - Interaktive Explosionsdarstellung (nach Bauteiltyp, Geschoss, Material oder Auswahl)
+- 3D-Bauteilkatalog als eigener Ansichtsmodus: alle geometrisch verfuegbaren Bauteile nach Kategorie, Material, Typ und Groesse sortiert, einheitlich ausgerichtet, mit deutschen Beschriftungen
 
 ## Bewusst nicht enthalten
 

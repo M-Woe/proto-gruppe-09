@@ -118,6 +118,11 @@ export class ExplosionPanel {
     return { ...this.state };
   }
 
+  /** Blendet das Bedienfeld aus (im Bauteilkatalog gibt es keine Explosionsdarstellung). */
+  setVisible(visible: boolean): void {
+    this.root.classList.toggle("hidden", !visible);
+  }
+
   /** Die Gruppen der aktuellen Gruppierung (für die Anzeige). */
   setGroups(groups: ExplosionGroup[]): void {
     const text = groups.length
