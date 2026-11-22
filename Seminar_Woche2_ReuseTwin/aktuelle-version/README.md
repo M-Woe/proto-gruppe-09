@@ -136,4 +136,21 @@ exakt an ihrer IFC-Position (0 abweichende Koordinaten, geprueft).
 - Katalog und Explosionsdarstellung schliessen sich aus; die Explosionsdarstellung wird beim
   Wechsel zur Gebaeudeansicht wiederhergestellt.
 - Bauteile ohne Geometrie sind nicht im Katalog - sie sind auch im 3D nicht zu sehen.
-- Die 2D-Katalogansicht und die erweiterten Filter gehoeren zu Etappe 2 und sind nicht Teil dieser Etappe.
+- Die 2D-Katalogansicht und die erweiterten Filter gehören zur Etappe 2.
+
+## Aktueller 2D-/3D-Bauteilkatalog
+
+Die Inventory-Seite enthält eine gemeinsame 2D-/3D-Katalogansicht:
+
+- Umschalten zwischen Gebäudeansicht, 2D-Katalog und 3D-Katalog
+- Kombinierbare Filter für Modell, Kategorie, Material, Geschoss, Typ, Tragfähigkeit und Maße
+- Alternative Sortierprinzipien
+- Mauszeiger-zentrierte 2D-Zoomsteuerung mit starkem Heranzoomen
+- Verschieben, Gesamtansicht und „Bauteil fokussieren“
+- Einfacher Klick für die zentrale Bauteilauswahl
+- Doppelklick zur Auswahl und Fokussierung
+- Synchronisierung von 2D-, 3D-Katalog, Tabelle und Infokarte
+- Auswahl über Modellkennung plus IFC-Element-ID
+
+Die Katalogansicht verändert keine IFC-Daten oder ursprünglichen Weltkoordinaten. Die bereitgestellten
+`out/`-Modelldaten erlauben den sofortigen lokalen Start der 3D- und 2D-Darstellung.

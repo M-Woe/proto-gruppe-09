@@ -26,8 +26,8 @@ export class CatalogPanel {
   private selected = new Set<string>();
   private projection: ((model: string, key: string, plane: ProjectionPlane) => [number, number][]) =
     () => [];
-  private zoom = 1;
-  private pan = { x: 0, y: 0 };
+  private baseViewBox = { x: 0, y: 0, width: 1200, height: 800 };
+  private viewBox = { x: 0, y: 0, width: 1200, height: 800 };
 
   onChange: (mode: CatalogMode) => void = () => {};
   onViewChange: (view: CatalogView) => void = () => {};
@@ -59,7 +59,7 @@ export class CatalogPanel {
     view2d.onclick = () => this.setView("2d");
     view3d.onclick = () => this.setView("3d");
     const reset = h("button", { type: "button", "data-view-action": "reset" }, "Gesamtansicht");
-    const focus = h("button", { type: "button", "data-view-action": "focus" }, "Auswahl");
+    const focus = h("button", { type: "button", "data-view-action": "focus" }, "Bauteil fokussieren");
     reset.onclick = () => this.resetView();
     focus.onclick = () => this.onFocus();
     viewSeg.append(view2d, view3d, reset, focus);
@@ -122,7 +122,11 @@ export class CatalogPanel {
 
   setSelected(ids: string[]): void {
     this.selected = new Set(ids);
-    if (!this.twoDRoot.hidden) this.render2D();
+    if (!this.twoDRoot.hidden) {
+      for (const path of this.svgGroup.querySelectorAll<SVGPathElement>(".catalog-2d-part")) {
+        path.classList.toggle("selected", this.selected.has(path.dataset.part ?? ""));
+      }
+    }
   }
 
   setSummary(items: CatalogItem[]): void {
@@ -168,9 +172,33 @@ export class CatalogPanel {
   hide2D(): void { this.twoDRoot.hidden = true; }
 
   resetView(): void {
-    this.zoom = 1;
-    this.pan = { x: 0, y: 0 };
-    this.updateSvgTransform();
+    this.viewBox = { ...this.baseViewBox };
+    this.updateViewBox();
+  }
+
+  /** Vergrößert die aktuell ausgewählte 2D-Geometrie mit einem kleinen Rand. */
+  focusSelected(): void {
+    const id = this.selected.values().next().value as string | undefined;
+    if (id) this.focusItem(id);
+  }
+
+  /** Vergrößert ein einzelnes 2D-Bauteil auf Basis seiner tatsächlichen SVG-Geometrie. */
+  focusItem(id: string): void {
+    const path = this.svgGroup.querySelector<SVGPathElement>(`.catalog-2d-part[data-part="${CSS.escape(id)}"]`);
+    if (!path) return;
+    const box = path.getBBox();
+    if (!box.width || !box.height) return;
+    const rect = this.svg.getBoundingClientRect();
+    const aspect = rect.width / Math.max(rect.height, 1);
+    const width = Math.max(box.width * 1.35, box.height * 1.35 * aspect);
+    const height = width / aspect;
+    this.viewBox = {
+      x: box.x + box.width / 2 - width / 2,
+      y: box.y + box.height / 2 - height / 2,
+      width,
+      height,
+    };
+    this.updateViewBox();
   }
 
   private buildFilters(): HTMLElement {
@@ -268,7 +296,7 @@ export class CatalogPanel {
     this.svgGroup.replaceChildren();
     if (!this.items.length) {
       this.svgGroup.append(h("text", { x: 30, y: 40, class: "catalog-2d-empty" }, "Keine Bauteile entsprechen den Filtern."));
-      this.updateSvgTransform();
+      this.resetView();
       return;
     }
 
@@ -323,6 +351,12 @@ export class CatalogPanel {
         path.setAttribute("class", `catalog-2d-part${this.selected.has(item.id) ? " selected" : ""}`);
         path.dataset.part = item.id;
         path.onclick = (ev) => this.onPick(item.id, ev.ctrlKey || ev.metaKey);
+        path.ondblclick = (ev) => {
+          ev.preventDefault();
+          ev.stopPropagation();
+          this.onPick(item.id, false);
+          this.focusItem(item.id);
+        };
         this.svgGroup.append(path);
         const name = document.createElementNS("http://www.w3.org/2000/svg", "text");
         name.setAttribute("x", String(x + 55));
@@ -336,34 +370,61 @@ export class CatalogPanel {
       }
       y += rowHeight + 55;
     }
-    this.svg.setAttribute("viewBox", `0 0 1200 ${Math.max(800, y + 40)}`);
-    this.updateSvgTransform();
+    const rect = this.svg.getBoundingClientRect();
+    const aspect = rect.width / Math.max(rect.height, 1);
+    const height = Math.max(y + 40, 1200 / Math.max(aspect, 0.1));
+    this.baseViewBox = { x: 0, y: 0, width: 1200, height };
+    this.resetView();
   }
 
   private bindSvg(): void {
+    this.svg.setAttribute("preserveAspectRatio", "xMidYMid meet");
     this.svg.addEventListener("wheel", (ev) => {
       ev.preventDefault();
-      this.zoom = Math.max(0.5, Math.min(4, this.zoom * (ev.deltaY < 0 ? 1.1 : 0.9)));
-      this.updateSvgTransform();
+      const rect = this.svg.getBoundingClientRect();
+      const sx = (ev.clientX - rect.left) / Math.max(rect.width, 1);
+      const sy = (ev.clientY - rect.top) / Math.max(rect.height, 1);
+      const factor = ev.deltaY < 0 ? 1.18 : 1 / 1.18;
+      const old = this.viewBox;
+      const worldX = old.x + sx * old.width;
+      const worldY = old.y + sy * old.height;
+      const aspect = rect.width / Math.max(rect.height, 1);
+      const width = Math.max(
+        this.baseViewBox.width / 80,
+        Math.min(this.baseViewBox.width, old.width / factor),
+      );
+      const height = width / aspect;
+      this.viewBox = {
+        x: worldX - sx * width,
+        y: worldY - sy * height,
+        width,
+        height,
+      };
+      this.updateViewBox();
     });
     let down: { x: number; y: number } | null = null;
     this.svg.addEventListener("pointerdown", (ev) => {
+      if ((ev.target as Element).closest(".catalog-2d-part")) return;
       down = { x: ev.clientX, y: ev.clientY };
       this.svg.setPointerCapture(ev.pointerId);
     });
     this.svg.addEventListener("pointermove", (ev) => {
       if (!down) return;
-      this.pan.x += ev.clientX - down.x;
-      this.pan.y += ev.clientY - down.y;
+      const rect = this.svg.getBoundingClientRect();
+      const dx = ev.clientX - down.x;
+      const dy = ev.clientY - down.y;
+      this.viewBox.x -= dx / Math.max(rect.width, 1) * this.viewBox.width;
+      this.viewBox.y -= dy / Math.max(rect.height, 1) * this.viewBox.height;
       down = { x: ev.clientX, y: ev.clientY };
-      this.updateSvgTransform();
+      this.updateViewBox();
     });
     this.svg.addEventListener("pointerup", () => { down = null; });
   }
 
-  private updateSvgTransform(): void {
-    this.svgGroup.setAttribute("transform",
-      `translate(${this.pan.x} ${this.pan.y}) scale(${this.zoom})`);
+  private updateViewBox(): void {
+    const view = this.viewBox;
+    this.svg.setAttribute("viewBox",
+      `${view.x} ${view.y} ${view.width} ${view.height}`);
   }
 
   private paint(): void {

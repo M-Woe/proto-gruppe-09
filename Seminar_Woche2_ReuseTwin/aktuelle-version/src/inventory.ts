@@ -48,6 +48,17 @@ openPage().then((page) => {
   catalogPanel.setProjection((model, key, plane) => page.viewer.elementProjection(model, key, plane));
   catalogPanel.onPick = (id, additive) => page.selection.select(id, additive);
 
+  const focusCurrentView = (): void => {
+    if (catalogPanel.getMode() === "catalog" && catalogPanel.getView() === "2d") {
+      catalogPanel.focusSelected();
+    } else {
+      page.focusSelection();
+    }
+  };
+  panel.onFocus = focusCurrentView;
+  card.onFocus = focusCurrentView;
+  catalogPanel.onFocus = focusCurrentView;
+
   /** Der Katalog: aufbauen, anordnen, anzeigen. */
   const showCatalog = (): void => {
     const frames = page.viewer.elementFrames();
