@@ -1,0 +1,6 @@
+node_modules/
+dist/
+core/.venv/
+core/.venv-windows/
+out/
+.DS_Store
