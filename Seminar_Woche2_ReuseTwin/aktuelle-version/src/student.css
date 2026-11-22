@@ -1,0 +1,24 @@
+/* Student version: the empty spaces with their notes, the chat, and the Studio's left column. On top of style.css. */
+
+/* left: your panel above the chat (where the research version has its chronology); right: two halves */
+#slot-left { flex: 0 0 36%; border-bottom: 1px solid var(--line); }
+#slot-right-top { flex: 1 1 auto; min-height: 0; border-bottom: 1px solid var(--line); }
+#slot-right-bottom { flex: 0 0 auto; max-height: 34%; }
+.slot-body { flex: 1 1 auto; min-height: 0; overflow-y: auto; }
+.slot-note { margin: 0; padding: 12px 14px; border: 1.5px dashed var(--line); border-radius: 12px; color: var(--muted);
+  font-size: 12.5px; line-height: 1.5; }
+.slot-note + .slot-note { margin-top: 8px; }
+.slot-note strong { color: var(--soft); }
+.slot-note code { font-size: 11.5px; background: var(--code); padding: 0 4px; border-radius: 5px; }
+
+/* the chat's status is a plain chip here (no model menu) */
+body.student #chat-status { cursor: default; }
+body.student #chat-status:hover { background: var(--chip); }
+
+/* Studio: a left column and the sheet (no right column) */
+body.shell.student-studio { grid-template-columns: var(--shell-left) minmax(0, 1fr);
+  grid-template-areas: "top top" "left sub" "left center" "bottom bottom"; }
+
+@media (max-width: 900px) {
+  #slot-left { flex: none; max-height: 40vh; }
+}

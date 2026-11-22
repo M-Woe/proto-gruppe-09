@@ -1,0 +1,745 @@
+{
+  "summary": {
+    "file": "C:\\Users\\marle\\Desktop\\Studium Master\\Seminar\\reuse-twin-student\\out\\_uploads\\ae1e1498984a\\UPV_BIM#7_ARC_2022_07_27.ifc",
+    "sha256": "ae1e1498984a0eb16ce39a49840cc1b734471310b2cd248a43f6b94b242bd8e1",
+    "schema": "IFC2X3",
+    "authoring_application": "Autodesk Revit 2022 (ENU) 2022",
+    "length_unit": "METRE",
+    "n_elements": 146,
+    "n_types": 75,
+    "n_spatial": 9,
+    "elements_by_id_status": {
+      "valid": 146
+    },
+    "material_kinds": {
+      "layer_set_usage": 60,
+      "list": 60,
+      "single": 16,
+      "none": 9,
+      "layer_set": 1
+    },
+    "geometry_status": {
+      "ok": 146
+    },
+    "relationships": {
+      "connects_path": 40,
+      "voids": 9
+    },
+    "findings_by_severity": {
+      "warning": 42,
+      "info": 33
+    },
+    "findings_by_code": {
+      "PROXY_ELEMENT": 42,
+      "MESH_NOT_CLOSED": 29,
+      "FILLING_WITHOUT_OPENING": 1,
+      "GEOMETRY_AS_BOX": 1,
+      "LAYER_THICKNESS_CHECK": 1,
+      "QTO_VOLUME_CHECK": 1
+    },
+    "run": {
+      "run_id": "a357c6e769f0",
+      "started_at": "2026-11-16T09:15:46+00:00",
+      "duration_s": 80.4,
+      "reuse_twin_version": "0.1.0",
+      "ifcopenshell_version": "0.9.0.post1",
+      "python_version": "3.13.17",
+      "settings": {
+        "with_geometry": true,
+        "threads": 12,
+        "geometry_settings": {
+          "use-world-coords": true,
+          "weld-vertices": true
+        },
+        "meshes": true
+      }
+    }
+  },
+  "coverage": [
+    {
+      "ifc_class": "IfcWallStandardCase",
+      "count": 59,
+      "with_material": 59,
+      "with_layered_buildup": 59,
+      "with_geometry_ok": 59,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcBuildingElementProxy",
+      "count": 42,
+      "with_material": 42,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 42,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcPlate",
+      "count": 22,
+      "with_material": 22,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 22,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcFurnishingElement",
+      "count": 5,
+      "with_material": 5,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 5,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcColumn",
+      "count": 3,
+      "with_material": 3,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 3,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcSlab",
+      "count": 2,
+      "with_material": 2,
+      "with_layered_buildup": 1,
+      "with_geometry_ok": 2,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcWall",
+      "count": 2,
+      "with_material": 2,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 2,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcRoof",
+      "count": 1,
+      "with_material": 1,
+      "with_layered_buildup": 1,
+      "with_geometry_ok": 1,
+      "with_qto": 0
+    },
+    {
+      "ifc_class": "IfcWindow",
+      "count": 1,
+      "with_material": 1,
+      "with_layered_buildup": 0,
+      "with_geometry_ok": 1,
+      "with_qto": 0
+    }
+  ],
+  "findings": [
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "09GJDKr1X91O$UHzvK$T7d",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "09GJDKr1X91O$UHzvK$TvU",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0HcPr6H2L6sem_HeOsDoii",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0JpeORJBPEpPKnAVzybEYe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0JpeORJBPEpPKnAVzybEv_",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0TGzEfykb10g5VjSXfibjW",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qAPRMmrXC6xmfncw6KU0a",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0qAPRMmrXC6xmfncw6KUrt",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0sQ9dvVvr0lhgaU_eIJvK1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "0xZdHzzMX9uQmfRbWcZnhk",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1STaDX5znACx4FR8Ncu8o5",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1fZ7eOFd9DBe9SuLByKahv",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1jWl4JchPFZe2hEL5dAiHR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1jWl4JchPFZe2hEL5dAj$4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1jWl4JchPFZe2hEL5dAj4H",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1t6hKOTDP8LvBx6Ujkcb5Q",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1vONGcZYTDJwL09tW9v8LB",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "1vONGcZYTDJwL09tW9vBWf",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "214DD4_KrCVfeiTrElMkRe",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "214DD4_KrCVfeiTrElMklS",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2LMMckmpHD1gKgMUm4ICq4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2R5FAwAOjE6fjKEtpm$WfH",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2_dUmHVcv1rOnApRnim__q",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2_dUmHVcv1rOnApRnim_mk",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2aymqLN0n94gw3vTE92LsA",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2fzv$L98j76eE6hVuPcaN8",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2xB5_owLn3GhugFFOdS8_a",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "2xB5_owLn3GhugFFOdS943",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3AJ0GmBnn1tvgpHFXBn7Eg",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3GUOvOMyj0_8uEetuzr6o2",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3GUOvOMyj0_8uEetuzr6t4",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3UAtuZr0b4$xjj7b9qvk5j",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3UAtuZr0b4$xjj7b9qvkB5",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3UAtuZr0b4$xjj7b9qvkD3",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3UAtuZr0b4$xjj7b9qvkEq",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3VmWyd0f913fvxv67NsLnL",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3VmWyd0f913fvxv67NsQVI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3gj0Gt1sfFiP6Ht$rW$JyO",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3gj0Gt1sfFiP6Ht$rW$SHE",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3gj0Gt1sfFiP6Ht$rW$SIR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3gj0Gt1sfFiP6Ht$rW$SOE",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "PROXY_ELEMENT",
+      "severity": "warning",
+      "message": "Unclassified element (IfcBuildingElementProxy).",
+      "element_key": "3vHGUiPr12Pxs0szCXiQG1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "FILLING_WITHOUT_OPENING",
+      "severity": "info",
+      "message": "Door/window does not fill an opening.",
+      "element_key": "2UDQcfp091sOcL4x6pb6hV",
+      "ifc_class": "IfcWindow",
+      "details": {}
+    },
+    {
+      "code": "GEOMETRY_AS_BOX",
+      "severity": "info",
+      "message": "Furnishing elements are shown as their bounding box, openings not cut; their closed-mesh test and volume are not evaluated.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {
+        "n_elements": 5
+      }
+    },
+    {
+      "code": "LAYER_THICKNESS_CHECK",
+      "severity": "info",
+      "message": "Layer thickness vs geometry: 60 elements compared, 0 on a different axis than declared, 0 matching no axis.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {
+        "checked": 60,
+        "direction_inconsistent": 0,
+        "mismatched": 0
+      }
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0R8l8bbqvBqeiCxJtgi9Ek",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0d$iHe$rDDdeIpWcEotKMq",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0d$iHe$rDDdeIpWcEotLu5",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0eyp7MfH9BKfFlEsjH_d9E",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0jkLtXOgnEnAJfcrQWBt2u",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0vVDU5bLz61w4oGACvW4ew",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0vVDU5bLz61w4oGACvW4ex",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0vVDU5bLz61w4oGACvW4fu",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0vVDU5bLz61w4oGACvW4fv",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0xZdHzzMX9uQmfRbWcZnhk",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0xntejyi1ChhcPNo85rUfJ",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0xntejyi1ChhcPNo85rUj9",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0xntejyi1ChhcPNo85rUo9",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "0xntejyi1ChhcPNo85rUtN",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "1P3eXOPY576BUkXdqwwAdY",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "1P3eXOPY576BUkXdqwwAxE",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "1c$6A5XMjBRRm$mGRpLi05",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "1c$6A5XMjBRRm$mGRpLiUx",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "1t6hKOTDP8LvBx6Ujkcb5Q",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "20mNsmA4D7LB899D2EmMuD",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "2u3bRtPSTAsebBBXsjytF5",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3Ri3ietiX7$xG5uKDum9iw",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3Ri3ietiX7$xG5uKDum9j5",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3VmWyd0f913fvxv67NsLnL",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3VmWyd0f913fvxv67NsQVI",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3YMrWFyzX7pfEphcy7QQ5H",
+      "ifc_class": "IfcPlate",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3gj0Gt1sfFiP6Ht$rW$SIR",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3gj0Gt1sfFiP6Ht$rW$SOE",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "MESH_NOT_CLOSED",
+      "severity": "info",
+      "message": "Tessellated mesh is not closed; volume not computed.",
+      "element_key": "3vHGUiPr12Pxs0szCXiQG1",
+      "ifc_class": "IfcBuildingElementProxy",
+      "details": {}
+    },
+    {
+      "code": "QTO_VOLUME_CHECK",
+      "severity": "info",
+      "message": "NetVolume cross-check: 0 elements compared, 0 beyond tolerance.",
+      "element_key": null,
+      "ifc_class": null,
+      "details": {
+        "checked": 0,
+        "mismatched": 0,
+        "rel_tol": 0.05,
+        "abs_tol_m3": 0.0001
+      }
+    }
+  ]
+}

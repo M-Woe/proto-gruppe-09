@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Import · Reuse Twin</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script src="/theme.js"></script>
+    <script src="/shell.js"></script>
+  </head>
+  <body class="shell import">
+    <header class="shell-top">
+      <nav class="shell-tabs" aria-label="Pages">
+        <a href="/import.html" class="active" id="tab-import">Import</a>
+        <a href="/" id="tab-inventory">Inventory</a>
+        <a href="/studio.html" id="tab-studio">Studio</a>
+      </nav>
+      <div class="shell-title">
+        <strong>Import IFC</strong>
+        <span>Read on this computer into a traceable model; nothing leaves it</span>
+      </div>
+      <div class="shell-controls"></div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch light / dark mode"></button>
+    </header>
+
+    <!-- Left: the model shown in the preview -->
+    <aside class="shell-left side-stack">
+      <div class="card" id="model-card">
+        <h2 class="section-title">Model</h2>
+        <div id="model-facts"><p class="left-note">No model yet.</p></div>
+        <a id="open-inventory" class="button" href="/" hidden>Open inventory →</a>
+      </div>
+      <div class="card">
+        <h2 class="section-title">What import does</h2>
+        <p class="left-note">Reads the IFC file (elements, properties, materials, spatial structure), tessellates the 3D
+          geometry and audits what the file says — without repairing it. Values stay as the source has them; every
+          later step names its evidence.</p>
+        <p class="left-note">The same file imported again is opened without re-processing.</p>
+      </div>
+    </aside>
+
+    <!-- Centre: the chosen model as cubes, over the dot grid (drop an IFC anywhere here too) -->
+    <main class="shell-center" id="stage">
+      <canvas class="ripples" id="ripples"></canvas>
+      <canvas class="stage-canvas" id="voxels"></canvas>
+      <div id="stage-empty" class="stage-empty">
+        <strong>No model yet</strong>
+        <span>Drop an IFC file here or use Import IFC on the right.</span>
+      </div>
+      <div id="stage-busy" class="stage-busy floating" hidden><span class="dot busy"></span><span id="stage-busy-text">Building the preview…</span></div>
+      <div id="stage-caption" class="stage-caption floating" hidden>
+        <strong id="caption-name">—</strong>
+        <span id="caption-meta"></span>
+      </div>
+      <div id="drop-overlay" class="drop-overlay" hidden><span>Drop to import</span></div>
+    </main>
+
+    <!-- Right: import, then the imported models -->
+    <aside class="shell-right side-stack">
+      <div id="dropzone" class="card dropzone" role="button" tabindex="0">
+        <strong>Import IFC</strong>
+        <span class="hint">Drop an .ifc file here (or on the preview), or choose one</span>
+        <button id="browse" type="button">Choose File…</button>
+        <input id="import-file" type="file" accept=".ifc" hidden />
+      </div>
+      <div id="job" class="card job" hidden></div>
+      <div class="card">
+        <h2 class="section-title">Imported models</h2>
+        <div id="models-empty">Nothing imported yet.</div>
+        <div id="models"></div>
+      </div>
+    </aside>
+
+    <footer class="shell-bottom">
+      <span class="shell-label">Import</span>
+      <span id="status" role="status"></span>
+      <span class="spacer"></span>
+      <span title="The preview draws the GLB's surfaces as cubes: a picture of the geometry, nothing is counted or classified">Preview: geometry as cubes, IFC surface colours</span>
+    </footer>
+    <div id="offline" role="alertdialog" aria-label="Server not running" hidden></div>
+    <div id="toast" role="status"></div>
+    <script type="module" src="/src/importer.ts"></script>
+  </body>
+</html>
