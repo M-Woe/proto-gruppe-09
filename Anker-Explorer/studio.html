@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio · Reuse Twin</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/student.css" />
+    <script src="/theme.js"></script>
+    <script src="/shell.js"></script>
+  </head>
+  <body class="shell studio student-studio student">
+    <header class="shell-top">
+      <nav class="shell-tabs" aria-label="Pages">
+        <a href="/import.html" id="tab-import">Import</a>
+        <a href="/" id="tab-inventory">Inventory</a>
+        <a href="/studio.html" class="active" id="tab-studio">Studio</a>
+      </nav>
+      <div class="shell-tools" id="toolbar" role="group" aria-label="View">
+        <button id="frame" class="secondary small" type="button" title="Fit the model in view (F)">Frame</button>
+      </div>
+      <div class="shell-controls">
+        <select id="model" class="pill" aria-label="Model"></select>
+        <div id="model-visibility" class="model-visibility" role="group" aria-label="Models in the 3D view"></div>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch light / dark mode"></button>
+    </header>
+
+    <!-- Left: your space (top) and the chat (bottom) -->
+    <aside class="shell-left split">
+      <section id="slot-left" aria-label="Your space">
+        <div class="column-head"><h2 class="section-title">Your space</h2></div>
+        <div class="slot-body" id="left-top">
+          <p class="slot-note"><strong>Experiment here</strong> — controls, legends, diagrams, other ways to look at
+            the building and its materials.</p>
+          <p class="slot-note">Write it in <code>src/studio.ts</code>.</p>
+        </div>
+      </section>
+      <section id="chat-panel" aria-label="Chat with a local language model">
+        <div class="column-head">
+          <h2 class="section-title">✦ Chat</h2>
+          <span id="chat-status" class="chip"><span class="dot busy"></span><span class="text">checking…</span></span>
+        </div>
+        <ol id="chat-log" aria-live="polite"></ol>
+        <form id="chat-form">
+          <textarea id="chat-input" rows="3" maxlength="4000" placeholder="Ask something…"
+            aria-label="Message to the language model"></textarea>
+          <div class="chat-actions">
+            <button id="chat-clear" class="secondary small" type="button" title="Start a new conversation">Clear</button>
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </section>
+    </aside>
+
+    <!-- The sheet: the model over the dot grid; the rest is yours -->
+    <main class="shell-center" id="viewport">
+      <canvas class="ripples" id="ripples"></canvas>
+      <canvas class="stage-canvas" id="canvas"></canvas>
+      <div id="sheet-hint" class="sheet-hint" hidden>
+        <strong>A blank sheet</strong>
+        <span>The model is here; everything else is yours — <code>src/studio.ts</code>.</span>
+      </div>
+    </main>
+
+    <footer class="shell-bottom">
+      <span class="shell-label">Studio</span>
+      <span id="status" role="status"></span>
+      <span class="spacer"></span>
+      <span class="ev-key" title="Evidence class of each value: how it is known">
+        <span><i class="evd ev-source"></i>source</span>
+        <span><i class="evd ev-computed"></i>computed</span>
+        <span><i class="evd ev-inferred"></i>inferred</span>
+        <span><i class="evd ev-verified"></i>verified</span>
+        <span><i class="evd ev-unknown"></i>unknown</span>
+      </span>
+    </footer>
+    <div id="offline" role="alertdialog" aria-label="Core not running" hidden></div>
+    <div id="toast" role="status"></div>
+    <script type="module" src="/src/studio.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inventory · Reuse Twin</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/student.css" />
+    <script src="/theme.js"></script>
+    <script src="/shell.js"></script>
+  </head>
+  <body class="shell inventory student">
+    <header class="shell-top">
+      <nav class="shell-tabs" aria-label="Pages">
+        <a href="/import.html" id="tab-import">Import</a>
+        <a href="/" class="active" id="tab-inventory">Inventory</a>
+        <a href="/studio.html" id="tab-studio">Studio</a>
+      </nav>
+      <div class="shell-tools" id="toolbar" role="group" aria-label="View">
+        <button id="frame" class="secondary small" type="button" title="Fit the model in view (F)">Frame</button>
+      </div>
+      <div class="shell-controls">
+        <select id="model" class="pill" aria-label="Model"></select>
+        <div id="model-visibility" class="model-visibility" role="group" aria-label="Models in the 3D view"></div>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch light / dark mode"></button>
+    </header>
+
+    <!-- Links: Anker-Explorer -->
+    <aside class="shell-left">
+      <section id="slot-left" aria-label="Ankerverwaltung">
+        <div class="column-head"><h2 class="section-title">Anker-Explorer</h2></div>
+        <div class="slot-body" id="left-top">
+          <p class="slot-note">Wähle einen Anker im 3D-Modell aus, um seine konstruktiven Eigenschaften und Anschlüsse zu untersuchen.</p>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Centre: the model over the dot grid -->
+    <main class="shell-center" id="viewport">
+      <canvas class="ripples" id="ripples"></canvas>
+      <canvas class="stage-canvas" id="canvas"></canvas>
+    </main>
+
+    <!-- Rechts: unveränderte Bauteiltabelle -->
+    <aside class="shell-right split">
+      <section id="slot-right-top" aria-label="Bauteiltabelle">
+        <div class="column-head">
+          <h2 class="section-title">Bauteile</h2>
+          <button id="parts-toggle" class="secondary small" type="button" title="Bauteiltabelle ausblenden"
+            aria-expanded="true" aria-controls="right-top">&#9666;</button>
+        </div>
+        <div class="slot-body" id="right-top"></div>
+      </section>
+    </aside>
+
+    <footer class="shell-bottom">
+      <span class="shell-label">Inventory</span>
+      <span id="status" role="status"></span>
+      <span class="spacer"></span>
+      <span class="ev-key" title="Belegklasse jedes Werts: woher er bekannt ist">
+        <span><i class="evd ev-source"></i>Quelle</span>
+        <span><i class="evd ev-computed"></i>berechnet</span>
+        <span><i class="evd ev-inferred"></i>abgeleitet</span>
+        <span><i class="evd ev-verified"></i>gepr&uuml;ft</span>
+        <span><i class="evd ev-unknown"></i>nicht vorhanden</span>
+      </span>
+    </footer>
+    <div id="offline" role="alertdialog" aria-label="Core not running" hidden></div>
+    <div id="toast" role="status"></div>
+    <script type="module" src="/src/inventory.ts"></script>
+  </body>
+</html>
